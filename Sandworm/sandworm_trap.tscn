@@ -1,0 +1,107 @@
+[gd_scene load_steps=12 format=3 uid="uid://bbhh485jwys2d"]
+
+[ext_resource type="Script" path="res://Sandworm/sandworm_trap.gd" id="1_4gjx8"]
+[ext_resource type="Texture2D" uid="uid://d3fciu8q5a4jh" path="res://Foozle_2DTR0001_Pixel_Trap_Pack/Sandworm Trap/PNGs/Sandworm trap - Level 1.png" id="1_w1urm"]
+[ext_resource type="Script" path="res://Sandworm/Sand_FSM.gd" id="3_3ato7"]
+[ext_resource type="Script" path="res://Sandworm/Sand_Idle.gd" id="3_63710"]
+[ext_resource type="Script" path="res://Sandworm/Sand_Attack.gd" id="4_5onde"]
+
+[sub_resource type="Animation" id="Animation_vtepw"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="Animation" id="Animation_7tkcf"]
+resource_name = "Sand_Attack"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 4, 5, 6, 7, 8, 9, 10, 1]
+}
+
+[sub_resource type="Animation" id="Animation_dqqse"]
+resource_name = "Sand_Idle"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 0, 1, 2, 3, 0, 0, 1, 2, 3]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_dgj1l"]
+_data = {
+"RESET": SubResource("Animation_vtepw"),
+"Sand_Attack": SubResource("Animation_7tkcf"),
+"Sand_Idle": SubResource("Animation_dqqse")
+}
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_m26k5"]
+size = Vector2(28, 5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0i35t"]
+size = Vector2(29, 32)
+
+[node name="SandwormTrap" type="CharacterBody2D"]
+script = ExtResource("1_4gjx8")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(1, 1)
+texture = ExtResource("1_w1urm")
+hframes = 11
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_dgj1l")
+}
+
+[node name="Sand_Debug" type="Label" parent="."]
+offset_left = -20.0
+offset_top = -18.0
+offset_right = 30.0
+offset_bottom = 5.0
+text = "Debug"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, 14.5)
+shape = SubResource("RectangleShape2D_m26k5")
+
+[node name="PlayerDetection" type="Area2D" parent="."]
+collision_layer = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PlayerDetection"]
+position = Vector2(0.5, 0)
+shape = SubResource("RectangleShape2D_0i35t")
+
+[node name="Sand_FSM" type="Node2D" parent="."]
+script = ExtResource("3_3ato7")
+
+[node name="Sand_Idle" type="Node2D" parent="Sand_FSM"]
+script = ExtResource("3_63710")
+
+[node name="Sand_Attack" type="Node2D" parent="Sand_FSM"]
+script = ExtResource("4_5onde")
+
+[connection signal="body_entered" from="PlayerDetection" to="Sand_FSM/Sand_Idle" method="_on_player_detection_body_entered"]

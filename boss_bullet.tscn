@@ -1,0 +1,70 @@
+[gd_scene load_steps=11 format=3 uid="uid://chtm5sv2cmp5p"]
+
+[ext_resource type="Script" path="res://Boss_Bullet.gd" id="1_byjid"]
+[ext_resource type="Texture2D" uid="uid://dpfco1hqrfixg" path="res://Mecha-stoneGolem/weapon PNG/arm_projectile_glowing.png" id="2_wva4g"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_raymi"]
+atlas = ExtResource("2_wva4g")
+region = Rect2(0, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4qp3n"]
+atlas = ExtResource("2_wva4g")
+region = Rect2(100, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2mg7r"]
+atlas = ExtResource("2_wva4g")
+region = Rect2(200, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_75as7"]
+atlas = ExtResource("2_wva4g")
+region = Rect2(0, 100, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1nc88"]
+atlas = ExtResource("2_wva4g")
+region = Rect2(100, 100, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uwh1d"]
+atlas = ExtResource("2_wva4g")
+region = Rect2(200, 100, 100, 100)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_b0hny"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_raymi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4qp3n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2mg7r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_75as7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1nc88")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uwh1d")
+}],
+"loop": true,
+"name": &"default",
+"speed": 8.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0coll"]
+size = Vector2(36, 14)
+
+[node name="Boss_Bullet" type="Area2D"]
+script = ExtResource("1_byjid")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_b0hny")
+autoplay = "default"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(27, -13)
+shape = SubResource("RectangleShape2D_0coll")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

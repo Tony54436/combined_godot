@@ -1,0 +1,213 @@
+[gd_scene load_steps=37 format=3 uid="uid://b6pu3k33icl4x"]
+
+[ext_resource type="Script" path="res://enemy/boss3/small_fireball.gd" id="1_lqmoh"]
+[ext_resource type="Texture2D" uid="uid://drv1vpepdb0ps" path="res://enemy/boss3/fire_ball_side_small/imgs/img_0.png" id="1_wh6ex"]
+[ext_resource type="Texture2D" uid="uid://dloo3dysk5igd" path="res://enemy/boss3/fire_ball_side_small/imgs/img_1.png" id="2_e22cm"]
+[ext_resource type="Texture2D" uid="uid://cepqdw10k33d6" path="res://enemy/boss3/fire_ball_side_small/imgs/img_2.png" id="3_nfv2s"]
+[ext_resource type="Texture2D" uid="uid://c83y8cej600gs" path="res://enemy/boss3/fire_ball_side_small/imgs/img_3.png" id="4_bbmot"]
+[ext_resource type="Texture2D" uid="uid://casmv348uv6fw" path="res://enemy/boss3/fire_ball_side_small/imgs/img_4.png" id="5_dyh2w"]
+[ext_resource type="Texture2D" uid="uid://caymfpa85k8bf" path="res://enemy/boss3/fire_ball_side_small/imgs/img_5.png" id="6_sjg7r"]
+[ext_resource type="Texture2D" uid="uid://kl03egdbby6q" path="res://enemy/boss3/fire_ball_side_small/imgs/img_6.png" id="7_ip2d8"]
+[ext_resource type="Texture2D" uid="uid://d2r63papree3b" path="res://enemy/boss3/fire_ball_side_small/imgs/img_7.png" id="8_prvv0"]
+[ext_resource type="Texture2D" uid="uid://do2pkocdmmw3f" path="res://enemy/boss3/fire_ball_side_small/imgs/img_8.png" id="9_kedgu"]
+[ext_resource type="Texture2D" uid="uid://dimlb3t6fxyv8" path="res://enemy/boss3/fire_ball_side_small/imgs/img_9.png" id="10_imd1s"]
+[ext_resource type="Texture2D" uid="uid://0p3aj2rcl0gl" path="res://enemy/boss3/fire_ball_side_small/imgs/img_10.png" id="11_7v623"]
+[ext_resource type="Texture2D" uid="uid://chwicudi8fqow" path="res://enemy/boss3/fire_ball_side_small/imgs/img_11.png" id="12_5okf5"]
+[ext_resource type="Texture2D" uid="uid://d2addkhulq34p" path="res://enemy/boss3/fire_ball_side_small/imgs/img_12.png" id="13_11rpc"]
+[ext_resource type="Texture2D" uid="uid://dbfrdybcdti35" path="res://enemy/boss3/fire_ball_side_small/imgs/img_13.png" id="14_2iib2"]
+[ext_resource type="Texture2D" uid="uid://dgu72n2cnhdbu" path="res://enemy/boss3/fire_ball_side_small/imgs/img_14.png" id="15_g8von"]
+[ext_resource type="Texture2D" uid="uid://c82to1kxdappi" path="res://enemy/boss3/fire_ball_side_small/imgs/img_15.png" id="16_pdaqk"]
+[ext_resource type="Texture2D" uid="uid://cltt47g7q03ih" path="res://enemy/boss3/fire_ball_side_small/imgs/img_16.png" id="17_0xn34"]
+[ext_resource type="Texture2D" uid="uid://73d2ei75ro34" path="res://enemy/boss3/fire_ball_side_small/imgs/img_17.png" id="18_dilsv"]
+[ext_resource type="Texture2D" uid="uid://dm0hrvvklgmju" path="res://enemy/boss3/fire_ball_side_small/imgs/img_18.png" id="19_0n6gf"]
+[ext_resource type="Texture2D" uid="uid://cgdbcs31kge50" path="res://enemy/boss3/fire_ball_side_small/imgs/img_19.png" id="20_wjg38"]
+[ext_resource type="Texture2D" uid="uid://b844vph6x7eog" path="res://enemy/boss3/fire_ball_side_small/imgs/img_20.png" id="21_s0jij"]
+[ext_resource type="Texture2D" uid="uid://cv0gipfkaerrd" path="res://enemy/boss3/fire_ball_side_small/imgs/img_21.png" id="22_i1qiv"]
+[ext_resource type="Texture2D" uid="uid://cdc4s3hsiyjry" path="res://enemy/boss3/fire_ball_side_small/imgs/img_22.png" id="23_ggkfe"]
+[ext_resource type="Texture2D" uid="uid://chotbg5f06j88" path="res://enemy/boss3/fire_ball_side_small/imgs/img_23.png" id="24_g33jq"]
+[ext_resource type="Texture2D" uid="uid://ddjerufnd6ck4" path="res://enemy/boss3/fire_ball_side_small/imgs/img_24.png" id="25_wbysq"]
+[ext_resource type="Texture2D" uid="uid://cfja3gm0qaf0b" path="res://enemy/boss3/fire_ball_side_small/imgs/img_25.png" id="26_gttkn"]
+[ext_resource type="Texture2D" uid="uid://c6y5dgbkx0yhd" path="res://enemy/boss3/fire_ball_side_small/imgs/img_26.png" id="27_h3y8c"]
+[ext_resource type="Texture2D" uid="uid://onc8wike8kec" path="res://enemy/boss3/fire_ball_side_small/imgs/img_27.png" id="28_cdkuy"]
+[ext_resource type="Texture2D" uid="uid://dlhpuyra2hfq4" path="res://enemy/boss3/fire_ball_side_small/imgs/img_28.png" id="29_g65q5"]
+[ext_resource type="Texture2D" uid="uid://bpcfonv1lruor" path="res://enemy/boss3/fire_ball_side_small/imgs/img_29.png" id="30_1ucnt"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_lqhd7"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_wh6ex")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_e22cm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_nfv2s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_bbmot")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_dyh2w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_sjg7r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_ip2d8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_prvv0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_kedgu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_imd1s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_7v623")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_5okf5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_11rpc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_2iib2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_g8von")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_pdaqk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_0xn34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_dilsv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_0n6gf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_wjg38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_s0jij")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_i1qiv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_ggkfe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_g33jq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_wbysq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_gttkn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_h3y8c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_cdkuy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_g65q5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_1ucnt")
+}],
+"loop": true,
+"name": &"MediumFireball",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_p2q6e"]
+
+[sub_resource type="Animation" id="Animation_j2qi4"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"SmallFireball"]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AnimatedSprite2D:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [1]
+}
+
+[sub_resource type="Animation" id="Animation_r8mfn"]
+resource_name = "SmallFireball"
+length = 2.9
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"SmallFireball"]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AnimatedSprite2D:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9, 2, 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_xnbiu"]
+_data = {
+"RESET": SubResource("Animation_j2qi4"),
+"SmallFireball": SubResource("Animation_r8mfn")
+}
+
+[node name="SmallFireball" type="Area2D"]
+script = ExtResource("1_lqmoh")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_lqhd7")
+animation = &"SmallFireball"
+frame = 1
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(55, 14)
+scale = Vector2(1.5, 1.5)
+shape = SubResource("CircleShape2D_p2q6e")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_xnbiu")
+}
