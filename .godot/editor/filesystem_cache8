@@ -1,11 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1726068542
+::res://::1726134754
 Attack.gd::GDScript::-1::1725982587::0::1::::<>SandwormState<>::
 Boss_Bullet.gd::GDScript::-1::1726058484::0::1::::<>Area2D<>::
 boss_bullet.tscn::PackedScene::5304169607001023463::1726058356::0::1::::<><>::res://Boss_Bullet.gd<>uid://dpfco1hqrfixg::::res://Mecha-stoneGolem/weapon PNG/arm_projectile_glowing.png
 Boss_State.gd::GDScript::-1::1726057855::0::1::::State<>Node2D<>::
 icon.svg::CompressedTexture2D::3715701198834389286::1721747495::1726058408::1::::<><>::
-level_2.tscn::PackedScene::2491023273093830811::1725982525::0::1::::<><>::uid://c5eduj4byeewc::::res://Fantasy Swamp Forest/Free/BG_3/BG_3.png<>uid://bbvr4uep7nd46::::res://Fantasy Swamp Forest/Free/BG_3/BG_3_alt.png<>uid://csf4k8lnm6yom::::res://Fantasy Swamp Forest/Free/BG_2/BG_2.png<>uid://dbmi7aa1o4myr::::res://Fantasy Swamp Forest/Free/BG_1/BG_1.png<>uid://bhtoinssiotau::::res://Fantasy Swamp Forest/Free/Terrain_and_Props.png<>uid://bfqpybns7d45p::::res://player/player.tscn
+level_2.tscn::PackedScene::2491023273093830811::1726069142::0::1::::<><>::uid://c5eduj4byeewc::::res://Fantasy Swamp Forest/Free/BG_3/BG_3.png<>uid://bbvr4uep7nd46::::res://Fantasy Swamp Forest/Free/BG_3/BG_3_alt.png<>uid://csf4k8lnm6yom::::res://Fantasy Swamp Forest/Free/BG_2/BG_2.png<>uid://dbmi7aa1o4myr::::res://Fantasy Swamp Forest/Free/BG_1/BG_1.png<>uid://bhtoinssiotau::::res://Fantasy Swamp Forest/Free/Terrain_and_Props.png<>uid://bfqpybns7d45p::::res://player/player.tscn
 player_movement.gd::GDScript::-1::1725982587::0::1::::<>CharacterBody2D<>::
 ::res://ArrowTrap/::1725982714
 ::res://enemies/::1726067372
@@ -422,16 +422,17 @@ Toxic Trap - Level 3 - Transition.png::CompressedTexture2D::372427456368476021::
 ::res://Foozle_2DTR0001_Pixel_Trap_Pack/_Previews/GIFs/::1726056487
 ::res://Foozle_2DTR0001_Pixel_Trap_Pack/_Previews/GIFs/Colour background/::1726056487
 ::res://Foozle_2DTR0001_Pixel_Trap_Pack/_Previews/GIFs/No Background/::1726056487
-::res://levels/::1726067372
+::res://levels/::1726068704
 Area2D.gd::GDScript::-1::1724170876::0::1::::<>Area2D<>::
 CollisionShape2D.gd::GDScript::-1::1724186620::0::1::::<>CharacterBody2D<>::
 danger_zone.gd::GDScript::-1::1724208851::0::1::::<>Area2D<>::
 danger_zone.tscn::PackedScene::7932060781063684608::1726055490::0::1::::<><>::res://levels/danger_zone.gd
-level.tscn::PackedScene::4641523772835419703::1726067372::0::1::::<><>::uid://dnyfn805ioysm::::res://tileset/Tiles.png<>uid://iicrfnlqqnd::::res://tileset/Background_0.png<>uid://b4xmtjhtwfkpd::::res://tileset/Grass_background_1.png<>uid://cn6cdd0heakyn::::res://tileset/Grass_background_2.png<>uid://bc0tqpoqj0mv2::::res://tileset/brush.png<>uid://cqte5q6tqw3oi::::res://Mecha-stoneGolem/BossGolem.tscn<>uid://bfqpybns7d45p::::res://player/player.tscn<>uid://bbhh485jwys2d::::res://Sandworm/sandworm_trap.tscn<>uid://dfmqwxwucma04::::res://enemies/skeleton.tscn<>uid://biss0ofnci8k4::::res://enemies/paladin.tscn<>uid://obclbbwfdhfn::::res://enemies/necromancer.tscn
+level.tscn::PackedScene::4641523772835419703::1726068704::0::1::::<><>::uid://dnyfn805ioysm::::res://tileset/Tiles.png<>uid://iicrfnlqqnd::::res://tileset/Background_0.png<>uid://b4xmtjhtwfkpd::::res://tileset/Grass_background_1.png<>uid://cn6cdd0heakyn::::res://tileset/Grass_background_2.png<>uid://bc0tqpoqj0mv2::::res://tileset/brush.png<>uid://cqte5q6tqw3oi::::res://Mecha-stoneGolem/BossGolem.tscn<>uid://bfqpybns7d45p::::res://player/player.tscn<>uid://bbhh485jwys2d::::res://Sandworm/sandworm_trap.tscn<>uid://dfmqwxwucma04::::res://enemies/skeleton.tscn<>uid://biss0ofnci8k4::::res://enemies/paladin.tscn<>uid://obclbbwfdhfn::::res://enemies/necromancer.tscn
 levwl_3.gd::GDScript::-1::1723983340::0::1::::<>Node2D<>::
-levwl_3.tscn::PackedScene::5209041893724014225::1726067372::0::1::::<><>::uid://dn7v8gd0d2nju::::res://tileset/Dungeon Tile Set.png<>res://levels/levwl_3.gd<>uid://bfqpybns7d45p::::res://player/player.tscn<>uid://dl01w87yhoa8w::::res://levels/moving_platform.tscn<>uid://dlal482a6qt1q::::res://levels/danger_zone.tscn<>uid://cklxpbr3xxk38::::res://enemy/boss3/boss_3.tscn<>uid://b7ejer0gk1p8y::::res://enemy/boss3/medium_fireball.tscn<>uid://b6pu3k33icl4x::::res://enemy/boss3/small_fireball.tscn<>uid://chrpsj2qij53c::::res://enemy/boss3/teleport_effect.tscn
+levwl_3.tscn::PackedScene::5209041893724014225::1726068704::0::1::::<><>::uid://dn7v8gd0d2nju::::res://tileset/Dungeon Tile Set.png<>res://levels/levwl_3.gd<>uid://bfqpybns7d45p::::res://player/player.tscn<>uid://dl01w87yhoa8w::::res://levels/moving_platform.tscn<>uid://dlal482a6qt1q::::res://levels/danger_zone.tscn<>uid://cklxpbr3xxk38::::res://enemy/boss3/boss_3.tscn<>uid://b7ejer0gk1p8y::::res://enemy/boss3/medium_fireball.tscn<>uid://b6pu3k33icl4x::::res://enemy/boss3/small_fireball.tscn<>uid://chrpsj2qij53c::::res://enemy/boss3/teleport_effect.tscn
 moving_platform.gd::GDScript::-1::1723979042::0::1::::<>Path2D<>::
 moving_platform.tscn::PackedScene::7984568488031641560::1726059248::0::1::::<><>::res://levels/moving_platform.gd<>uid://dn7v8gd0d2nju::::res://tileset/Dungeon Tile Set.png
+::res://Main_Menu/::1726134681
 ::res://Mecha-stoneGolem/::1726058463
 BossGolem.gd::GDScript::-1::1726058463::0::1::::<>CharacterBody2D<>::
 BossGolem.tscn::PackedScene::5935383373858159908::1726058356::0::1::::<><>::uid://hjo5iph33hy7::::res://Mecha-stoneGolem/PNG sheet/Character_sheet.png<>res://Mecha-stoneGolem/BossGolem.gd<>uid://d2omf0pu1p4o3::::res://Mecha-stoneGolem/weapon PNG/Laser_sheet.png<>res://Mecha-stoneGolem/FiniteStateMachine.gd<>res://Boss_State.gd<>res://Mecha-stoneGolem/Boss_Idle.gd<>res://Mecha-stoneGolem/Boss_Follow.gd<>res://Mecha-stoneGolem/Boss_MeleeAttack.gd<>res://Mecha-stoneGolem/Boss_LaserBeam.gd<>res://Mecha-stoneGolem/Boss_HomingMissile.gd<>uid://chtm5sv2cmp5p::::res://boss_bullet.tscn
