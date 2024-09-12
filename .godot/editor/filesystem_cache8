@@ -1,601 +1,598 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1726134754
-Attack.gd::GDScript::-1::1725982587::0::1::::<>SandwormState<>::
-Boss_Bullet.gd::GDScript::-1::1726058484::0::1::::<>Area2D<>::
-boss_bullet.tscn::PackedScene::5304169607001023463::1726058356::0::1::::<><>::res://Boss_Bullet.gd<>uid://dpfco1hqrfixg::::res://Mecha-stoneGolem/weapon PNG/arm_projectile_glowing.png
-Boss_State.gd::GDScript::-1::1726057855::0::1::::State<>Node2D<>::
-icon.svg::CompressedTexture2D::3715701198834389286::1721747495::1726058408::1::::<><>::
-level_2.tscn::PackedScene::2491023273093830811::1726069142::0::1::::<><>::uid://c5eduj4byeewc::::res://Fantasy Swamp Forest/Free/BG_3/BG_3.png<>uid://bbvr4uep7nd46::::res://Fantasy Swamp Forest/Free/BG_3/BG_3_alt.png<>uid://csf4k8lnm6yom::::res://Fantasy Swamp Forest/Free/BG_2/BG_2.png<>uid://dbmi7aa1o4myr::::res://Fantasy Swamp Forest/Free/BG_1/BG_1.png<>uid://bhtoinssiotau::::res://Fantasy Swamp Forest/Free/Terrain_and_Props.png<>uid://bfqpybns7d45p::::res://player/player.tscn
-player_movement.gd::GDScript::-1::1725982587::0::1::::<>CharacterBody2D<>::
-::res://ArrowTrap/::1725982714
-::res://enemies/::1726067372
-enemies.tscn::PackedScene::9214651673006082402::1726067372::0::1::::<><>::uid://dwcrop5snvka4::::res://enemies/Skeleton_White/Skeleton_With_VFX/Skeleton_01_White_Attack1.png<>uid://chp25fvhqsppl::::res://enemies/Skeleton_White/Skeleton_Without_VFX/Skeleton_01_White_Die.png<>uid://c5rcpgspeyxex::::res://enemies/Skeleton_White/Skeleton_Without_VFX/Skeleton_01_White_Hurt.png<>uid://dqrpmyuna84gk::::res://enemies/Skeleton_White/Skeleton_With_VFX/Skeleton_01_White_Walk.png
-FiniteStateMachine.gd::GDScript::-1::1724169462::0::1::::<>Node2D<>::
-Follow.gd::GDScript::-1::1724169611::0::1::::<><>::
-Idle.gd::GDScript::-1::1724169537::0::1::::<><>::
-necromancer.gd::GDScript::-1::1726065455::0::1::::<>RigidBody2D<>::
-necromancer.tscn::PackedScene::984849321479541691::1726067372::0::1::::<><>::res://enemies/necromancer.gd<>uid://b3ulk05ke36v2::::res://enemies/Necromancer/Necromancer/Attack/spr_NecromancerAttackWithEffect_strip47.png<>uid://b3awe643oimom::::res://enemies/Necromancer/Necromancer/Death/spr_NecromancerDeath_strip52.png<>uid://bxfvoxfj4dtqm::::res://enemies/Necromancer/Necromancer/GetHit/spr_NecromancerGetHitWithoutEffect_strip9.png<>uid://0thluu166urs::::res://enemies/Necromancer/Necromancer/Walk/spr_NecromancerWalk_strip10.png<>uid://bpluf5lmia51r::::res://enemies/Necromancer/Necromancer/Idle/spr_NecromancerIdle_strip50.png
-paladin.gd::GDScript::-1::1725899824::0::1::::<>RigidBody2D<>::
-paladin.tscn::PackedScene::2986228526732465077::1725904100::0::1::::<><>::res://enemies/paladin.gd<>uid://dx1xgbbpxsuaq::::res://enemies/Paladin/Paladin/Attack/spr_PaladinAttackWithEffect_strip41.png<>uid://by2ri6pq62sof::::res://enemies/Paladin/Paladin/Death/spr_PaladinDeathWithEffect_strip65.png<>uid://cxgqxrwxteqws::::res://enemies/Paladin/Paladin/GetHit/spr_PaladinGetHitWithEffect_strip12.png<>uid://cd1g6pn845e8v::::res://enemies/Paladin/Paladin/Walk/spr_PaladinWalkWithBkg_strip10.png
-skeleton.tscn::PackedScene::7535990804602957679::1726067372::0::1::::<><>::uid://dwcrop5snvka4::::res://enemies/Skeleton_White/Skeleton_With_VFX/Skeleton_01_White_Attack1.png<>uid://chp25fvhqsppl::::res://enemies/Skeleton_White/Skeleton_Without_VFX/Skeleton_01_White_Die.png<>uid://c5rcpgspeyxex::::res://enemies/Skeleton_White/Skeleton_Without_VFX/Skeleton_01_White_Hurt.png<>uid://dqrpmyuna84gk::::res://enemies/Skeleton_White/Skeleton_With_VFX/Skeleton_01_White_Walk.png
-::res://enemies/Necromancer/::1724136888
-::res://enemies/Necromancer/Necromancer/::1724136888
-::res://enemies/Necromancer/Necromancer/Attack/::1726058410
-spr_NecromancerAttackEffectWithBkg_strip47.png::CompressedTexture2D::6124770886695489179::1724136888::1726058410::1::::<><>::
-spr_NecromancerAttackEffect_strip47.png::CompressedTexture2D::2094219535496557559::1724136888::1726058410::1::::<><>::
-spr_NecromancerAttackWithEffectWithBkg_strip47.png::CompressedTexture2D::7617459177580174677::1724136888::1726058410::1::::<><>::
-spr_NecromancerAttackWithEffect_strip47.png::CompressedTexture2D::4393682965387406145::1724136888::1726058410::1::::<><>::
-spr_NecromancerAttackWithoutEffectWithBkg_strip47.png::CompressedTexture2D::2617994602260947881::1724136888::1726058410::1::::<><>::
-spr_NecromancerAttackWithoutEffect_strip47.png::CompressedTexture2D::5565246053385499938::1724136888::1726058410::1::::<><>::
-::res://enemies/Necromancer/Necromancer/Death/::1726058410
-spr_NecromancerDeathWithBkg_strip52.png::CompressedTexture2D::8562059601655134744::1724136888::1726058410::1::::<><>::
-spr_NecromancerDeath_strip52.png::CompressedTexture2D::4353052896888901496::1724136888::1726058410::1::::<><>::
-::res://enemies/Necromancer/Necromancer/GetHit/::1726058410
-spr_NecromancerGetHitEffectWithBkg_strip9.png::CompressedTexture2D::1366993708411521239::1724136888::1726058410::1::::<><>::
-spr_NecromancerGetHitEffect_strip9.png::CompressedTexture2D::85955416040513914::1724136888::1726058410::1::::<><>::
-spr_NecromancerGetHitWithBkg_strip9.png::CompressedTexture2D::4386069246733370005::1724136888::1726058410::1::::<><>::
-spr_NecromancerGetHitWithoutEffectWithBkg_strip9.png::CompressedTexture2D::8397755991980944158::1724136888::1726058410::1::::<><>::
-spr_NecromancerGetHitWithoutEffect_strip9.png::CompressedTexture2D::4012387250309797440::1724136888::1726058410::1::::<><>::
-spr_NecromancerGetHit_strip9.png::CompressedTexture2D::8257009074324210601::1724136888::1726058410::1::::<><>::
-::res://enemies/Necromancer/Necromancer/Idle/::1726058410
-spr_NecromancerIdleWithBkg_strip50.png::CompressedTexture2D::56540318936852431::1724136888::1726058410::1::::<><>::
-spr_NecromancerIdle_strip50.png::CompressedTexture2D::3463186355632402365::1724136888::1726058410::1::::<><>::
-::res://enemies/Necromancer/Necromancer/Jump/::1726058409
-spr_NecromancerIdle_strip50.png::CompressedTexture2D::6726870656256220927::1724136888::1726058409::1::::<><>::
-spr_NecromancerJumpWithBkg_strip12.png::CompressedTexture2D::2066483923106745469::1724136888::1726058409::1::::<><>::
-::res://enemies/Necromancer/Necromancer/Spawn/::1726058410
-spr_NecromancerSpawnWithBkg_strip20.png::CompressedTexture2D::6287756199217855538::1724136888::1726058409::1::::<><>::
-spr_NecromancerSpawn_strip20.png::CompressedTexture2D::945839866239980313::1724136888::1726058410::1::::<><>::
-::res://enemies/Necromancer/Necromancer/Walk/::1726058409
-spr_NecromancerWalkWithBkg_strip10.png::CompressedTexture2D::6099244468736459900::1724136888::1726058409::1::::<><>::
-spr_NecromancerWalk_strip10.png::CompressedTexture2D::1794390013547345228::1724136888::1726058409::1::::<><>::
-::res://enemies/Paladin/::1724136878
-::res://enemies/Paladin/Necromancer/::1724136878
-::res://enemies/Paladin/Necromancer/Necromancer/::1724136878
-::res://enemies/Paladin/Necromancer/Necromancer/Attack/::1726058410
-spr_NecromancerAttackEffectWithBkg_strip47.png::CompressedTexture2D::1789905601764277963::1724136878::1726058409::1::::<><>::
-spr_NecromancerAttackEffect_strip47.png::CompressedTexture2D::7507471956096971571::1724136878::1726058410::1::::<><>::
-spr_NecromancerAttackWithEffectWithBkg_strip47.png::CompressedTexture2D::5156903468417793612::1724136878::1726058409::1::::<><>::
-spr_NecromancerAttackWithEffect_strip47.png::CompressedTexture2D::7872239162086749311::1724136878::1726058410::1::::<><>::
-spr_NecromancerAttackWithoutEffectWithBkg_strip47.png::CompressedTexture2D::4985823375837867765::1724136878::1726058410::1::::<><>::
-spr_NecromancerAttackWithoutEffect_strip47.png::CompressedTexture2D::2227271301504852739::1724136878::1726058410::1::::<><>::
-::res://enemies/Paladin/Necromancer/Necromancer/Death/::1726058410
-spr_NecromancerDeathWithBkg_strip52.png::CompressedTexture2D::8047559553981622070::1724136878::1726058410::1::::<><>::
-spr_NecromancerDeath_strip52.png::CompressedTexture2D::8173993622996472496::1724136878::1726058410::1::::<><>::
-::res://enemies/Paladin/Necromancer/Necromancer/GetHit/::1726058410
-spr_NecromancerGetHitEffectWithBkg_strip9.png::CompressedTexture2D::8904086874986484012::1724136878::1726058410::1::::<><>::
-spr_NecromancerGetHitEffect_strip9.png::CompressedTexture2D::3024123702732768125::1724136878::1726058410::1::::<><>::
-spr_NecromancerGetHitWithBkg_strip9.png::CompressedTexture2D::2414602750456138199::1724136878::1726058410::1::::<><>::
-spr_NecromancerGetHitWithoutEffectWithBkg_strip9.png::CompressedTexture2D::5746759885585728528::1724136878::1726058410::1::::<><>::
-spr_NecromancerGetHitWithoutEffect_strip9.png::CompressedTexture2D::5578629124097181811::1724136878::1726058410::1::::<><>::
-spr_NecromancerGetHit_strip9.png::CompressedTexture2D::1315636012646051509::1724136878::1726058410::1::::<><>::
-::res://enemies/Paladin/Necromancer/Necromancer/Idle/::1726058410
-spr_NecromancerIdleWithBkg_strip50.png::CompressedTexture2D::1101815546923020028::1724136878::1726058410::1::::<><>::
-spr_NecromancerIdle_strip50.png::CompressedTexture2D::2433049212295320467::1724136878::1726058410::1::::<><>::
-::res://enemies/Paladin/Necromancer/Necromancer/Jump/::1726058410
-spr_NecromancerIdle_strip50.png::CompressedTexture2D::110624763376314480::1724136878::1726058410::1::::<><>::
-spr_NecromancerJumpWithBkg_strip12.png::CompressedTexture2D::1416243914898204438::1724136878::1726058410::1::::<><>::
-::res://enemies/Paladin/Necromancer/Necromancer/Spawn/::1726058410
-spr_NecromancerSpawnWithBkg_strip20.png::CompressedTexture2D::9142064218754164517::1724136878::1726058410::1::::<><>::
-spr_NecromancerSpawn_strip20.png::CompressedTexture2D::6006537528605793193::1724136878::1726058410::1::::<><>::
-::res://enemies/Paladin/Necromancer/Necromancer/Walk/::1726058410
-spr_NecromancerWalkWithBkg_strip10.png::CompressedTexture2D::6071143751324565113::1724136878::1726058410::1::::<><>::
-spr_NecromancerWalk_strip10.png::CompressedTexture2D::8694503698280734392::1724136878::1726058410::1::::<><>::
-::res://enemies/Paladin/Paladin/::1724134260
-::res://enemies/Paladin/Paladin/Attack/::1726058410
-spr_PaladinAttackEffectWithBkg_strip41.png::CompressedTexture2D::8010837026796565319::1724134260::1726058410::1::::<><>::
-spr_PaladinAttackEffect_strip41.png::CompressedTexture2D::8156075375978097281::1724134260::1726058410::1::::<><>::
-spr_PaladinAttackWithEffectWithBkg_strip41.png::CompressedTexture2D::6863043510090169670::1724134260::1726058410::1::::<><>::
-spr_PaladinAttackWithEffect_strip41.png::CompressedTexture2D::8828686536737812480::1724134260::1726058410::1::::<><>::
-spr_PaladinAttackWithoutEffectWithBkg_strip41.png::CompressedTexture2D::9071680243975112607::1724134260::1726058410::1::::<><>::
-spr_PaladinAttackWithoutEffect_strip41.png::CompressedTexture2D::7606132274813234047::1724134260::1726058410::1::::<><>::
-::res://enemies/Paladin/Paladin/Attack2/::1726058410
-spr_PaladinAttack2EffectWithBkg_strip63.png::CompressedTexture2D::1149577736215065271::1724134260::1726058410::1::::<><>::
-spr_PaladinAttack2Effect_strip63.png::CompressedTexture2D::125443649041394642::1724134260::1726058409::1::::<><>::
-spr_PaladinAttack2WithEffectWithBkg_strip63.png::CompressedTexture2D::8355861574470357098::1724134260::1726058410::1::::<><>::
-spr_PaladinAttack2WithEffect_strip63.png::CompressedTexture2D::556082278310345911::1724134260::1726058409::1::::<><>::
-spr_PaladinAttack2WithoutEffectWithBkg_strip63.png::CompressedTexture2D::9075491179510566251::1724134260::1726058409::1::::<><>::
-spr_PaladinAttack2WithoutEffect_strip63.png::CompressedTexture2D::6490463839083504233::1724134260::1726058409::1::::<><>::
-::res://enemies/Paladin/Paladin/Death/::1726058409
-spr_PaladinDeathEffectWithBkg_strip65.png::CompressedTexture2D::7653203485318587548::1724134260::1726058409::1::::<><>::
-spr_PaladinDeathEffect_strip65.png::CompressedTexture2D::3223762972574922234::1724134260::1726058409::1::::<><>::
-spr_PaladinDeathWithEffectWithBkg_strip65.png::CompressedTexture2D::9196374641709122505::1724134260::1726058409::1::::<><>::
-spr_PaladinDeathWithEffect_strip65.png::CompressedTexture2D::4127739257759157681::1724134260::1726058409::1::::<><>::
-spr_PaladinDeathWithoutEffectWithBkg_strip65.png::CompressedTexture2D::2001951881966562042::1724134260::1726058409::1::::<><>::
-spr_PaladinDeathWithoutEffect_strip65.png::CompressedTexture2D::7645832169875333485::1724134260::1726058409::1::::<><>::
-::res://enemies/Paladin/Paladin/GetHit/::1726058409
-spr_PaladinGetHitEffectWithBkg_strip12.png::CompressedTexture2D::9028845426028636417::1724134260::1726058409::1::::<><>::
-spr_PaladinGetHitEffect_strip12.png::CompressedTexture2D::7724557313198673679::1724134260::1726058409::1::::<><>::
-spr_PaladinGetHitWithEffectWithBkg_strip12.png::CompressedTexture2D::7017351225058908341::1724134260::1726058409::1::::<><>::
-spr_PaladinGetHitWithEffect_strip12.png::CompressedTexture2D::6400584510682612846::1724134260::1726058409::1::::<><>::
-spr_PaladinGetHitWithoutEffectWithBkg_strip12.png::CompressedTexture2D::7410585902978881420::1724134260::1726058409::1::::<><>::
-spr_PaladinGetHitWithoutEffect_strip12.png::CompressedTexture2D::2419725923066226831::1724134260::1726058409::1::::<><>::
-::res://enemies/Paladin/Paladin/Idle/::1726058409
-spr_PaladinIdleWithBkg_strip27.png::CompressedTexture2D::5104277895307040994::1724134260::1726058409::1::::<><>::
-spr_PaladinIdle_strip27.png::CompressedTexture2D::721716697334229454::1724134260::1726058409::1::::<><>::
-::res://enemies/Paladin/Paladin/Jump/::1726058409
-spr_PaladinJumpWithBkg_strip13.png::CompressedTexture2D::357409569433662554::1724134260::1726058409::1::::<><>::
-spr_PaladinJump_strip13.png::CompressedTexture2D::4237850579118780593::1724134260::1726058409::1::::<><>::
-::res://enemies/Paladin/Paladin/Walk/::1726058409
-spr_PaladinWalkWithBkg_strip10.png::CompressedTexture2D::5037502190945521191::1724134260::1726058409::1::::<><>::
-spr_PaladinWalk_strip10.png::CompressedTexture2D::6911340550829056575::1724134260::1726058409::1::::<><>::
-::res://enemies/Skeleton_White/::1721788628
-::res://enemies/Skeleton_White/Skeleton_Without_VFX/::1726058409
-Skeleton_01_White_Attack1.png::CompressedTexture2D::3510875207160766608::1721788628::1726058408::1::::<><>::
-Skeleton_01_White_Attack2.png::CompressedTexture2D::2999421988079353644::1721788628::1726058409::1::::<><>::
-Skeleton_01_White_Die.png::CompressedTexture2D::5296822167182964981::1721788628::1726058409::1::::<><>::
-Skeleton_01_White_Hurt.png::CompressedTexture2D::6913749662874723291::1721788628::1726058409::1::::<><>::
-Skeleton_01_White_Idle.png::CompressedTexture2D::147162297934384121::1721788628::1726058409::1::::<><>::
-Skeleton_01_White_Walk.png::CompressedTexture2D::800631746543759646::1721788628::1726058409::1::::<><>::
-::res://enemies/Skeleton_White/Skeleton_With_VFX/::1726058409
-Skeleton_01_White_Attack1.png::CompressedTexture2D::8708603391646265213::1721788628::1726058409::1::::<><>::
-Skeleton_01_White_Attack2.png::CompressedTexture2D::2875276014580446227::1721788628::1726058409::1::::<><>::
-Skeleton_01_White_Die.png::CompressedTexture2D::8549410918428700240::1721788628::1726058409::1::::<><>::
-Skeleton_01_White_Hurt.png::CompressedTexture2D::767145909928140344::1721788628::1726058409::1::::<><>::
-Skeleton_01_White_Idle.png::CompressedTexture2D::3864837771227323702::1721788628::1726058409::1::::<><>::
-Skeleton_01_White_Walk.png::CompressedTexture2D::8318311447573676274::1721788628::1726058409::1::::<><>::
-::res://enemy/::1726057840
-state.gd::GDScript::-1::1726057840::0::1::::State<>Node2D<>::
-::res://enemy/boss3/::1726058409
-boss.tscn::PackedScene::5013810338548225137::1724213934::0::1::::<><>::uid://cjovim3abs130::::res://enemy/boss3/demon_slime_FREE_v1.0_288x160_spritesheet.png<>res://enemy/boss3/FiniteStateMachine.gd<>res://enemy/boss3/idle.gd<>res://enemy/state.gd
-boss_3.gd::GDScript::-1::1726055486::0::1::::<>CharacterBody2D<>::
-boss_3.tscn::PackedScene::5498861316892254953::1726055490::0::1::::<><>::uid://c8sa0m3pvu5yp::::res://enemy/boss3/05_demon_death/demon_death_1.png<>res://enemy/boss3/boss_3.gd<>uid://l6783xeh52mo::::res://enemy/boss3/05_demon_death/demon_death_2.png<>uid://dl7snehotq5ln::::res://enemy/boss3/05_demon_death/demon_death_3.png<>uid://dco44nf7hy3t3::::res://enemy/boss3/05_demon_death/demon_death_4.png<>uid://dcu4eias0yabv::::res://enemy/boss3/05_demon_death/demon_death_5.png<>uid://pnmdfhx0thsl::::res://enemy/boss3/05_demon_death/demon_death_6.png<>uid://covibiaagphic::::res://enemy/boss3/05_demon_death/demon_death_7.png<>uid://ddojjs10ill1p::::res://enemy/boss3/05_demon_death/demon_death_8.png<>uid://chuopko5k3ap5::::res://enemy/boss3/05_demon_death/demon_death_9.png<>uid://cwmtcjgvuumqp::::res://enemy/boss3/05_demon_death/demon_death_10.png<>uid://iua24vfxr22e::::res://enemy/boss3/05_demon_death/demon_death_11.png<>uid://chkwdw5eawl6h::::res://enemy/boss3/05_demon_death/demon_death_12.png<>uid://b6awxo2g5gku::::res://enemy/boss3/05_demon_death/demon_death_13.png<>uid://dl6rrhpvyxci8::::res://enemy/boss3/05_demon_death/demon_death_14.png<>uid://fc8q4xnm0fbs::::res://enemy/boss3/05_demon_death/demon_death_15.png<>uid://m6od0mumfs1y::::res://enemy/boss3/05_demon_death/demon_death_16.png<>uid://dhtlmoekfh2y3::::res://enemy/boss3/05_demon_death/demon_death_17.png<>uid://chwu4ips250qa::::res://enemy/boss3/05_demon_death/demon_death_18.png<>uid://vu5834lq5avf::::res://enemy/boss3/05_demon_death/demon_death_19.png<>uid://dgjbe4qnncs5f::::res://enemy/boss3/05_demon_death/demon_death_20.png<>uid://c7j21kn14d4i::::res://enemy/boss3/05_demon_death/demon_death_21.png<>uid://du8tii42ho10g::::res://enemy/boss3/05_demon_death/demon_death_22.png<>uid://bm3bacy3oqkf5::::res://enemy/boss3/01_demon_idle/demon_idle_1.png<>uid://cb6bo6q38hpuj::::res://enemy/boss3/01_demon_idle/demon_idle_2.png<>uid://bx4rqwhdhm3l8::::res://enemy/boss3/01_demon_idle/demon_idle_3.png<>uid://dy05m1v5xcas3::::res://enemy/boss3/01_demon_idle/demon_idle_4.png<>uid://om4j3d3tafvt::::res://enemy/boss3/01_demon_idle/demon_idle_5.png<>uid://bljfxr2qaawei::::res://enemy/boss3/01_demon_idle/demon_idle_6.png<>uid://dkuu7aq35wbc8::::res://enemy/boss3/03_demon_cleave/demon_cleave_1.png<>uid://de8stmn4p50ou::::res://enemy/boss3/03_demon_cleave/demon_cleave_2.png<>uid://djso02hquwmbi::::res://enemy/boss3/03_demon_cleave/demon_cleave_3.png<>uid://ct5xe04ry0idh::::res://enemy/boss3/03_demon_cleave/demon_cleave_4.png<>uid://ujytxuak1ldj::::res://enemy/boss3/03_demon_cleave/demon_cleave_5.png<>uid://c5eo1ae7q0mpl::::res://enemy/boss3/03_demon_cleave/demon_cleave_6.png<>uid://mckaaeqmy00o::::res://enemy/boss3/03_demon_cleave/demon_cleave_7.png<>uid://ckdcoxpw0mhli::::res://enemy/boss3/03_demon_cleave/demon_cleave_8.png<>uid://dqtvn7etgbpyu::::res://enemy/boss3/03_demon_cleave/demon_cleave_9.png<>uid://cinh5iwp71xlf::::res://enemy/boss3/03_demon_cleave/demon_cleave_10.png<>uid://b08i5i1lsolwl::::res://enemy/boss3/03_demon_cleave/demon_cleave_11.png<>uid://dhi4kp3i7rv7h::::res://enemy/boss3/03_demon_cleave/demon_cleave_12.png<>uid://bh6wwqmyjbot6::::res://enemy/boss3/03_demon_cleave/demon_cleave_13.png<>uid://b0pyuxgfdoync::::res://enemy/boss3/03_demon_cleave/demon_cleave_14.png<>uid://chclrcaxo0nef::::res://enemy/boss3/03_demon_cleave/demon_cleave_15.png<>uid://ra7l0s3g2332::::res://enemy/boss3/04_demon_take_hit/demon_take_hit_1.png<>uid://ej1vjpcdc161::::res://enemy/boss3/04_demon_take_hit/demon_take_hit_2.png<>uid://5ynvjucdduba::::res://enemy/boss3/04_demon_take_hit/demon_take_hit_3.png<>uid://dcdann114vln7::::res://enemy/boss3/04_demon_take_hit/demon_take_hit_4.png<>uid://bedy2uy852w3s::::res://enemy/boss3/04_demon_take_hit/demon_take_hit_5.png<>uid://bw1f4v4gstnsq::::res://enemy/boss3/02_demon_walk/demon_walk_1.png<>uid://ck5n2u3653d0e::::res://enemy/boss3/02_demon_walk/demon_walk_2.png<>uid://chucu8s5j5tbt::::res://enemy/boss3/02_demon_walk/demon_walk_3.png<>uid://bh7newwyub0hg::::res://enemy/boss3/02_demon_walk/demon_walk_4.png<>uid://dreff4qgvfrin::::res://enemy/boss3/02_demon_walk/demon_walk_5.png<>uid://tpylqjo2j62::::res://enemy/boss3/02_demon_walk/demon_walk_6.png<>uid://b3j3bh87tstk0::::res://enemy/boss3/02_demon_walk/demon_walk_7.png<>uid://bhkiqtomnqmlj::::res://enemy/boss3/02_demon_walk/demon_walk_8.png<>uid://crytm7ydc5yf2::::res://enemy/boss3/02_demon_walk/demon_walk_9.png<>uid://bvbnnh0t0wm55::::res://enemy/boss3/02_demon_walk/demon_walk_10.png<>uid://bn2e38v7y0u0k::::res://enemy/boss3/02_demon_walk/demon_walk_11.png<>uid://cm51k63vxytgq::::res://enemy/boss3/02_demon_walk/demon_walk_12.png
-demon_slime_FREE_v1.0_288x160_spritesheet.png::CompressedTexture2D::5434732265421465561::1635220003::1726058409::1::::<><>::
-FiniteStateMachine.gd::GDScript::-1::1724212447::0::1::::<>Node2D<>::
-idle.gd::GDScript::-1::1724212814::0::1::::<>State<>::
-medium_fireball.gd::GDScript::-1::1724082415::0::1::::<>Area2D<>::
-medium_fireball.tscn::PackedScene::4641275719040973350::1726055490::0::1::::<><>::res://enemy/boss3/medium_fireball.gd<>uid://ccw3krahf224g::::res://enemy/boss3/fire_ball_side_medium/imgs/img_0.png<>uid://d2a25jalamdh2::::res://enemy/boss3/fire_ball_side_medium/imgs/img_1.png<>uid://dp8cfoxujtbxg::::res://enemy/boss3/fire_ball_side_medium/imgs/img_2.png<>uid://dtku7y8hc871a::::res://enemy/boss3/fire_ball_side_medium/imgs/img_3.png<>uid://dph287eojxs5j::::res://enemy/boss3/fire_ball_side_medium/imgs/img_4.png<>uid://dvb2d67lddscw::::res://enemy/boss3/fire_ball_side_medium/imgs/img_5.png<>uid://cko5yavqs1b4i::::res://enemy/boss3/fire_ball_side_medium/imgs/img_6.png<>uid://hib4hbp62ls0::::res://enemy/boss3/fire_ball_side_medium/imgs/img_7.png<>uid://bj4qg1sbkgi5f::::res://enemy/boss3/fire_ball_side_medium/imgs/img_8.png<>uid://bc6drbq0ebvfd::::res://enemy/boss3/fire_ball_side_medium/imgs/img_9.png<>uid://bprnq18lpohv7::::res://enemy/boss3/fire_ball_side_medium/imgs/img_10.png<>uid://jmkuffyd18b5::::res://enemy/boss3/fire_ball_side_medium/imgs/img_11.png<>uid://cij6vo0efl1vq::::res://enemy/boss3/fire_ball_side_medium/imgs/img_12.png<>uid://qjj473jvog8f::::res://enemy/boss3/fire_ball_side_medium/imgs/img_13.png<>uid://67vfyl2n4phl::::res://enemy/boss3/fire_ball_side_medium/imgs/img_14.png<>uid://3458tt72vvrj::::res://enemy/boss3/fire_ball_side_medium/imgs/img_15.png<>uid://dujv13t5tn4bo::::res://enemy/boss3/fire_ball_side_medium/imgs/img_16.png<>uid://lag3gvd86xwa::::res://enemy/boss3/fire_ball_side_medium/imgs/img_17.png<>uid://dvn5rmw8emmjn::::res://enemy/boss3/fire_ball_side_medium/imgs/img_18.png<>uid://cohchkqquqoaq::::res://enemy/boss3/fire_ball_side_medium/imgs/img_19.png<>uid://cd7lv31x2l0qw::::res://enemy/boss3/fire_ball_side_medium/imgs/img_20.png<>uid://c3yn42umgd4fg::::res://enemy/boss3/fire_ball_side_medium/imgs/img_21.png<>uid://uya2xpnewd61::::res://enemy/boss3/fire_ball_side_medium/imgs/img_22.png<>uid://m8fuxqfh0kh1::::res://enemy/boss3/fire_ball_side_medium/imgs/img_23.png<>uid://cxlc4i8egxjpw::::res://enemy/boss3/fire_ball_side_medium/imgs/img_24.png<>uid://bgu0ob3vunih3::::res://enemy/boss3/fire_ball_side_medium/imgs/img_25.png<>uid://b12gcpf33ir6g::::res://enemy/boss3/fire_ball_side_medium/imgs/img_26.png<>uid://c662mp4utx0mn::::res://enemy/boss3/fire_ball_side_medium/imgs/img_27.png<>uid://005ew47cmjdu::::res://enemy/boss3/fire_ball_side_medium/imgs/img_28.png<>uid://cgl46ilc1i1n3::::res://enemy/boss3/fire_ball_side_medium/imgs/img_29.png
-small_fireball.gd::GDScript::-1::1724082415::0::1::::<>Area2D<>::
-small_fireball.tscn::PackedScene::4594505414638667949::1726055490::0::1::::<><>::res://enemy/boss3/small_fireball.gd<>uid://drv1vpepdb0ps::::res://enemy/boss3/fire_ball_side_small/imgs/img_0.png<>uid://dloo3dysk5igd::::res://enemy/boss3/fire_ball_side_small/imgs/img_1.png<>uid://cepqdw10k33d6::::res://enemy/boss3/fire_ball_side_small/imgs/img_2.png<>uid://c83y8cej600gs::::res://enemy/boss3/fire_ball_side_small/imgs/img_3.png<>uid://casmv348uv6fw::::res://enemy/boss3/fire_ball_side_small/imgs/img_4.png<>uid://caymfpa85k8bf::::res://enemy/boss3/fire_ball_side_small/imgs/img_5.png<>uid://kl03egdbby6q::::res://enemy/boss3/fire_ball_side_small/imgs/img_6.png<>uid://d2r63papree3b::::res://enemy/boss3/fire_ball_side_small/imgs/img_7.png<>uid://do2pkocdmmw3f::::res://enemy/boss3/fire_ball_side_small/imgs/img_8.png<>uid://dimlb3t6fxyv8::::res://enemy/boss3/fire_ball_side_small/imgs/img_9.png<>uid://0p3aj2rcl0gl::::res://enemy/boss3/fire_ball_side_small/imgs/img_10.png<>uid://chwicudi8fqow::::res://enemy/boss3/fire_ball_side_small/imgs/img_11.png<>uid://d2addkhulq34p::::res://enemy/boss3/fire_ball_side_small/imgs/img_12.png<>uid://dbfrdybcdti35::::res://enemy/boss3/fire_ball_side_small/imgs/img_13.png<>uid://dgu72n2cnhdbu::::res://enemy/boss3/fire_ball_side_small/imgs/img_14.png<>uid://c82to1kxdappi::::res://enemy/boss3/fire_ball_side_small/imgs/img_15.png<>uid://cltt47g7q03ih::::res://enemy/boss3/fire_ball_side_small/imgs/img_16.png<>uid://73d2ei75ro34::::res://enemy/boss3/fire_ball_side_small/imgs/img_17.png<>uid://dm0hrvvklgmju::::res://enemy/boss3/fire_ball_side_small/imgs/img_18.png<>uid://cgdbcs31kge50::::res://enemy/boss3/fire_ball_side_small/imgs/img_19.png<>uid://b844vph6x7eog::::res://enemy/boss3/fire_ball_side_small/imgs/img_20.png<>uid://cv0gipfkaerrd::::res://enemy/boss3/fire_ball_side_small/imgs/img_21.png<>uid://cdc4s3hsiyjry::::res://enemy/boss3/fire_ball_side_small/imgs/img_22.png<>uid://chotbg5f06j88::::res://enemy/boss3/fire_ball_side_small/imgs/img_23.png<>uid://ddjerufnd6ck4::::res://enemy/boss3/fire_ball_side_small/imgs/img_24.png<>uid://cfja3gm0qaf0b::::res://enemy/boss3/fire_ball_side_small/imgs/img_25.png<>uid://c6y5dgbkx0yhd::::res://enemy/boss3/fire_ball_side_small/imgs/img_26.png<>uid://onc8wike8kec::::res://enemy/boss3/fire_ball_side_small/imgs/img_27.png<>uid://dlhpuyra2hfq4::::res://enemy/boss3/fire_ball_side_small/imgs/img_28.png<>uid://bpcfonv1lruor::::res://enemy/boss3/fire_ball_side_small/imgs/img_29.png
-teleport_effect.gd::GDScript::-1::1724082415::0::1::::<>Node2D<>::
-teleport_effect.tscn::PackedScene::5300201109011147450::1726055490::0::1::::<><>::res://enemy/boss3/teleport_effect.gd<>uid://b0caq2dbjjlmk::::res://enemy/boss3/teleport_effect/Fire_1_512-sheet.png
-::res://enemy/boss3/01_demon_idle/::1726058409
-demon_idle_1.png::CompressedTexture2D::3286550244869477328::1623500944::1726058409::1::::<><>::
-demon_idle_2.png::CompressedTexture2D::4907113293764831797::1623500944::1726058409::1::::<><>::
-demon_idle_3.png::CompressedTexture2D::4061692970288586743::1623500944::1726058409::1::::<><>::
-demon_idle_4.png::CompressedTexture2D::8897248080995301632::1623500944::1726058409::1::::<><>::
-demon_idle_5.png::CompressedTexture2D::1009194685502348257::1623500944::1726058409::1::::<><>::
-demon_idle_6.png::CompressedTexture2D::3177422957055304232::1623500944::1726058409::1::::<><>::
-::res://enemy/boss3/02_demon_walk/::1726058411
-demon_walk_1.png::CompressedTexture2D::3984605586409552096::1623500962::1726058409::1::::<><>::
-demon_walk_2.png::CompressedTexture2D::5537499768900935042::1623500962::1726058409::1::::<><>::
-demon_walk_3.png::CompressedTexture2D::5305609740250580289::1623500962::1726058409::1::::<><>::
-demon_walk_4.png::CompressedTexture2D::2944600331987469856::1623500962::1726058409::1::::<><>::
-demon_walk_5.png::CompressedTexture2D::8361043966070366489::1623500962::1726058409::1::::<><>::
-demon_walk_6.png::CompressedTexture2D::40177394174772661::1623500962::1726058409::1::::<><>::
-demon_walk_7.png::CompressedTexture2D::4371989987057962169::1623500962::1726058409::1::::<><>::
-demon_walk_8.png::CompressedTexture2D::2898901695478690687::1623500962::1726058409::1::::<><>::
-demon_walk_9.png::CompressedTexture2D::6016773545682305429::1623500962::1726058411::1::::<><>::
-demon_walk_10.png::CompressedTexture2D::3863263721253691050::1623500962::1726058411::1::::<><>::
-demon_walk_11.png::CompressedTexture2D::3354908487745998644::1623500962::1726058411::1::::<><>::
-demon_walk_12.png::CompressedTexture2D::5678636995879584248::1623500962::1726058411::1::::<><>::
-::res://enemy/boss3/03_demon_cleave/::1726058411
-demon_cleave_1.png::CompressedTexture2D::7903709553831127033::1623500980::1726058411::1::::<><>::
-demon_cleave_2.png::CompressedTexture2D::7509269379170934676::1623500980::1726058411::1::::<><>::
-demon_cleave_3.png::CompressedTexture2D::7829016555839680394::1623500980::1726058411::1::::<><>::
-demon_cleave_4.png::CompressedTexture2D::6169765721828406837::1623500980::1726058411::1::::<><>::
-demon_cleave_5.png::CompressedTexture2D::1423848649405313547::1623500980::1726058411::1::::<><>::
-demon_cleave_6.png::CompressedTexture2D::6887660663739200129::1623500980::1726058411::1::::<><>::
-demon_cleave_7.png::CompressedTexture2D::847002056015366340::1623500980::1726058411::1::::<><>::
-demon_cleave_8.png::CompressedTexture2D::5481070604371494154::1623500980::1726058411::1::::<><>::
-demon_cleave_9.png::CompressedTexture2D::8322806686581587272::1623500980::1726058411::1::::<><>::
-demon_cleave_10.png::CompressedTexture2D::5361668074957591687::1623500980::1726058411::1::::<><>::
-demon_cleave_11.png::CompressedTexture2D::4209806011163285267::1623500980::1726058411::1::::<><>::
-demon_cleave_12.png::CompressedTexture2D::7668878460818999971::1623500980::1726058411::1::::<><>::
-demon_cleave_13.png::CompressedTexture2D::2943114220855739381::1623500980::1726058411::1::::<><>::
-demon_cleave_14.png::CompressedTexture2D::4173601582196944732::1623500980::1726058411::1::::<><>::
-demon_cleave_15.png::CompressedTexture2D::5268990379888784201::1623500980::1726058411::1::::<><>::
-::res://enemy/boss3/04_demon_take_hit/::1726058411
-demon_take_hit_1.png::CompressedTexture2D::1195174271519568763::1623501133::1726058411::1::::<><>::
-demon_take_hit_2.png::CompressedTexture2D::300951413799805536::1623501133::1726058411::1::::<><>::
-demon_take_hit_3.png::CompressedTexture2D::2156037701517633530::1623501133::1726058411::1::::<><>::
-demon_take_hit_4.png::CompressedTexture2D::7305856811127690942::1623501133::1726058411::1::::<><>::
-demon_take_hit_5.png::CompressedTexture2D::2674875704852092794::1623501133::1726058411::1::::<><>::
-::res://enemy/boss3/05_demon_death/::1726058411
-demon_death_1.png::CompressedTexture2D::7126277326107110535::1623501103::1726058411::1::::<><>::
-demon_death_2.png::CompressedTexture2D::838076371738210098::1623501103::1726058411::1::::<><>::
-demon_death_3.png::CompressedTexture2D::7998515761987313963::1623501103::1726058411::1::::<><>::
-demon_death_4.png::CompressedTexture2D::7330354299717512450::1623501103::1726058411::1::::<><>::
-demon_death_5.png::CompressedTexture2D::7342695650441401031::1623501103::1726058411::1::::<><>::
-demon_death_6.png::CompressedTexture2D::1080403801177735379::1623501103::1726058411::1::::<><>::
-demon_death_7.png::CompressedTexture2D::5799325053085364486::1623501103::1726058411::1::::<><>::
-demon_death_8.png::CompressedTexture2D::7399293382362519079::1623501103::1726058411::1::::<><>::
-demon_death_9.png::CompressedTexture2D::5306328200979218652::1623501103::1726058411::1::::<><>::
-demon_death_10.png::CompressedTexture2D::6342926137882653407::1623501103::1726058411::1::::<><>::
-demon_death_11.png::CompressedTexture2D::602848076497546846::1623501103::1726058411::1::::<><>::
-demon_death_12.png::CompressedTexture2D::5286149383656059265::1623501103::1726058411::1::::<><>::
-demon_death_13.png::CompressedTexture2D::134225072380069168::1623501103::1726058411::1::::<><>::
-demon_death_14.png::CompressedTexture2D::7996397980669565393::1623501103::1726058411::1::::<><>::
-demon_death_15.png::CompressedTexture2D::357106766477393840::1623501103::1726058411::1::::<><>::
-demon_death_16.png::CompressedTexture2D::907118561859056188::1623501103::1726058411::1::::<><>::
-demon_death_17.png::CompressedTexture2D::7690497192287418240::1623501103::1726058411::1::::<><>::
-demon_death_18.png::CompressedTexture2D::5310846155534309796::1623501103::1726058411::1::::<><>::
-demon_death_19.png::CompressedTexture2D::1517135228437214047::1623501103::1726058411::1::::<><>::
-demon_death_20.png::CompressedTexture2D::7599043921364579657::1623501103::1726058411::1::::<><>::
-demon_death_21.png::CompressedTexture2D::207033826458005398::1623501103::1726058411::1::::<><>::
-demon_death_22.png::CompressedTexture2D::8632331765160546624::1623501103::1726058411::1::::<><>::
-::res://enemy/boss3/fire_ball_side_medium/::1726056473
-::res://enemy/boss3/fire_ball_side_medium/imgs/::1726058411
-img_0.png::CompressedTexture2D::4960354192210867412::1617025360::1726058411::1::::<><>::
-img_1.png::CompressedTexture2D::9056054235138435285::1617025360::1726058411::1::::<><>::
-img_2.png::CompressedTexture2D::8280350306267706752::1617025360::1726058411::1::::<><>::
-img_3.png::CompressedTexture2D::8514766654863806908::1617025360::1726058411::1::::<><>::
-img_4.png::CompressedTexture2D::8228245327507234517::1617025360::1726058411::1::::<><>::
-img_5.png::CompressedTexture2D::8636938539579985482::1617025360::1726058410::1::::<><>::
-img_6.png::CompressedTexture2D::5505495494353011862::1617025360::1726058410::1::::<><>::
-img_7.png::CompressedTexture2D::507949802447001105::1617025360::1726058410::1::::<><>::
-img_8.png::CompressedTexture2D::3078970811423446929::1617025360::1726058410::1::::<><>::
-img_9.png::CompressedTexture2D::2591006669201217001::1617025360::1726058410::1::::<><>::
-img_10.png::CompressedTexture2D::3475167070797088646::1617025360::1726058410::1::::<><>::
-img_11.png::CompressedTexture2D::657115283033063428::1617025360::1726058410::1::::<><>::
-img_12.png::CompressedTexture2D::5354852018860661290::1617025360::1726058410::1::::<><>::
-img_13.png::CompressedTexture2D::1142200863392464735::1617025360::1726058410::1::::<><>::
-img_14.png::CompressedTexture2D::2243199505525075213::1617025360::1726058410::1::::<><>::
-img_15.png::CompressedTexture2D::2027036046500297271::1617025360::1726058410::1::::<><>::
-img_16.png::CompressedTexture2D::8582941312510197436::1617025360::1726058410::1::::<><>::
-img_17.png::CompressedTexture2D::772491931966936816::1617025360::1726058410::1::::<><>::
-img_18.png::CompressedTexture2D::8661917212331236527::1617025360::1726058410::1::::<><>::
-img_19.png::CompressedTexture2D::5770070307844651784::1617025360::1726058410::1::::<><>::
-img_20.png::CompressedTexture2D::5050174886922922498::1617025360::1726058410::1::::<><>::
-img_21.png::CompressedTexture2D::6788516613857686428::1617025360::1726058410::1::::<><>::
-img_22.png::CompressedTexture2D::1453371387099509140::1617025360::1726058410::1::::<><>::
-img_23.png::CompressedTexture2D::910731123373741320::1617025360::1726058410::1::::<><>::
-img_24.png::CompressedTexture2D::6410066619720400912::1617025360::1726058410::1::::<><>::
-img_25.png::CompressedTexture2D::2850384323295585906::1617025360::1726058410::1::::<><>::
-img_26.png::CompressedTexture2D::4267437488070184232::1617025360::1726058410::1::::<><>::
-img_27.png::CompressedTexture2D::7014352852457224753::1617025360::1726058410::1::::<><>::
-img_28.png::CompressedTexture2D::1808160389531037150::1617025360::1726058410::1::::<><>::
-img_29.png::CompressedTexture2D::5218499174215943454::1617025360::1726058410::1::::<><>::
-::res://enemy/boss3/fire_ball_side_small/::1726056473
-::res://enemy/boss3/fire_ball_side_small/imgs/::1726058411
-img_0.png::CompressedTexture2D::8397441263960118796::1617024725::1726058411::1::::<><>::
-img_1.png::CompressedTexture2D::7961140855260309823::1617024725::1726058411::1::::<><>::
-img_2.png::CompressedTexture2D::5085540434344206357::1617024725::1726058411::1::::<><>::
-img_3.png::CompressedTexture2D::7148392035257476122::1617024725::1726058411::1::::<><>::
-img_4.png::CompressedTexture2D::4810767789524567684::1617024725::1726058411::1::::<><>::
-img_5.png::CompressedTexture2D::4823124755756501243::1617024725::1726058411::1::::<><>::
-img_6.png::CompressedTexture2D::726164738223417862::1617024725::1726058411::1::::<><>::
-img_7.png::CompressedTexture2D::9091388268684955225::1617024725::1726058411::1::::<><>::
-img_8.png::CompressedTexture2D::8198573412771267605::1617024725::1726058410::1::::<><>::
-img_9.png::CompressedTexture2D::7746216507367815795::1617024725::1726058410::1::::<><>::
-img_10.png::CompressedTexture2D::1787387348254574099::1617024725::1726058410::1::::<><>::
-img_11.png::CompressedTexture2D::5310069946480899498::1617024725::1726058410::1::::<><>::
-img_12.png::CompressedTexture2D::9054548874637394377::1617024725::1726058410::1::::<><>::
-img_13.png::CompressedTexture2D::7240811591947223742::1617024725::1726058410::1::::<><>::
-img_14.png::CompressedTexture2D::7623674552814445002::1617024725::1726058410::1::::<><>::
-img_15.png::CompressedTexture2D::7145991412882305618::1617024725::1726058410::1::::<><>::
-img_16.png::CompressedTexture2D::5585348927109860175::1617024725::1726058410::1::::<><>::
-img_17.png::CompressedTexture2D::2304076164890986485::1617024725::1726058410::1::::<><>::
-img_18.png::CompressedTexture2D::8053594131933484374::1617024725::1726058410::1::::<><>::
-img_19.png::CompressedTexture2D::5200232840926904117::1617024725::1726058410::1::::<><>::
-img_20.png::CompressedTexture2D::4764318573182513282::1617024725::1726058410::1::::<><>::
-img_21.png::CompressedTexture2D::6298795911973020457::1617024725::1726058410::1::::<><>::
-img_22.png::CompressedTexture2D::4989331073185851966::1617024725::1726058410::1::::<><>::
-img_23.png::CompressedTexture2D::5294220331811782223::1617024725::1726058410::1::::<><>::
-img_24.png::CompressedTexture2D::7388682267034302977::1617024725::1726058410::1::::<><>::
-img_25.png::CompressedTexture2D::5142415322427266567::1617024725::1726058408::1::::<><>::
-img_26.png::CompressedTexture2D::7000067770598355081::1617024725::1726058408::1::::<><>::
-img_27.png::CompressedTexture2D::1009662255252771770::1617024725::1726058408::1::::<><>::
-img_28.png::CompressedTexture2D::7946737733004113785::1617024725::1726058408::1::::<><>::
-img_29.png::CompressedTexture2D::3443711396291364341::1617024725::1726058408::1::::<><>::
-::res://enemy/boss3/teleport_effect/::1726058410
-Fire_1_512-sheet.png::CompressedTexture2D::4145300525677204998::1707254668::1726058410::1::::<><>::
-::res://Fantasy Swamp Forest/::1726056486
-LICENSE.md::TextFile::-1::1724160368::0::1::::<><>::
-README.md::TextFile::-1::1724160368::0::1::::<><>::
-::res://Fantasy Swamp Forest/Free/::1726058408
-Free.png::CompressedTexture2D::2317764568530169248::1724160368::1726058408::1::::<><>::
-Mockup.png::CompressedTexture2D::287067922277610767::1724160368::1726058408::1::::<><>::
-Terrain-and-Props-OLD.png::CompressedTexture2D::5011047349605278252::1724160368::1726058408::1::::<><>::
-Terrain_and_Props.png::CompressedTexture2D::2917830802175565072::1724160368::1726058408::1::::<><>::
-::res://Fantasy Swamp Forest/Free/BG_1/::1726058408
-BG_1.png::CompressedTexture2D::7254766310314325497::1724160368::1726058408::1::::<><>::
-::res://Fantasy Swamp Forest/Free/BG_2/::1726058408
-BG_2.png::CompressedTexture2D::6048342843241706848::1724160368::1726058408::1::::<><>::
-::res://Fantasy Swamp Forest/Free/BG_3/::1726058408
-BG_3.png::CompressedTexture2D::6886982571986959486::1724160368::1726058408::1::::<><>::
-BG_3_alt.png::CompressedTexture2D::2501046494437690701::1724160368::1726058408::1::::<><>::
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/::1726056487
-Readme.txt::TextFile::-1::1724171588::0::1::::<><>::
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Arrow Trap/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Arrow Trap/Aseprite/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Arrow Trap/PNGs/::1726058408
-Arrow Trap - Level 1.png::CompressedTexture2D::5311902405648757527::1724171588::1726058408::1::::<><>::
-Arrow Trap - Level 2.png::CompressedTexture2D::1656720893537959867::1724171588::1726058408::1::::<><>::
-Arrow Trap - Level 3.png::CompressedTexture2D::7789376978289977774::1724171588::1726058408::1::::<><>::
-Arrow.png::CompressedTexture2D::2730838234299099506::1724171588::1726058407::1::::<><>::
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Arrow Trap/Transitions/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Arrow Trap/Transitions/Aseprite/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Arrow Trap/Transitions/PNGs/::1726058407
-Arrow Trap - Level 1 - Transition.png::CompressedTexture2D::7392237637795056943::1724171588::1726058407::1::::<><>::
-Arrow Trap - Level 2 - Transition.png::CompressedTexture2D::7162906568088639040::1724171588::1726058407::1::::<><>::
-Arrow Trap - Level 3 - Transition.png::CompressedTexture2D::7143881323311335380::1724171588::1726058407::1::::<><>::
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Ceiling Trap/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Ceiling Trap/Aseprite/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Ceiling Trap/PNGs/::1726058407
-Ceiling Trap - Level 1.png::CompressedTexture2D::7369075466000935631::1724171588::1726058407::1::::<><>::
-Ceiling Trap - Level 2.png::CompressedTexture2D::617383042134533843::1724171588::1726058407::1::::<><>::
-Ceiling Trap - Level 3.png::CompressedTexture2D::5166306033288599735::1724171588::1726058407::1::::<><>::
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Ceiling Trap/Transitions/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Ceiling Trap/Transitions/Aseprite/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Ceiling Trap/Transitions/PNGs/::1726058408
-Ceiling Trap - Level 1 - Transition.png::CompressedTexture2D::5069996912747136864::1724171588::1726058408::1::::<><>::
-Ceiling Trap - Level 2 - Transition.png::CompressedTexture2D::5669188041036929847::1724171588::1726058408::1::::<><>::
-Ceiling Trap - Level 3 - Transition.png::CompressedTexture2D::1474676316163652256::1724171588::1726058408::1::::<><>::
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Fire Breather Trap/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Fire Breather Trap/Aseprite/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Fire Breather Trap/PNGs/::1726058408
-Fire Breather Trap - Level 1.png::CompressedTexture2D::8414169972247516009::1724171588::1726058408::1::::<><>::
-Fire Breather Trap - Level 2.png::CompressedTexture2D::1576562277217347378::1724171588::1726058408::1::::<><>::
-Fire Thrower Trap - Level 3.png::CompressedTexture2D::8047087927714502593::1724171588::1726058408::1::::<><>::
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Fire Breather Trap/Transition/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Fire Breather Trap/Transition/Aseprite/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Fire Breather Trap/Transition/PNGs/::1726058408
-Fire Breather Trap - Level 1 - Transition.png::CompressedTexture2D::5701549518535656750::1724171588::1726058408::1::::<><>::
-Fire Breather Trap - Level 2 - Transition.png::CompressedTexture2D::1796499622552299004::1724171588::1726058408::1::::<><>::
-Fire Breather Trap - Level 3 - Transition.png::CompressedTexture2D::2129323323282842885::1724171588::1726058408::1::::<><>::
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Fire Trap/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Fire Trap/Aseprite/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Fire Trap/PNGs/::1726058408
-Fire Trap - Level 1.png::CompressedTexture2D::1507504297708082255::1724171588::1726058408::1::::<><>::
-Fire Trap - Level 2.png::CompressedTexture2D::8872639968605473263::1724171588::1726058408::1::::<><>::
-Fire Trap - Level 3.png::CompressedTexture2D::7071949516905106346::1724171588::1726058408::1::::<><>::
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Fire Trap/Transition/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Fire Trap/Transition/Aseprite/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Fire Trap/Transition/PNGs/::1726058408
-Fire Trap - Level 1 - Transition.png::CompressedTexture2D::3294911138232896578::1724171588::1726058408::1::::<><>::
-Fire Trap - Level 2 - Transition.png::CompressedTexture2D::5320104949330107673::1724171588::1726058408::1::::<><>::
-Fire Trap - Level 3 - Transition.png::CompressedTexture2D::8075769303452031932::1724171588::1726058408::1::::<><>::
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Lightning Trap/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Lightning Trap/Aseprite/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Lightning Trap/PNGs/::1726058408
-Lightning Trap - Level 1.png::CompressedTexture2D::1140337559916492146::1724171588::1726058408::1::::<><>::
-Lightning Trap - Level 2.png::CompressedTexture2D::5027126360123765535::1724171588::1726058408::1::::<><>::
-Lightning Trap - Level 3.png::CompressedTexture2D::185591708421623348::1724171588::1726058408::1::::<><>::
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Lightning Trap/Transition/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Lightning Trap/Transition/Aseprite/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Lightning Trap/Transition/PNGs/::1726058408
-Lightning Trap - Level 1 - Transition.png::CompressedTexture2D::8883662150542043602::1724171588::1726058408::1::::<><>::
-Lightning Trap - Level 2 - Transition.png::CompressedTexture2D::2682594952300571910::1724171589::1726058408::1::::<><>::
-Lightning Trap - Level 3 - Transition.png::CompressedTexture2D::2739336892241223131::1724171589::1726058408::1::::<><>::
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Magic trap/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Magic trap/Aseprite/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Magic trap/PNGs/::1726058408
-Magic trap - Level 1.png::CompressedTexture2D::3106464965922626305::1724171589::1726058408::1::::<><>::
-Magic trap - Level 2.png::CompressedTexture2D::2105680399518405844::1724171589::1726058408::1::::<><>::
-Magic trap - Level 3.png::CompressedTexture2D::846427619370077844::1724171589::1726058408::1::::<><>::
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Magic trap/Transition/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Magic trap/Transition/Aseprite/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Magic trap/Transition/PNGs/::1726058408
-Magic trap - Level 1 - Transition.png::CompressedTexture2D::4975644671492345724::1724171589::1726058408::1::::<><>::
-Magic trap - Level 2 - Transition.png::CompressedTexture2D::1501163075186503083::1724171589::1726058407::1::::<><>::
-Magic trap - Level 3 - Transition.png::CompressedTexture2D::5775651709417853968::1724171589::1726058407::1::::<><>::
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Punch Trap/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Punch Trap/Aseprite/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Punch Trap/PNGs/::1726058407
-Punch Trap - Level 1.png::CompressedTexture2D::5732169197833150459::1724171589::1726058407::1::::<><>::
-Punch Trap - Level 2.png::CompressedTexture2D::6803549838955300980::1724171589::1726058407::1::::<><>::
-Punch Trap - Level 3.png::CompressedTexture2D::3065836051899276474::1724171589::1726058407::1::::<><>::
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Punch Trap/Transition/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Punch Trap/Transition/Aseprite/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Punch Trap/Transition/PNGs/::1726058407
-Punch Trap - Level 1 - Transition.png::CompressedTexture2D::4489764596954427284::1724171589::1726058407::1::::<><>::
-Punch Trap - Level 2 - Transition.png::CompressedTexture2D::5579717789547757025::1724171589::1726058407::1::::<><>::
-Punch Trap - Level 3 - Transition.png::CompressedTexture2D::8462655416089028345::1724171589::1726058407::1::::<><>::
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Sandworm Trap/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Sandworm Trap/Aseprite/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Sandworm Trap/PNGs/::1726058407
-Sandworm trap - Level 1.png::CompressedTexture2D::9135008384263920205::1724171589::1726058407::1::::<><>::
-Sandworm trap - Level 2.png::CompressedTexture2D::7689166561496552924::1724171589::1726058407::1::::<><>::
-Sandworm trap - Level 3.png::CompressedTexture2D::6172576020413036057::1724171589::1726058407::1::::<><>::
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Sandworm Trap/Transitions/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Sandworm Trap/Transitions/Aseprite/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Sandworm Trap/Transitions/PNGs/::1726058407
-Sandworm trap - Level 1 - Transition.png::CompressedTexture2D::3019504377666447212::1724171589::1726058407::1::::<><>::
-Sandworm trap - Level 2 - Transition.png::CompressedTexture2D::3269491296745329805::1724171589::1726058407::1::::<><>::
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Saw Trap/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Saw Trap/Aseprite/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Saw Trap/PNGs/::1726058407
-Saw Trap - Level 1.png::CompressedTexture2D::5671745644390898038::1724171589::1726058407::1::::<><>::
-Saw Trap - Level 2.png::CompressedTexture2D::3110030529535089201::1724171589::1726058407::1::::<><>::
-Saw Trap - Level 3.png::CompressedTexture2D::8487249628894151030::1724171589::1726058407::1::::<><>::
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Saw Trap/Transitions/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Saw Trap/Transitions/Aseprite/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Saw Trap/Transitions/PNGs/::1726058407
-Saw Trap - Level 1 - Transition.png::CompressedTexture2D::8008198372811070493::1724171589::1726058407::1::::<><>::
-Saw Trap - Level 2 - Transition.png::CompressedTexture2D::5593479454946228611::1724171589::1726058407::1::::<><>::
-Saw Trap - Level 3 - Transition.png::CompressedTexture2D::3568456885498132447::1724171589::1726058407::1::::<><>::
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Toxic Trap/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Toxic Trap/Aseprite/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Toxic Trap/PNGs/::1726058407
-Toxic Trap - Level 1.png::CompressedTexture2D::888955279770566109::1724171589::1726058407::1::::<><>::
-Toxic Trap - Level 2.png::CompressedTexture2D::8634841923824010725::1724171589::1726058407::1::::<><>::
-Toxic Trap - Level 3.png::CompressedTexture2D::1193769965487337382::1724171589::1726058407::1::::<><>::
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Toxic Trap/Transitions/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Toxic Trap/Transitions/Aseprite/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/Toxic Trap/Transitions/PNGs/::1726058407
-Toxic Trap - Level 1 - Transition.png::CompressedTexture2D::2429075264139197923::1724171589::1726058407::1::::<><>::
-Toxic Trap - Level 2 - Transition.png::CompressedTexture2D::502909838493577928::1724171589::1726058407::1::::<><>::
-Toxic Trap - Level 3 - Transition.png::CompressedTexture2D::372427456368476021::1724171589::1726058407::1::::<><>::
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/_Previews/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/_Previews/Aseprite/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/_Previews/GIFs/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/_Previews/GIFs/Colour background/::1726056487
-::res://Foozle_2DTR0001_Pixel_Trap_Pack/_Previews/GIFs/No Background/::1726056487
-::res://levels/::1726068704
-Area2D.gd::GDScript::-1::1724170876::0::1::::<>Area2D<>::
-CollisionShape2D.gd::GDScript::-1::1724186620::0::1::::<>CharacterBody2D<>::
-danger_zone.gd::GDScript::-1::1724208851::0::1::::<>Area2D<>::
-danger_zone.tscn::PackedScene::7932060781063684608::1726055490::0::1::::<><>::res://levels/danger_zone.gd
-level.tscn::PackedScene::4641523772835419703::1726068704::0::1::::<><>::uid://dnyfn805ioysm::::res://tileset/Tiles.png<>uid://iicrfnlqqnd::::res://tileset/Background_0.png<>uid://b4xmtjhtwfkpd::::res://tileset/Grass_background_1.png<>uid://cn6cdd0heakyn::::res://tileset/Grass_background_2.png<>uid://bc0tqpoqj0mv2::::res://tileset/brush.png<>uid://cqte5q6tqw3oi::::res://Mecha-stoneGolem/BossGolem.tscn<>uid://bfqpybns7d45p::::res://player/player.tscn<>uid://bbhh485jwys2d::::res://Sandworm/sandworm_trap.tscn<>uid://dfmqwxwucma04::::res://enemies/skeleton.tscn<>uid://biss0ofnci8k4::::res://enemies/paladin.tscn<>uid://obclbbwfdhfn::::res://enemies/necromancer.tscn
-levwl_3.gd::GDScript::-1::1723983340::0::1::::<>Node2D<>::
-levwl_3.tscn::PackedScene::5209041893724014225::1726068704::0::1::::<><>::uid://dn7v8gd0d2nju::::res://tileset/Dungeon Tile Set.png<>res://levels/levwl_3.gd<>uid://bfqpybns7d45p::::res://player/player.tscn<>uid://dl01w87yhoa8w::::res://levels/moving_platform.tscn<>uid://dlal482a6qt1q::::res://levels/danger_zone.tscn<>uid://cklxpbr3xxk38::::res://enemy/boss3/boss_3.tscn<>uid://b7ejer0gk1p8y::::res://enemy/boss3/medium_fireball.tscn<>uid://b6pu3k33icl4x::::res://enemy/boss3/small_fireball.tscn<>uid://chrpsj2qij53c::::res://enemy/boss3/teleport_effect.tscn
-moving_platform.gd::GDScript::-1::1723979042::0::1::::<>Path2D<>::
-moving_platform.tscn::PackedScene::7984568488031641560::1726059248::0::1::::<><>::res://levels/moving_platform.gd<>uid://dn7v8gd0d2nju::::res://tileset/Dungeon Tile Set.png
-::res://Main_Menu/::1726134681
-::res://Mecha-stoneGolem/::1726058463
-BossGolem.gd::GDScript::-1::1726058463::0::1::::<>CharacterBody2D<>::
-BossGolem.tscn::PackedScene::5935383373858159908::1726058356::0::1::::<><>::uid://hjo5iph33hy7::::res://Mecha-stoneGolem/PNG sheet/Character_sheet.png<>res://Mecha-stoneGolem/BossGolem.gd<>uid://d2omf0pu1p4o3::::res://Mecha-stoneGolem/weapon PNG/Laser_sheet.png<>res://Mecha-stoneGolem/FiniteStateMachine.gd<>res://Boss_State.gd<>res://Mecha-stoneGolem/Boss_Idle.gd<>res://Mecha-stoneGolem/Boss_Follow.gd<>res://Mecha-stoneGolem/Boss_MeleeAttack.gd<>res://Mecha-stoneGolem/Boss_LaserBeam.gd<>res://Mecha-stoneGolem/Boss_HomingMissile.gd<>uid://chtm5sv2cmp5p::::res://boss_bullet.tscn
-Boss_Dash.gd::GDScript::-1::1725982587::0::1::::<>State<>::
-Boss_Follow.gd::GDScript::-1::1725982587::0::1::::<>State<>::
-Boss_HomingMissile.gd::GDScript::-1::1725982587::0::1::::<>State<>::
-Boss_Idle.gd::GDScript::-1::1726026748::0::1::::<>State<>::
-Boss_LaserBeam.gd::GDScript::-1::1725982587::0::1::::<>State<>::
-Boss_MeleeAttack.gd::GDScript::-1::1725982587::0::1::::<>State<>::
-FiniteStateMachine.gd::GDScript::-1::1726057692::0::1::::<>Node2D<>::
-::res://Mecha-stoneGolem/ASE files/::1726056488
-::res://Mecha-stoneGolem/PNG sheet/::1726058408
-Character_sheet.png::CompressedTexture2D::510805360684084268::1721802928::1726058408::1::::<><>::
-::res://Mecha-stoneGolem/weapon PNG/::1726058408
-arm_projectile.png::CompressedTexture2D::7484016148799944756::1721802928::1726058407::1::::<><>::
-arm_projectile_glowing.png::CompressedTexture2D::8222564406690914988::1721802928::1726058407::1::::<><>::
-Laser_sheet.png::CompressedTexture2D::9084000987945633092::1721802928::1726058408::1::::<><>::
-::res://player/::1726067372
-player.gd::GDScript::-1::1726058280::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::2771348633359994263::1726067372::0::1::::<><>::res://player/player.gd<>uid://cn7fpxsdv30qy::::res://player/Attack1/HeroKnight_Attack1_0.png<>uid://tcjlolepuste::::res://player/Attack1/HeroKnight_Attack1_1.png<>uid://w7e2a5ljlvkr::::res://player/Attack1/HeroKnight_Attack1_2.png<>uid://ce2f01vwwgtq5::::res://player/Attack1/HeroKnight_Attack1_3.png<>uid://b0eg5wx5pc01e::::res://player/Attack1/HeroKnight_Attack1_4.png<>uid://cu665rx76i6i::::res://player/Attack1/HeroKnight_Attack1_5.png<>uid://vvwd1sq7okfl::::res://player/Attack2/HeroKnight_Attack2_0.png<>uid://d2r4xrhjeykrj::::res://player/Attack2/HeroKnight_Attack2_1.png<>uid://dn548myrntmle::::res://player/Attack2/HeroKnight_Attack2_2.png<>uid://cvwb2wnbiivfk::::res://player/Attack2/HeroKnight_Attack2_3.png<>uid://da2ui8jvhcfqd::::res://player/Attack2/HeroKnight_Attack2_4.png<>uid://c4kujh86k5h6y::::res://player/Attack2/HeroKnight_Attack2_5.png<>uid://bhlrn3g6xqwkj::::res://player/Attack3/HeroKnight_Attack3_0.png<>uid://cul2ptephqtb::::res://player/Attack3/HeroKnight_Attack3_1.png<>uid://byklfqup7fkru::::res://player/Attack3/HeroKnight_Attack3_2.png<>uid://b3bvm685h4l1k::::res://player/Attack3/HeroKnight_Attack3_3.png<>uid://bgrm0jdimhnhc::::res://player/Attack3/HeroKnight_Attack3_4.png<>uid://bm1stqvtotlo4::::res://player/Attack3/HeroKnight_Attack3_5.png<>uid://cbuhk5len4guj::::res://player/Attack3/HeroKnight_Attack3_6.png<>uid://b6k6ul0cjesd::::res://player/Attack3/HeroKnight_Attack3_7.png<>uid://7i36wjwrwe6m::::res://player/Block/HeroKnight_Block_0.png<>uid://bufowm57vc552::::res://player/Block/HeroKnight_Block_1.png<>uid://cjnfin4vpotnf::::res://player/Block/HeroKnight_Block_2.png<>uid://5cl6dgtdavn5::::res://player/Block/HeroKnight_Block_3.png<>uid://b835u2savh62v::::res://player/Block/HeroKnight_Block_4.png<>uid://cepcnwkwratn8::::res://player/BlockIdle/HeroKnight_Block Idle_0.png<>uid://cfo1emu43aqnn::::res://player/BlockIdle/HeroKnight_Block Idle_1.png<>uid://d1vne3jng7s7q::::res://player/BlockIdle/HeroKnight_Block Idle_2.png<>uid://boc7k58ssba3w::::res://player/BlockIdle/HeroKnight_Block Idle_3.png<>uid://cph41umj1tect::::res://player/BlockIdle/HeroKnight_Block Idle_4.png<>uid://c4qy0x76ohv6u::::res://player/BlockIdle/HeroKnight_Block Idle_5.png<>uid://c4wi1kj0buwwa::::res://player/BlockIdle/HeroKnight_Block Idle_6.png<>uid://bo6lrm6vxt6hj::::res://player/BlockIdle/HeroKnight_Block Idle_7.png<>uid://r6rug2l60qgd::::res://player/BlockNoEffect/HeroKnight_BlockNoEffect_0.png<>uid://ddwujahbgqns8::::res://player/BlockNoEffect/HeroKnight_BlockNoEffect_1.png<>uid://bmugsbaxckvk::::res://player/BlockNoEffect/HeroKnight_BlockNoEffect_2.png<>uid://dgs7ct5831u75::::res://player/BlockNoEffect/HeroKnight_BlockNoEffect_3.png<>uid://dw1npf28wsrbp::::res://player/BlockNoEffect/HeroKnight_BlockNoEffect_4.png<>uid://c6w7drk1ayceo::::res://player/Death/HeroKnight_Death_0.png<>uid://d3vsnahskege0::::res://player/Death/HeroKnight_Death_1.png<>uid://dbbhorfkkopkj::::res://player/Death/HeroKnight_Death_2.png<>uid://bv8g4oymibu8g::::res://player/Death/HeroKnight_Death_3.png<>uid://2tnm8yt0okga::::res://player/Death/HeroKnight_Death_4.png<>uid://bkhffj5iuhvnj::::res://player/Death/HeroKnight_Death_5.png<>uid://cv1ohksv5olyo::::res://player/Death/HeroKnight_Death_6.png<>uid://b4saci5hygw87::::res://player/Death/HeroKnight_Death_7.png<>uid://dminwu3c6uw6d::::res://player/Death/HeroKnight_Death_8.png<>uid://cx5x4vyy86b87::::res://player/Death/HeroKnight_Death_9.png<>uid://dn7a2g38ke7ni::::res://player/DeathNoBlood/HeroKnight_DeathNoBlood_0.png<>uid://xu1fxl57877b::::res://player/DeathNoBlood/HeroKnight_DeathNoBlood_1.png<>uid://6kmi70s4spon::::res://player/DeathNoBlood/HeroKnight_DeathNoBlood_2.png<>uid://xr76jsa1pyap::::res://player/DeathNoBlood/HeroKnight_DeathNoBlood_3.png<>uid://7aesp61a2y6s::::res://player/DeathNoBlood/HeroKnight_DeathNoBlood_4.png<>uid://dgnnpru37y1ah::::res://player/DeathNoBlood/HeroKnight_DeathNoBlood_5.png<>uid://d0j1sloe0l2rr::::res://player/DeathNoBlood/HeroKnight_DeathNoBlood_6.png<>uid://d0j555x271xhi::::res://player/DeathNoBlood/HeroKnight_DeathNoBlood_7.png<>uid://nin0tg1itm88::::res://player/DeathNoBlood/HeroKnight_DeathNoBlood_8.png<>uid://84rfbw4h4ifq::::res://player/DeathNoBlood/HeroKnight_DeathNoBlood_9.png<>uid://dugirhoe33gsg::::res://player/Fall/HeroKnight_Fall_0.png<>uid://rxu7mb7gges8::::res://player/Fall/HeroKnight_Fall_1.png<>uid://bi06xtvrbhylu::::res://player/Fall/HeroKnight_Fall_2.png<>uid://bocqyuis4nw02::::res://player/Fall/HeroKnight_Fall_3.png<>uid://bmxe6xsf75i24::::res://player/Hurt/HeroKnight_Hurt_0.png<>uid://cqo4sqb5y33s4::::res://player/Hurt/HeroKnight_Hurt_1.png<>uid://c1m0ksixumuvt::::res://player/Hurt/HeroKnight_Hurt_2.png<>uid://dx7kjibmr3aps::::res://player/Idle/HeroKnight_Idle_0.png<>uid://chkttnw04mi6p::::res://player/Idle/HeroKnight_Idle_1.png<>uid://cj3dan20pdsjx::::res://player/Idle/HeroKnight_Idle_2.png<>uid://bye4xdccaw6yv::::res://player/Idle/HeroKnight_Idle_3.png<>uid://b6upl80u85nb3::::res://player/Idle/HeroKnight_Idle_4.png<>uid://dvvg3lmn5bmx4::::res://player/Idle/HeroKnight_Idle_5.png<>uid://dkwuuqm1ikish::::res://player/Idle/HeroKnight_Idle_6.png<>uid://dv2xkdnrj6jd8::::res://player/Idle/HeroKnight_Idle_7.png<>uid://xbp17r361hpu::::res://player/Jump/HeroKnight_Jump_0.png<>uid://bid0dkq1caobm::::res://player/Jump/HeroKnight_Jump_1.png<>uid://v8h05w1vpgud::::res://player/Jump/HeroKnight_Jump_2.png<>uid://v2dgnl42jo26::::res://player/LedgeGrab/HeroKnight_Grab Ledge_0.png<>uid://l2e2gxmem4sf::::res://player/LedgeGrab/HeroKnight_Grab Ledge_1.png<>uid://bkul04jvjvy27::::res://player/LedgeGrab/HeroKnight_Grab Ledge_2.png<>uid://7bwrdem55x5b::::res://player/LedgeGrab/HeroKnight_Grab Ledge_3.png<>uid://c72t4gub6dvar::::res://player/LedgeGrab/HeroKnight_Grab Ledge_4.png<>uid://d0mjdhlhfy1o1::::res://player/Roll/HeroKnight_Roll_0.png<>uid://jk1jl7iwbhbj::::res://player/Roll/HeroKnight_Roll_1.png<>uid://dishl5b7kw3tk::::res://player/Roll/HeroKnight_Roll_2.png<>uid://0da3ixl0lnu4::::res://player/Roll/HeroKnight_Roll_3.png<>uid://dfbkcctry7lqg::::res://player/Roll/HeroKnight_Roll_4.png<>uid://b3xrg4ybyas63::::res://player/Roll/HeroKnight_Roll_5.png<>uid://db1fb68slkcol::::res://player/Roll/HeroKnight_Roll_6.png<>uid://deaym3822fhmr::::res://player/Roll/HeroKnight_Roll_7.png<>uid://uadgpd5poie4::::res://player/Roll/HeroKnight_Roll_8.png<>uid://bba7tklugpwfw::::res://player/Run/HeroKnight_Run_0.png<>uid://cwxg5d65jipjm::::res://player/Run/HeroKnight_Run_1.png<>uid://cjmcmiubstqck::::res://player/Run/HeroKnight_Run_2.png<>uid://dxap37ruetsph::::res://player/Run/HeroKnight_Run_3.png<>uid://d0j8hw510itj7::::res://player/Run/HeroKnight_Run_4.png<>uid://fojvp70rnr75::::res://player/Run/HeroKnight_Run_5.png<>uid://fc3i1gsj2sxs::::res://player/Run/HeroKnight_Run_6.png<>uid://cmgtyho35py08::::res://player/Run/HeroKnight_Run_7.png<>uid://ila53cy4n43p::::res://player/Run/HeroKnight_Run_8.png<>uid://b40h8qi6tyvbm::::res://player/Run/HeroKnight_Run_9.png<>uid://d3553noeltkmq::::res://player/WallSlide/HeroKnight_Slide_0.png<>uid://cwydyww4iexan::::res://player/Run_left/HeroKnight_Run_1.png<>uid://bd7wp0td8rwg7::::res://player/WallSlide/HeroKnight_Slide_1.png<>uid://bfuq46gm6xvwq::::res://player/WallSlide/HeroKnight_Slide_2.png<>uid://b73njeo6edrqi::::res://player/Run_left/HeroKnight_Run_2.png<>uid://o5mc7qri28xi::::res://player/WallSlide/HeroKnight_Slide_3.png<>uid://djvvy7v5wajb4::::res://player/Run_left/HeroKnight_Run_3.png<>uid://srhc5wr8mrea::::res://player/WallSlide/HeroKnight_Slide_4.png<>uid://d1hiqbycfojay::::res://player/Run_left/HeroKnight_Run_4.png<>uid://cc6xnyqnaurl6::::res://player/Run_left/HeroKnight_Run_5.png<>uid://chjbo61owvtf3::::res://player/Run_left/HeroKnight_Run_6.png<>uid://jad3smxq0hv6::::res://player/Run_left/HeroKnight_Run_7.png<>uid://kf2hlwkyj5gw::::res://player/Run_left/HeroKnight_Run_8.png<>uid://dukq6k71xkyt0::::res://player/Run_left/HeroKnight_Run_9.png
-::res://player/Attack1/::1726058407
-HeroKnight_Attack1_0.png::CompressedTexture2D::5751688030691973804::1721743047::1726058407::1::::<><>::
-HeroKnight_Attack1_1.png::CompressedTexture2D::1338283633820931746::1721743047::1726058407::1::::<><>::
-HeroKnight_Attack1_2.png::CompressedTexture2D::1610505779429529473::1721743047::1726058407::1::::<><>::
-HeroKnight_Attack1_3.png::CompressedTexture2D::5109684570186633882::1721743047::1726058407::1::::<><>::
-HeroKnight_Attack1_4.png::CompressedTexture2D::4149818353861316316::1721743047::1726058407::1::::<><>::
-HeroKnight_Attack1_5.png::CompressedTexture2D::183604431795258078::1721743047::1726058407::1::::<><>::
-::res://player/Attack2/::1726058407
-HeroKnight_Attack2_0.png::CompressedTexture2D::1518660174640387021::1721743047::1726058407::1::::<><>::
-HeroKnight_Attack2_1.png::CompressedTexture2D::9091258021301036755::1721743047::1726058407::1::::<><>::
-HeroKnight_Attack2_2.png::CompressedTexture2D::8135468743130649778::1721743047::1726058407::1::::<><>::
-HeroKnight_Attack2_3.png::CompressedTexture2D::6292333503455021480::1721743047::1726058407::1::::<><>::
-HeroKnight_Attack2_4.png::CompressedTexture2D::7216230624782863255::1721743047::1726058407::1::::<><>::
-HeroKnight_Attack2_5.png::CompressedTexture2D::6830192442495258882::1721743047::1726058407::1::::<><>::
-::res://player/Attack3/::1726058408
-HeroKnight_Attack3_0.png::CompressedTexture2D::2901507630014297861::1721743047::1726058407::1::::<><>::
-HeroKnight_Attack3_1.png::CompressedTexture2D::182382163116740655::1721743047::1726058407::1::::<><>::
-HeroKnight_Attack3_2.png::CompressedTexture2D::4092274396430625030::1721743047::1726058407::1::::<><>::
-HeroKnight_Attack3_3.png::CompressedTexture2D::4355070850262992770::1721743047::1726058407::1::::<><>::
-HeroKnight_Attack3_4.png::CompressedTexture2D::2843421893825505884::1721743047::1726058407::1::::<><>::
-HeroKnight_Attack3_5.png::CompressedTexture2D::3283488338606270013::1721743047::1726058407::1::::<><>::
-HeroKnight_Attack3_6.png::CompressedTexture2D::4884762235887458625::1721743047::1726058407::1::::<><>::
-HeroKnight_Attack3_7.png::CompressedTexture2D::134848152151370559::1721743047::1726058407::1::::<><>::
-::res://player/Block/::1726058408
-HeroKnight_Block_0.png::CompressedTexture2D::2264314624298137594::1721743047::1726058407::1::::<><>::
-HeroKnight_Block_1.png::CompressedTexture2D::3801409448695130991::1721743047::1726058408::1::::<><>::
-HeroKnight_Block_2.png::CompressedTexture2D::5431696470823983691::1721743047::1726058408::1::::<><>::
-HeroKnight_Block_3.png::CompressedTexture2D::2110517478886757692::1721743047::1726058408::1::::<><>::
-HeroKnight_Block_4.png::CompressedTexture2D::4762313772488243631::1721743047::1726058408::1::::<><>::
-::res://player/BlockIdle/::1726058408
-HeroKnight_Block Idle_0.png::CompressedTexture2D::5084708229539591671::1721743047::1726058408::1::::<><>::
-HeroKnight_Block Idle_1.png::CompressedTexture2D::5154273321652102247::1721743047::1726058408::1::::<><>::
-HeroKnight_Block Idle_2.png::CompressedTexture2D::9028321867741986008::1721743047::1726058408::1::::<><>::
-HeroKnight_Block Idle_3.png::CompressedTexture2D::3375155679362231798::1721743047::1726058408::1::::<><>::
-HeroKnight_Block Idle_4.png::CompressedTexture2D::5841932959115931967::1721743047::1726058408::1::::<><>::
-HeroKnight_Block Idle_5.png::CompressedTexture2D::6842850988526417150::1721743047::1726058408::1::::<><>::
-HeroKnight_Block Idle_6.png::CompressedTexture2D::6854266850336890708::1721743047::1726058408::1::::<><>::
-HeroKnight_Block Idle_7.png::CompressedTexture2D::3433759129573022939::1721743047::1726058408::1::::<><>::
-::res://player/BlockNoEffect/::1726058408
-HeroKnight_BlockNoEffect_0.png::CompressedTexture2D::1258274314369568871::1721743047::1726058408::1::::<><>::
-HeroKnight_BlockNoEffect_1.png::CompressedTexture2D::7416475315450917625::1721743047::1726058408::1::::<><>::
-HeroKnight_BlockNoEffect_2.png::CompressedTexture2D::96187378301441980::1721743047::1726058408::1::::<><>::
-HeroKnight_BlockNoEffect_3.png::CompressedTexture2D::7619501473662527838::1721743047::1726058408::1::::<><>::
-HeroKnight_BlockNoEffect_4.png::CompressedTexture2D::8757906846392072773::1721743047::1726058408::1::::<><>::
-::res://player/Death/::1726058409
-HeroKnight_Death_0.png::CompressedTexture2D::6996061041432026014::1721743047::1726058408::1::::<><>::
-HeroKnight_Death_1.png::CompressedTexture2D::9169017738615021433::1721743047::1726058408::1::::<><>::
-HeroKnight_Death_2.png::CompressedTexture2D::7231966193624689193::1721743047::1726058408::1::::<><>::
-HeroKnight_Death_3.png::CompressedTexture2D::3928927728913781824::1721743047::1726058408::1::::<><>::
-HeroKnight_Death_4.png::CompressedTexture2D::1935134477229937108::1721743047::1726058408::1::::<><>::
-HeroKnight_Death_5.png::CompressedTexture2D::3103072797729993871::1721743047::1726058408::1::::<><>::
-HeroKnight_Death_6.png::CompressedTexture2D::6301343997881279834::1721743047::1726058408::1::::<><>::
-HeroKnight_Death_7.png::CompressedTexture2D::4459059987238242026::1721743047::1726058408::1::::<><>::
-HeroKnight_Death_8.png::CompressedTexture2D::8018872898994678089::1721743047::1726058408::1::::<><>::
-HeroKnight_Death_9.png::CompressedTexture2D::6450565523741039886::1721743047::1726058408::1::::<><>::
-::res://player/DeathNoBlood/::1726058409
-HeroKnight_DeathNoBlood_0.png::CompressedTexture2D::8137825682846620706::1721743047::1726058408::1::::<><>::
-HeroKnight_DeathNoBlood_1.png::CompressedTexture2D::1657219755974455369::1721743047::1726058409::1::::<><>::
-HeroKnight_DeathNoBlood_2.png::CompressedTexture2D::2197242540808670085::1721743047::1726058408::1::::<><>::
-HeroKnight_DeathNoBlood_3.png::CompressedTexture2D::1651436629425332487::1721743047::1726058408::1::::<><>::
-HeroKnight_DeathNoBlood_4.png::CompressedTexture2D::2246318845599990376::1721743047::1726058408::1::::<><>::
-HeroKnight_DeathNoBlood_5.png::CompressedTexture2D::7608049056633780783::1721743047::1726058408::1::::<><>::
-HeroKnight_DeathNoBlood_6.png::CompressedTexture2D::8934173927518594599::1721743047::1726058408::1::::<><>::
-HeroKnight_DeathNoBlood_7.png::CompressedTexture2D::8934439237918365378::1721743047::1726058408::1::::<><>::
-HeroKnight_DeathNoBlood_8.png::CompressedTexture2D::929804963485738379::1721743047::1726058408::1::::<><>::
-HeroKnight_DeathNoBlood_9.png::CompressedTexture2D::2377140000606534738::1721743047::1726058408::1::::<><>::
-::res://player/Fall/::1726058408
-HeroKnight_Fall_0.png::CompressedTexture2D::8575941674313804450::1721743047::1726058408::1::::<><>::
-HeroKnight_Fall_1.png::CompressedTexture2D::1241963148737410149::1721743047::1726058408::1::::<><>::
-HeroKnight_Fall_2.png::CompressedTexture2D::3001465207843014802::1721743047::1726058408::1::::<><>::
-HeroKnight_Fall_3.png::CompressedTexture2D::3374208644754221757::1721743047::1726058408::1::::<><>::
-::res://player/Hurt/::1726058408
-HeroKnight_Hurt_0.png::CompressedTexture2D::3276466959389644131::1721743047::1726058408::1::::<><>::
-HeroKnight_Hurt_1.png::CompressedTexture2D::5926557934546747729::1721743047::1726058408::1::::<><>::
-HeroKnight_Hurt_2.png::CompressedTexture2D::6624060576632946861::1721743047::1726058408::1::::<><>::
-::res://player/Idle/::1726058408
-HeroKnight_Idle_0.png::CompressedTexture2D::8840289207257418944::1721743047::1726058408::1::::<><>::
-HeroKnight_Idle_1.png::CompressedTexture2D::5285995321304152733::1721743047::1726058408::1::::<><>::
-HeroKnight_Idle_2.png::CompressedTexture2D::5462526413889807481::1721743047::1726058408::1::::<><>::
-HeroKnight_Idle_3.png::CompressedTexture2D::4081012468823588913::1721743047::1726058408::1::::<><>::
-HeroKnight_Idle_4.png::CompressedTexture2D::4604494563022418226::1721743047::1726058408::1::::<><>::
-HeroKnight_Idle_5.png::CompressedTexture2D::8676994601424483555::1721743047::1726058408::1::::<><>::
-HeroKnight_Idle_6.png::CompressedTexture2D::7907817713886039195::1721743047::1726058408::1::::<><>::
-HeroKnight_Idle_7.png::CompressedTexture2D::8690380494048440851::1721743047::1726058408::1::::<><>::
-::res://player/Jump/::1726058408
-HeroKnight_Jump_0.png::CompressedTexture2D::1617366675285357358::1721743047::1726058408::1::::<><>::
-HeroKnight_Jump_1.png::CompressedTexture2D::2955648399394797766::1721743047::1726058408::1::::<><>::
-HeroKnight_Jump_2.png::CompressedTexture2D::1542561456975823051::1721743047::1726058408::1::::<><>::
-::res://player/LedgeGrab/::1726058408
-HeroKnight_Grab Ledge_0.png::CompressedTexture2D::1529897482650502469::1721743047::1726058408::1::::<><>::
-HeroKnight_Grab Ledge_1.png::CompressedTexture2D::828106915006146877::1721743047::1726058408::1::::<><>::
-HeroKnight_Grab Ledge_2.png::CompressedTexture2D::3130310744970092846::1721743047::1726058408::1::::<><>::
-HeroKnight_Grab Ledge_3.png::CompressedTexture2D::2249473670844131497::1721743047::1726058408::1::::<><>::
-HeroKnight_Grab Ledge_4.png::CompressedTexture2D::7075828320171850381::1721743047::1726058408::1::::<><>::
-::res://player/Roll/::1726058408
-HeroKnight_Roll_0.png::CompressedTexture2D::8939307870377446030::1721743047::1726058408::1::::<><>::
-HeroKnight_Roll_1.png::CompressedTexture2D::653938711823484463::1721743047::1726058408::1::::<><>::
-HeroKnight_Roll_2.png::CompressedTexture2D::7758377841152460688::1721743047::1726058408::1::::<><>::
-HeroKnight_Roll_3.png::CompressedTexture2D::1760964682693274881::1721743047::1726058408::1::::<><>::
-HeroKnight_Roll_4.png::CompressedTexture2D::7512881523742728754::1721743047::1726058408::1::::<><>::
-HeroKnight_Roll_5.png::CompressedTexture2D::4400233457871831458::1721743047::1726058408::1::::<><>::
-HeroKnight_Roll_6.png::CompressedTexture2D::7283431767115960303::1721743047::1726058408::1::::<><>::
-HeroKnight_Roll_7.png::CompressedTexture2D::7441497585880078909::1721743047::1726058408::1::::<><>::
-HeroKnight_Roll_8.png::CompressedTexture2D::1403970532370709285::1721743047::1726058408::1::::<><>::
-::res://player/Run/::1726058408
-HeroKnight_Run_0.png::CompressedTexture2D::2458586944327545008::1721743047::1726058408::1::::<><>::
-HeroKnight_Run_1.png::CompressedTexture2D::6364894698374444234::1721743047::1726058408::1::::<><>::
-HeroKnight_Run_2.png::CompressedTexture2D::5429456807842746854::1721743047::1726058408::1::::<><>::
-HeroKnight_Run_3.png::CompressedTexture2D::8774567919798583653::1721743047::1726058408::1::::<><>::
-HeroKnight_Run_4.png::CompressedTexture2D::8934579906208180142::1721743047::1726058408::1::::<><>::
-HeroKnight_Run_5.png::CompressedTexture2D::380430299797028282::1721743047::1726058408::1::::<><>::
-HeroKnight_Run_6.png::CompressedTexture2D::356788711553859344::1721743047::1726058408::1::::<><>::
-HeroKnight_Run_7.png::CompressedTexture2D::5628690630086842667::1721743047::1726058408::1::::<><>::
-HeroKnight_Run_8.png::CompressedTexture2D::584273953089225715::1721743047::1726058408::1::::<><>::
-HeroKnight_Run_9.png::CompressedTexture2D::4473991397362655186::1721743047::1726058408::1::::<><>::
-::res://player/Run_left/::1726058408
-HeroKnight_Run_0.png::CompressedTexture2D::9199155229295985750::1721743871::1726058408::1::::<><>::
-HeroKnight_Run_1.png::CompressedTexture2D::6366767194380268201::1721743871::1726058408::1::::<><>::
-HeroKnight_Run_2.png::CompressedTexture2D::4691071883409563172::1721743871::1726058408::1::::<><>::
-HeroKnight_Run_3.png::CompressedTexture2D::7835633207139233091::1721743871::1726058408::1::::<><>::
-HeroKnight_Run_4.png::CompressedTexture2D::8999137028287942972::1721743871::1726058408::1::::<><>::
-HeroKnight_Run_5.png::CompressedTexture2D::4978635757061253017::1721743871::1726058408::1::::<><>::
-HeroKnight_Run_6.png::CompressedTexture2D::5282830059801513946::1721743871::1726058408::1::::<><>::
-HeroKnight_Run_7.png::CompressedTexture2D::631932710975271085::1721743871::1726058408::1::::<><>::
-HeroKnight_Run_8.png::CompressedTexture2D::713862796742015202::1721743871::1726058408::1::::<><>::
-HeroKnight_Run_9.png::CompressedTexture2D::8584710108755584767::1721743871::1726058408::1::::<><>::
-::res://player/WallSlide/::1726058408
-HeroKnight_Slide_0.png::CompressedTexture2D::9188353222206348056::1721743047::1726058408::1::::<><>::
-HeroKnight_Slide_1.png::CompressedTexture2D::2664411206102683388::1721743047::1726058408::1::::<><>::
-HeroKnight_Slide_2.png::CompressedTexture2D::2779677354952225400::1721743047::1726058408::1::::<><>::
-HeroKnight_Slide_3.png::CompressedTexture2D::1045309025303522322::1721743047::1726058408::1::::<><>::
-HeroKnight_Slide_4.png::CompressedTexture2D::1298923808343968348::1721743047::1726058408::1::::<><>::
-::res://Sandworm/::1726058471
-sandworm_trap.gd::GDScript::-1::1726058471::0::1::::<>CharacterBody2D<>::
-sandworm_trap.tscn::PackedScene::2471538758636129569::1726057252::0::1::::<><>::res://Sandworm/sandworm_trap.gd<>uid://d3fciu8q5a4jh::::res://Foozle_2DTR0001_Pixel_Trap_Pack/Sandworm Trap/PNGs/Sandworm trap - Level 1.png<>res://Sandworm/Sand_FSM.gd<>res://Sandworm/Sand_Idle.gd<>res://Sandworm/Sand_Attack.gd
-Sand_Attack.gd::GDScript::-1::1725998442::0::1::::<>Sand_State<>::
-Sand_FSM.gd::GDScript::-1::1726046813::0::1::::<>Node2D<>::
-Sand_Idle.gd::GDScript::-1::1726027187::0::1::::<>Sand_State<>::
-Sand_State.gd::GDScript::-1::1726027514::0::1::::Sand_State<>Node2D<>::
-::res://tileset/::1726058408
-Background_0.png::CompressedTexture2D::17005230789402253::1721747517::1726058408::1::::<><>::
-brush.png::CompressedTexture2D::2579590820603206381::1721747517::1726058408::1::::<><>::
-Dungeon Tile Set.png::CompressedTexture2D::8139111415466079586::1723968826::1726058408::1::::<><>::
-Grass_background_1.png::CompressedTexture2D::4470140855953468881::1721747517::1726058408::1::::<><>::
-Grass_background_2.png::CompressedTexture2D::5749419032937290309::1721747517::1726058408::1::::<><>::
-Tiles.png::CompressedTexture2D::8121590658020751936::1721747517::1726058408::1::::<><>::
+::res://::1726153655
+Attack.gd::GDScript::-1::1726151775::0::1::::<>SandwormState<>::
+Boss_Bullet.gd::GDScript::-1::1726151775::0::1::::<>Area2D<>::
+boss_bullet.tscn::PackedScene::5304169607001023463::1726151776::0::1::::<><>::res://Boss_Bullet.gd<>uid://dpfco1hqrfixg::::res://Mecha-stoneGolem/weapon PNG/arm_projectile_glowing.png
+Boss_State.gd::GDScript::-1::1726151775::0::1::::State<>Node2D<>::
+icon.svg::CompressedTexture2D::3715701198834389286::1726151776::1726152404::1::::<><>::
+level_2.tscn::PackedScene::2491023273093830811::1726152244::0::1::::<><>::uid://c5eduj4byeewc::::res://Fantasy Swamp Forest/Free/BG_3/BG_3.png<>uid://bbvr4uep7nd46::::res://Fantasy Swamp Forest/Free/BG_3/BG_3_alt.png<>uid://csf4k8lnm6yom::::res://Fantasy Swamp Forest/Free/BG_2/BG_2.png<>uid://dbmi7aa1o4myr::::res://Fantasy Swamp Forest/Free/BG_1/BG_1.png<>uid://bhtoinssiotau::::res://Fantasy Swamp Forest/Free/Terrain_and_Props.png<>uid://bfqpybns7d45p::::res://player/player.tscn
+::res://enemies/::1726153621
+necromancer.gd::GDScript::-1::1726153621::0::1::::<>RigidBody2D<>::
+necromancer.tscn::PackedScene::984849321479541691::1726152938::0::1::::<><>::res://enemies/necromancer.gd<>uid://b3ulk05ke36v2::::res://enemies/Necromancer/Necromancer/Attack/spr_NecromancerAttackWithEffect_strip47.png<>uid://b3awe643oimom::::res://enemies/Necromancer/Necromancer/Death/spr_NecromancerDeath_strip52.png<>uid://bxfvoxfj4dtqm::::res://enemies/Necromancer/Necromancer/GetHit/spr_NecromancerGetHitWithoutEffect_strip9.png<>uid://0thluu166urs::::res://enemies/Necromancer/Necromancer/Walk/spr_NecromancerWalk_strip10.png<>uid://bpluf5lmia51r::::res://enemies/Necromancer/Necromancer/Idle/spr_NecromancerIdle_strip50.png
+paladin.gd::GDScript::-1::1726153600::0::1::::<>RigidBody2D<>::
+paladin.tscn::PackedScene::2986228526732465077::1726153621::0::1::::<><>::res://enemies/paladin.gd<>uid://dx1xgbbpxsuaq::::res://enemies/Paladin/Paladin/Attack/spr_PaladinAttackWithEffect_strip41.png<>uid://by2ri6pq62sof::::res://enemies/Paladin/Paladin/Death/spr_PaladinDeathWithEffect_strip65.png<>uid://cxgqxrwxteqws::::res://enemies/Paladin/Paladin/GetHit/spr_PaladinGetHitWithEffect_strip12.png<>uid://cd1g6pn845e8v::::res://enemies/Paladin/Paladin/Walk/spr_PaladinWalkWithBkg_strip10.png
+skeleton.gd::GDScript::-1::1726153621::0::1::::<>RigidBody2D<>::
+skeleton.tscn::PackedScene::9214651673006082402::1726153621::0::1::::<><>::res://enemies/skeleton.gd<>uid://dwcrop5snvka4::::res://enemies/Skeleton_White/Skeleton_With_VFX/Skeleton_01_White_Attack1.png<>uid://chp25fvhqsppl::::res://enemies/Skeleton_White/Skeleton_Without_VFX/Skeleton_01_White_Die.png<>uid://c5rcpgspeyxex::::res://enemies/Skeleton_White/Skeleton_Without_VFX/Skeleton_01_White_Hurt.png<>uid://dqrpmyuna84gk::::res://enemies/Skeleton_White/Skeleton_With_VFX/Skeleton_01_White_Walk.png
+::res://enemies/Necromancer/::1726152986
+::res://enemies/Necromancer/Necromancer/::1726152987
+::res://enemies/Necromancer/Necromancer/Attack/::1726152986
+spr_NecromancerAttackEffectWithBkg_strip47.png::CompressedTexture2D::6124770886695489179::1724136888::1724136889::1::::<><>::
+spr_NecromancerAttackEffect_strip47.png::CompressedTexture2D::2094219535496557559::1724136888::1724136889::1::::<><>::
+spr_NecromancerAttackWithEffectWithBkg_strip47.png::CompressedTexture2D::7617459177580174677::1724136888::1724136889::1::::<><>::
+spr_NecromancerAttackWithEffect_strip47.png::CompressedTexture2D::4393682965387406145::1724136888::1724136889::1::::<><>::
+spr_NecromancerAttackWithoutEffectWithBkg_strip47.png::CompressedTexture2D::2617994602260947881::1724136888::1724136889::1::::<><>::
+spr_NecromancerAttackWithoutEffect_strip47.png::CompressedTexture2D::5565246053385499938::1724136888::1724136889::1::::<><>::
+::res://enemies/Necromancer/Necromancer/Death/::1726152986
+spr_NecromancerDeathWithBkg_strip52.png::CompressedTexture2D::8562059601655134744::1724136888::1724136889::1::::<><>::
+spr_NecromancerDeath_strip52.png::CompressedTexture2D::4353052896888901496::1724136888::1724136889::1::::<><>::
+::res://enemies/Necromancer/Necromancer/GetHit/::1726152986
+spr_NecromancerGetHitEffectWithBkg_strip9.png::CompressedTexture2D::1366993708411521239::1724136888::1724136889::1::::<><>::
+spr_NecromancerGetHitEffect_strip9.png::CompressedTexture2D::85955416040513914::1724136888::1724136889::1::::<><>::
+spr_NecromancerGetHitWithBkg_strip9.png::CompressedTexture2D::4386069246733370005::1724136888::1724136889::1::::<><>::
+spr_NecromancerGetHitWithoutEffectWithBkg_strip9.png::CompressedTexture2D::8397755991980944158::1724136888::1724136889::1::::<><>::
+spr_NecromancerGetHitWithoutEffect_strip9.png::CompressedTexture2D::4012387250309797440::1724136888::1724136889::1::::<><>::
+spr_NecromancerGetHit_strip9.png::CompressedTexture2D::8257009074324210601::1724136888::1724136889::1::::<><>::
+::res://enemies/Necromancer/Necromancer/Idle/::1726152987
+spr_NecromancerIdleWithBkg_strip50.png::CompressedTexture2D::56540318936852431::1724136888::1724136889::1::::<><>::
+spr_NecromancerIdle_strip50.png::CompressedTexture2D::3463186355632402365::1724136888::1724136889::1::::<><>::
+::res://enemies/Necromancer/Necromancer/Jump/::1726152987
+spr_NecromancerIdle_strip50.png::CompressedTexture2D::6726870656256220927::1724136888::1724136889::1::::<><>::
+spr_NecromancerJumpWithBkg_strip12.png::CompressedTexture2D::2066483923106745469::1724136888::1724136889::1::::<><>::
+::res://enemies/Necromancer/Necromancer/Spawn/::1726152987
+spr_NecromancerSpawnWithBkg_strip20.png::CompressedTexture2D::6287756199217855538::1724136888::1724136889::1::::<><>::
+spr_NecromancerSpawn_strip20.png::CompressedTexture2D::945839866239980313::1724136888::1724136889::1::::<><>::
+::res://enemies/Necromancer/Necromancer/Walk/::1726152987
+spr_NecromancerWalkWithBkg_strip10.png::CompressedTexture2D::6099244468736459900::1724136888::1724136889::1::::<><>::
+spr_NecromancerWalk_strip10.png::CompressedTexture2D::1794390013547345228::1724136888::1724136889::1::::<><>::
+::res://enemies/Paladin/::1726152987
+::res://enemies/Paladin/Necromancer/::1726152987
+::res://enemies/Paladin/Necromancer/Necromancer/::1726152987
+::res://enemies/Paladin/Necromancer/Necromancer/Attack/::1726152987
+spr_NecromancerAttackEffectWithBkg_strip47.png::CompressedTexture2D::1789905601764277963::1724136878::1724136879::1::::<><>::
+spr_NecromancerAttackEffect_strip47.png::CompressedTexture2D::7507471956096971571::1724136878::1724136879::1::::<><>::
+spr_NecromancerAttackWithEffectWithBkg_strip47.png::CompressedTexture2D::5156903468417793612::1724136878::1724136879::1::::<><>::
+spr_NecromancerAttackWithEffect_strip47.png::CompressedTexture2D::7872239162086749311::1724136878::1724136879::1::::<><>::
+spr_NecromancerAttackWithoutEffectWithBkg_strip47.png::CompressedTexture2D::4985823375837867765::1724136878::1724136879::1::::<><>::
+spr_NecromancerAttackWithoutEffect_strip47.png::CompressedTexture2D::2227271301504852739::1724136878::1724136879::1::::<><>::
+::res://enemies/Paladin/Necromancer/Necromancer/Death/::1726152987
+spr_NecromancerDeathWithBkg_strip52.png::CompressedTexture2D::8047559553981622070::1724136878::1724136879::1::::<><>::
+spr_NecromancerDeath_strip52.png::CompressedTexture2D::8173993622996472496::1724136878::1724136879::1::::<><>::
+::res://enemies/Paladin/Necromancer/Necromancer/GetHit/::1726152987
+spr_NecromancerGetHitEffectWithBkg_strip9.png::CompressedTexture2D::8904086874986484012::1724136878::1724136879::1::::<><>::
+spr_NecromancerGetHitEffect_strip9.png::CompressedTexture2D::3024123702732768125::1724136878::1724136879::1::::<><>::
+spr_NecromancerGetHitWithBkg_strip9.png::CompressedTexture2D::2414602750456138199::1724136878::1724136879::1::::<><>::
+spr_NecromancerGetHitWithoutEffectWithBkg_strip9.png::CompressedTexture2D::5746759885585728528::1724136878::1724136879::1::::<><>::
+spr_NecromancerGetHitWithoutEffect_strip9.png::CompressedTexture2D::5578629124097181811::1724136878::1724136879::1::::<><>::
+spr_NecromancerGetHit_strip9.png::CompressedTexture2D::1315636012646051509::1724136878::1724136879::1::::<><>::
+::res://enemies/Paladin/Necromancer/Necromancer/Idle/::1726152987
+spr_NecromancerIdleWithBkg_strip50.png::CompressedTexture2D::1101815546923020028::1724136878::1724136879::1::::<><>::
+spr_NecromancerIdle_strip50.png::CompressedTexture2D::2433049212295320467::1724136878::1724136879::1::::<><>::
+::res://enemies/Paladin/Necromancer/Necromancer/Jump/::1726152987
+spr_NecromancerIdle_strip50.png::CompressedTexture2D::110624763376314480::1724136878::1724136879::1::::<><>::
+spr_NecromancerJumpWithBkg_strip12.png::CompressedTexture2D::1416243914898204438::1724136878::1724136879::1::::<><>::
+::res://enemies/Paladin/Necromancer/Necromancer/Spawn/::1726152987
+spr_NecromancerSpawnWithBkg_strip20.png::CompressedTexture2D::9142064218754164517::1724136878::1724136879::1::::<><>::
+spr_NecromancerSpawn_strip20.png::CompressedTexture2D::6006537528605793193::1724136878::1724136879::1::::<><>::
+::res://enemies/Paladin/Necromancer/Necromancer/Walk/::1726152987
+spr_NecromancerWalkWithBkg_strip10.png::CompressedTexture2D::6071143751324565113::1724136878::1724136879::1::::<><>::
+spr_NecromancerWalk_strip10.png::CompressedTexture2D::8694503698280734392::1724136878::1724136879::1::::<><>::
+::res://enemies/Paladin/Paladin/::1726152987
+::res://enemies/Paladin/Paladin/Attack/::1726152987
+spr_PaladinAttackEffectWithBkg_strip41.png::CompressedTexture2D::8010837026796565319::1724134260::1724134275::1::::<><>::
+spr_PaladinAttackEffect_strip41.png::CompressedTexture2D::8156075375978097281::1724134260::1724134275::1::::<><>::
+spr_PaladinAttackWithEffectWithBkg_strip41.png::CompressedTexture2D::6863043510090169670::1724134260::1724134275::1::::<><>::
+spr_PaladinAttackWithEffect_strip41.png::CompressedTexture2D::8828686536737812480::1724134260::1724134275::1::::<><>::
+spr_PaladinAttackWithoutEffectWithBkg_strip41.png::CompressedTexture2D::9071680243975112607::1724134260::1724134275::1::::<><>::
+spr_PaladinAttackWithoutEffect_strip41.png::CompressedTexture2D::7606132274813234047::1724134260::1724134275::1::::<><>::
+::res://enemies/Paladin/Paladin/Attack2/::1726152987
+spr_PaladinAttack2EffectWithBkg_strip63.png::CompressedTexture2D::1149577736215065271::1724134260::1724134275::1::::<><>::
+spr_PaladinAttack2Effect_strip63.png::CompressedTexture2D::125443649041394642::1724134260::1724134275::1::::<><>::
+spr_PaladinAttack2WithEffectWithBkg_strip63.png::CompressedTexture2D::8355861574470357098::1724134260::1724134275::1::::<><>::
+spr_PaladinAttack2WithEffect_strip63.png::CompressedTexture2D::556082278310345911::1724134260::1724134275::1::::<><>::
+spr_PaladinAttack2WithoutEffectWithBkg_strip63.png::CompressedTexture2D::9075491179510566251::1724134260::1724134275::1::::<><>::
+spr_PaladinAttack2WithoutEffect_strip63.png::CompressedTexture2D::6490463839083504233::1724134260::1724134275::1::::<><>::
+::res://enemies/Paladin/Paladin/Death/::1726152987
+spr_PaladinDeathEffectWithBkg_strip65.png::CompressedTexture2D::7653203485318587548::1724134260::1724134275::1::::<><>::
+spr_PaladinDeathEffect_strip65.png::CompressedTexture2D::3223762972574922234::1724134260::1724134275::1::::<><>::
+spr_PaladinDeathWithEffectWithBkg_strip65.png::CompressedTexture2D::9196374641709122505::1724134260::1724134275::1::::<><>::
+spr_PaladinDeathWithEffect_strip65.png::CompressedTexture2D::4127739257759157681::1724134260::1724134275::1::::<><>::
+spr_PaladinDeathWithoutEffectWithBkg_strip65.png::CompressedTexture2D::2001951881966562042::1724134260::1724134275::1::::<><>::
+spr_PaladinDeathWithoutEffect_strip65.png::CompressedTexture2D::7645832169875333485::1724134260::1724134275::1::::<><>::
+::res://enemies/Paladin/Paladin/GetHit/::1726152987
+spr_PaladinGetHitEffectWithBkg_strip12.png::CompressedTexture2D::9028845426028636417::1724134260::1724134275::1::::<><>::
+spr_PaladinGetHitEffect_strip12.png::CompressedTexture2D::7724557313198673679::1724134260::1724134275::1::::<><>::
+spr_PaladinGetHitWithEffectWithBkg_strip12.png::CompressedTexture2D::7017351225058908341::1724134260::1724134275::1::::<><>::
+spr_PaladinGetHitWithEffect_strip12.png::CompressedTexture2D::6400584510682612846::1724134260::1724134275::1::::<><>::
+spr_PaladinGetHitWithoutEffectWithBkg_strip12.png::CompressedTexture2D::7410585902978881420::1724134260::1724134275::1::::<><>::
+spr_PaladinGetHitWithoutEffect_strip12.png::CompressedTexture2D::2419725923066226831::1724134260::1724134275::1::::<><>::
+::res://enemies/Paladin/Paladin/Idle/::1726152987
+spr_PaladinIdleWithBkg_strip27.png::CompressedTexture2D::5104277895307040994::1724134260::1724134275::1::::<><>::
+spr_PaladinIdle_strip27.png::CompressedTexture2D::721716697334229454::1724134260::1724134275::1::::<><>::
+::res://enemies/Paladin/Paladin/Jump/::1726152987
+spr_PaladinJumpWithBkg_strip13.png::CompressedTexture2D::357409569433662554::1724134260::1724134275::1::::<><>::
+spr_PaladinJump_strip13.png::CompressedTexture2D::4237850579118780593::1724134260::1724134275::1::::<><>::
+::res://enemies/Paladin/Paladin/Walk/::1726152987
+spr_PaladinWalkWithBkg_strip10.png::CompressedTexture2D::5037502190945521191::1724134260::1724134275::1::::<><>::
+spr_PaladinWalk_strip10.png::CompressedTexture2D::6911340550829056575::1724134260::1724134275::1::::<><>::
+::res://enemies/Skeleton_White/::1726152987
+::res://enemies/Skeleton_White/Skeleton_Without_VFX/::1726152987
+Skeleton_01_White_Attack1.png::CompressedTexture2D::3510875207160766608::1721788628::1721788629::1::::<><>::
+Skeleton_01_White_Attack2.png::CompressedTexture2D::2999421988079353644::1721788628::1721788629::1::::<><>::
+Skeleton_01_White_Die.png::CompressedTexture2D::5296822167182964981::1721788628::1721788629::1::::<><>::
+Skeleton_01_White_Hurt.png::CompressedTexture2D::6913749662874723291::1721788628::1721788629::1::::<><>::
+Skeleton_01_White_Idle.png::CompressedTexture2D::147162297934384121::1721788628::1721788629::1::::<><>::
+Skeleton_01_White_Walk.png::CompressedTexture2D::800631746543759646::1721788628::1721788629::1::::<><>::
+::res://enemies/Skeleton_White/Skeleton_With_VFX/::1726152987
+Skeleton_01_White_Attack1.png::CompressedTexture2D::8708603391646265213::1721788628::1721788629::1::::<><>::
+Skeleton_01_White_Attack2.png::CompressedTexture2D::2875276014580446227::1721788628::1721788629::1::::<><>::
+Skeleton_01_White_Die.png::CompressedTexture2D::8549410918428700240::1721788628::1721788629::1::::<><>::
+Skeleton_01_White_Hurt.png::CompressedTexture2D::767145909928140344::1721788628::1721788629::1::::<><>::
+Skeleton_01_White_Idle.png::CompressedTexture2D::3864837771227323702::1721788628::1721788629::1::::<><>::
+Skeleton_01_White_Walk.png::CompressedTexture2D::8318311447573676274::1721788628::1721788629::1::::<><>::
+::res://enemy/::1726151776
+state.gd::GDScript::-1::1726151776::0::1::::State<>Node2D<>::
+::res://enemy/boss3/::1726152405
+boss.tscn::PackedScene::5013810338548225137::1726151776::0::1::::<><>::uid://cjovim3abs130::::res://enemy/boss3/demon_slime_FREE_v1.0_288x160_spritesheet.png<>res://enemy/boss3/FiniteStateMachine.gd<>res://enemy/boss3/idle.gd<>res://enemy/state.gd
+boss_3.gd::GDScript::-1::1726151776::0::1::::<>CharacterBody2D<>::
+boss_3.tscn::PackedScene::5498861316892254953::1726151776::0::1::::<><>::uid://c8sa0m3pvu5yp::::res://enemy/boss3/05_demon_death/demon_death_1.png<>res://enemy/boss3/boss_3.gd<>uid://l6783xeh52mo::::res://enemy/boss3/05_demon_death/demon_death_2.png<>uid://dl7snehotq5ln::::res://enemy/boss3/05_demon_death/demon_death_3.png<>uid://dco44nf7hy3t3::::res://enemy/boss3/05_demon_death/demon_death_4.png<>uid://dcu4eias0yabv::::res://enemy/boss3/05_demon_death/demon_death_5.png<>uid://pnmdfhx0thsl::::res://enemy/boss3/05_demon_death/demon_death_6.png<>uid://covibiaagphic::::res://enemy/boss3/05_demon_death/demon_death_7.png<>uid://ddojjs10ill1p::::res://enemy/boss3/05_demon_death/demon_death_8.png<>uid://chuopko5k3ap5::::res://enemy/boss3/05_demon_death/demon_death_9.png<>uid://cwmtcjgvuumqp::::res://enemy/boss3/05_demon_death/demon_death_10.png<>uid://iua24vfxr22e::::res://enemy/boss3/05_demon_death/demon_death_11.png<>uid://chkwdw5eawl6h::::res://enemy/boss3/05_demon_death/demon_death_12.png<>uid://b6awxo2g5gku::::res://enemy/boss3/05_demon_death/demon_death_13.png<>uid://dl6rrhpvyxci8::::res://enemy/boss3/05_demon_death/demon_death_14.png<>uid://fc8q4xnm0fbs::::res://enemy/boss3/05_demon_death/demon_death_15.png<>uid://m6od0mumfs1y::::res://enemy/boss3/05_demon_death/demon_death_16.png<>uid://dhtlmoekfh2y3::::res://enemy/boss3/05_demon_death/demon_death_17.png<>uid://chwu4ips250qa::::res://enemy/boss3/05_demon_death/demon_death_18.png<>uid://vu5834lq5avf::::res://enemy/boss3/05_demon_death/demon_death_19.png<>uid://dgjbe4qnncs5f::::res://enemy/boss3/05_demon_death/demon_death_20.png<>uid://c7j21kn14d4i::::res://enemy/boss3/05_demon_death/demon_death_21.png<>uid://du8tii42ho10g::::res://enemy/boss3/05_demon_death/demon_death_22.png<>uid://bm3bacy3oqkf5::::res://enemy/boss3/01_demon_idle/demon_idle_1.png<>uid://cb6bo6q38hpuj::::res://enemy/boss3/01_demon_idle/demon_idle_2.png<>uid://bx4rqwhdhm3l8::::res://enemy/boss3/01_demon_idle/demon_idle_3.png<>uid://dy05m1v5xcas3::::res://enemy/boss3/01_demon_idle/demon_idle_4.png<>uid://om4j3d3tafvt::::res://enemy/boss3/01_demon_idle/demon_idle_5.png<>uid://bljfxr2qaawei::::res://enemy/boss3/01_demon_idle/demon_idle_6.png<>uid://dkuu7aq35wbc8::::res://enemy/boss3/03_demon_cleave/demon_cleave_1.png<>uid://de8stmn4p50ou::::res://enemy/boss3/03_demon_cleave/demon_cleave_2.png<>uid://djso02hquwmbi::::res://enemy/boss3/03_demon_cleave/demon_cleave_3.png<>uid://ct5xe04ry0idh::::res://enemy/boss3/03_demon_cleave/demon_cleave_4.png<>uid://ujytxuak1ldj::::res://enemy/boss3/03_demon_cleave/demon_cleave_5.png<>uid://c5eo1ae7q0mpl::::res://enemy/boss3/03_demon_cleave/demon_cleave_6.png<>uid://mckaaeqmy00o::::res://enemy/boss3/03_demon_cleave/demon_cleave_7.png<>uid://ckdcoxpw0mhli::::res://enemy/boss3/03_demon_cleave/demon_cleave_8.png<>uid://dqtvn7etgbpyu::::res://enemy/boss3/03_demon_cleave/demon_cleave_9.png<>uid://cinh5iwp71xlf::::res://enemy/boss3/03_demon_cleave/demon_cleave_10.png<>uid://b08i5i1lsolwl::::res://enemy/boss3/03_demon_cleave/demon_cleave_11.png<>uid://dhi4kp3i7rv7h::::res://enemy/boss3/03_demon_cleave/demon_cleave_12.png<>uid://bh6wwqmyjbot6::::res://enemy/boss3/03_demon_cleave/demon_cleave_13.png<>uid://b0pyuxgfdoync::::res://enemy/boss3/03_demon_cleave/demon_cleave_14.png<>uid://chclrcaxo0nef::::res://enemy/boss3/03_demon_cleave/demon_cleave_15.png<>uid://ra7l0s3g2332::::res://enemy/boss3/04_demon_take_hit/demon_take_hit_1.png<>uid://ej1vjpcdc161::::res://enemy/boss3/04_demon_take_hit/demon_take_hit_2.png<>uid://5ynvjucdduba::::res://enemy/boss3/04_demon_take_hit/demon_take_hit_3.png<>uid://dcdann114vln7::::res://enemy/boss3/04_demon_take_hit/demon_take_hit_4.png<>uid://bedy2uy852w3s::::res://enemy/boss3/04_demon_take_hit/demon_take_hit_5.png<>uid://bw1f4v4gstnsq::::res://enemy/boss3/02_demon_walk/demon_walk_1.png<>uid://ck5n2u3653d0e::::res://enemy/boss3/02_demon_walk/demon_walk_2.png<>uid://chucu8s5j5tbt::::res://enemy/boss3/02_demon_walk/demon_walk_3.png<>uid://bh7newwyub0hg::::res://enemy/boss3/02_demon_walk/demon_walk_4.png<>uid://dreff4qgvfrin::::res://enemy/boss3/02_demon_walk/demon_walk_5.png<>uid://tpylqjo2j62::::res://enemy/boss3/02_demon_walk/demon_walk_6.png<>uid://b3j3bh87tstk0::::res://enemy/boss3/02_demon_walk/demon_walk_7.png<>uid://bhkiqtomnqmlj::::res://enemy/boss3/02_demon_walk/demon_walk_8.png<>uid://crytm7ydc5yf2::::res://enemy/boss3/02_demon_walk/demon_walk_9.png<>uid://bvbnnh0t0wm55::::res://enemy/boss3/02_demon_walk/demon_walk_10.png<>uid://bn2e38v7y0u0k::::res://enemy/boss3/02_demon_walk/demon_walk_11.png<>uid://cm51k63vxytgq::::res://enemy/boss3/02_demon_walk/demon_walk_12.png
+demon_slime_FREE_v1.0_288x160_spritesheet.png::CompressedTexture2D::5434732265421465561::1726151776::1726152405::1::::<><>::
+FiniteStateMachine.gd::GDScript::-1::1726151776::0::1::::<>Node2D<>::
+idle.gd::GDScript::-1::1726151776::0::1::::<>State<>::
+medium_fireball.gd::GDScript::-1::1726151776::0::1::::<>Area2D<>::
+medium_fireball.tscn::PackedScene::4641275719040973350::1726151776::0::1::::<><>::res://enemy/boss3/medium_fireball.gd<>uid://ccw3krahf224g::::res://enemy/boss3/fire_ball_side_medium/imgs/img_0.png<>uid://d2a25jalamdh2::::res://enemy/boss3/fire_ball_side_medium/imgs/img_1.png<>uid://dp8cfoxujtbxg::::res://enemy/boss3/fire_ball_side_medium/imgs/img_2.png<>uid://dtku7y8hc871a::::res://enemy/boss3/fire_ball_side_medium/imgs/img_3.png<>uid://dph287eojxs5j::::res://enemy/boss3/fire_ball_side_medium/imgs/img_4.png<>uid://dvb2d67lddscw::::res://enemy/boss3/fire_ball_side_medium/imgs/img_5.png<>uid://cko5yavqs1b4i::::res://enemy/boss3/fire_ball_side_medium/imgs/img_6.png<>uid://hib4hbp62ls0::::res://enemy/boss3/fire_ball_side_medium/imgs/img_7.png<>uid://bj4qg1sbkgi5f::::res://enemy/boss3/fire_ball_side_medium/imgs/img_8.png<>uid://bc6drbq0ebvfd::::res://enemy/boss3/fire_ball_side_medium/imgs/img_9.png<>uid://bprnq18lpohv7::::res://enemy/boss3/fire_ball_side_medium/imgs/img_10.png<>uid://jmkuffyd18b5::::res://enemy/boss3/fire_ball_side_medium/imgs/img_11.png<>uid://cij6vo0efl1vq::::res://enemy/boss3/fire_ball_side_medium/imgs/img_12.png<>uid://qjj473jvog8f::::res://enemy/boss3/fire_ball_side_medium/imgs/img_13.png<>uid://67vfyl2n4phl::::res://enemy/boss3/fire_ball_side_medium/imgs/img_14.png<>uid://3458tt72vvrj::::res://enemy/boss3/fire_ball_side_medium/imgs/img_15.png<>uid://dujv13t5tn4bo::::res://enemy/boss3/fire_ball_side_medium/imgs/img_16.png<>uid://lag3gvd86xwa::::res://enemy/boss3/fire_ball_side_medium/imgs/img_17.png<>uid://dvn5rmw8emmjn::::res://enemy/boss3/fire_ball_side_medium/imgs/img_18.png<>uid://cohchkqquqoaq::::res://enemy/boss3/fire_ball_side_medium/imgs/img_19.png<>uid://cd7lv31x2l0qw::::res://enemy/boss3/fire_ball_side_medium/imgs/img_20.png<>uid://c3yn42umgd4fg::::res://enemy/boss3/fire_ball_side_medium/imgs/img_21.png<>uid://uya2xpnewd61::::res://enemy/boss3/fire_ball_side_medium/imgs/img_22.png<>uid://m8fuxqfh0kh1::::res://enemy/boss3/fire_ball_side_medium/imgs/img_23.png<>uid://cxlc4i8egxjpw::::res://enemy/boss3/fire_ball_side_medium/imgs/img_24.png<>uid://bgu0ob3vunih3::::res://enemy/boss3/fire_ball_side_medium/imgs/img_25.png<>uid://b12gcpf33ir6g::::res://enemy/boss3/fire_ball_side_medium/imgs/img_26.png<>uid://c662mp4utx0mn::::res://enemy/boss3/fire_ball_side_medium/imgs/img_27.png<>uid://005ew47cmjdu::::res://enemy/boss3/fire_ball_side_medium/imgs/img_28.png<>uid://cgl46ilc1i1n3::::res://enemy/boss3/fire_ball_side_medium/imgs/img_29.png
+small_fireball.gd::GDScript::-1::1726151776::0::1::::<>Area2D<>::
+small_fireball.tscn::PackedScene::4594505414638667949::1726151776::0::1::::<><>::res://enemy/boss3/small_fireball.gd<>uid://drv1vpepdb0ps::::res://enemy/boss3/fire_ball_side_small/imgs/img_0.png<>uid://dloo3dysk5igd::::res://enemy/boss3/fire_ball_side_small/imgs/img_1.png<>uid://cepqdw10k33d6::::res://enemy/boss3/fire_ball_side_small/imgs/img_2.png<>uid://c83y8cej600gs::::res://enemy/boss3/fire_ball_side_small/imgs/img_3.png<>uid://casmv348uv6fw::::res://enemy/boss3/fire_ball_side_small/imgs/img_4.png<>uid://caymfpa85k8bf::::res://enemy/boss3/fire_ball_side_small/imgs/img_5.png<>uid://kl03egdbby6q::::res://enemy/boss3/fire_ball_side_small/imgs/img_6.png<>uid://d2r63papree3b::::res://enemy/boss3/fire_ball_side_small/imgs/img_7.png<>uid://do2pkocdmmw3f::::res://enemy/boss3/fire_ball_side_small/imgs/img_8.png<>uid://dimlb3t6fxyv8::::res://enemy/boss3/fire_ball_side_small/imgs/img_9.png<>uid://0p3aj2rcl0gl::::res://enemy/boss3/fire_ball_side_small/imgs/img_10.png<>uid://chwicudi8fqow::::res://enemy/boss3/fire_ball_side_small/imgs/img_11.png<>uid://d2addkhulq34p::::res://enemy/boss3/fire_ball_side_small/imgs/img_12.png<>uid://dbfrdybcdti35::::res://enemy/boss3/fire_ball_side_small/imgs/img_13.png<>uid://dgu72n2cnhdbu::::res://enemy/boss3/fire_ball_side_small/imgs/img_14.png<>uid://c82to1kxdappi::::res://enemy/boss3/fire_ball_side_small/imgs/img_15.png<>uid://cltt47g7q03ih::::res://enemy/boss3/fire_ball_side_small/imgs/img_16.png<>uid://73d2ei75ro34::::res://enemy/boss3/fire_ball_side_small/imgs/img_17.png<>uid://dm0hrvvklgmju::::res://enemy/boss3/fire_ball_side_small/imgs/img_18.png<>uid://cgdbcs31kge50::::res://enemy/boss3/fire_ball_side_small/imgs/img_19.png<>uid://b844vph6x7eog::::res://enemy/boss3/fire_ball_side_small/imgs/img_20.png<>uid://cv0gipfkaerrd::::res://enemy/boss3/fire_ball_side_small/imgs/img_21.png<>uid://cdc4s3hsiyjry::::res://enemy/boss3/fire_ball_side_small/imgs/img_22.png<>uid://chotbg5f06j88::::res://enemy/boss3/fire_ball_side_small/imgs/img_23.png<>uid://ddjerufnd6ck4::::res://enemy/boss3/fire_ball_side_small/imgs/img_24.png<>uid://cfja3gm0qaf0b::::res://enemy/boss3/fire_ball_side_small/imgs/img_25.png<>uid://c6y5dgbkx0yhd::::res://enemy/boss3/fire_ball_side_small/imgs/img_26.png<>uid://onc8wike8kec::::res://enemy/boss3/fire_ball_side_small/imgs/img_27.png<>uid://dlhpuyra2hfq4::::res://enemy/boss3/fire_ball_side_small/imgs/img_28.png<>uid://bpcfonv1lruor::::res://enemy/boss3/fire_ball_side_small/imgs/img_29.png
+teleport_effect.gd::GDScript::-1::1726151776::0::1::::<>Node2D<>::
+teleport_effect.tscn::PackedScene::5300201109011147450::1726151776::0::1::::<><>::res://enemy/boss3/teleport_effect.gd<>uid://b0caq2dbjjlmk::::res://enemy/boss3/teleport_effect/Fire_1_512-sheet.png
+::res://enemy/boss3/01_demon_idle/::1726152405
+demon_idle_1.png::CompressedTexture2D::3286550244869477328::1726151776::1726152405::1::::<><>::
+demon_idle_2.png::CompressedTexture2D::4907113293764831797::1726151776::1726152405::1::::<><>::
+demon_idle_3.png::CompressedTexture2D::4061692970288586743::1726151776::1726152405::1::::<><>::
+demon_idle_4.png::CompressedTexture2D::8897248080995301632::1726151776::1726152405::1::::<><>::
+demon_idle_5.png::CompressedTexture2D::1009194685502348257::1726151776::1726152405::1::::<><>::
+demon_idle_6.png::CompressedTexture2D::3177422957055304232::1726151776::1726152405::1::::<><>::
+::res://enemy/boss3/02_demon_walk/::1726152407
+demon_walk_1.png::CompressedTexture2D::3984605586409552096::1726151776::1726152405::1::::<><>::
+demon_walk_2.png::CompressedTexture2D::5537499768900935042::1726151776::1726152405::1::::<><>::
+demon_walk_3.png::CompressedTexture2D::5305609740250580289::1726151776::1726152405::1::::<><>::
+demon_walk_4.png::CompressedTexture2D::2944600331987469856::1726151776::1726152405::1::::<><>::
+demon_walk_5.png::CompressedTexture2D::8361043966070366489::1726151776::1726152405::1::::<><>::
+demon_walk_6.png::CompressedTexture2D::40177394174772661::1726151776::1726152405::1::::<><>::
+demon_walk_7.png::CompressedTexture2D::4371989987057962169::1726151776::1726152405::1::::<><>::
+demon_walk_8.png::CompressedTexture2D::2898901695478690687::1726151776::1726152405::1::::<><>::
+demon_walk_9.png::CompressedTexture2D::6016773545682305429::1726151776::1726152407::1::::<><>::
+demon_walk_10.png::CompressedTexture2D::3863263721253691050::1726151776::1726152407::1::::<><>::
+demon_walk_11.png::CompressedTexture2D::3354908487745998644::1726151776::1726152407::1::::<><>::
+demon_walk_12.png::CompressedTexture2D::5678636995879584248::1726151776::1726152407::1::::<><>::
+::res://enemy/boss3/03_demon_cleave/::1726152407
+demon_cleave_1.png::CompressedTexture2D::7903709553831127033::1726151776::1726152407::1::::<><>::
+demon_cleave_2.png::CompressedTexture2D::7509269379170934676::1726151776::1726152407::1::::<><>::
+demon_cleave_3.png::CompressedTexture2D::7829016555839680394::1726151776::1726152407::1::::<><>::
+demon_cleave_4.png::CompressedTexture2D::6169765721828406837::1726151776::1726152407::1::::<><>::
+demon_cleave_5.png::CompressedTexture2D::1423848649405313547::1726151776::1726152406::1::::<><>::
+demon_cleave_6.png::CompressedTexture2D::6887660663739200129::1726151776::1726152406::1::::<><>::
+demon_cleave_7.png::CompressedTexture2D::847002056015366340::1726151776::1726152406::1::::<><>::
+demon_cleave_8.png::CompressedTexture2D::5481070604371494154::1726151776::1726152406::1::::<><>::
+demon_cleave_9.png::CompressedTexture2D::8322806686581587272::1726151776::1726152406::1::::<><>::
+demon_cleave_10.png::CompressedTexture2D::5361668074957591687::1726151776::1726152406::1::::<><>::
+demon_cleave_11.png::CompressedTexture2D::4209806011163285267::1726151776::1726152406::1::::<><>::
+demon_cleave_12.png::CompressedTexture2D::7668878460818999971::1726151776::1726152406::1::::<><>::
+demon_cleave_13.png::CompressedTexture2D::2943114220855739381::1726151776::1726152406::1::::<><>::
+demon_cleave_14.png::CompressedTexture2D::4173601582196944732::1726151776::1726152406::1::::<><>::
+demon_cleave_15.png::CompressedTexture2D::5268990379888784201::1726151776::1726152406::1::::<><>::
+::res://enemy/boss3/04_demon_take_hit/::1726152406
+demon_take_hit_1.png::CompressedTexture2D::1195174271519568763::1726151776::1726152406::1::::<><>::
+demon_take_hit_2.png::CompressedTexture2D::300951413799805536::1726151776::1726152406::1::::<><>::
+demon_take_hit_3.png::CompressedTexture2D::2156037701517633530::1726151776::1726152406::1::::<><>::
+demon_take_hit_4.png::CompressedTexture2D::7305856811127690942::1726151776::1726152406::1::::<><>::
+demon_take_hit_5.png::CompressedTexture2D::2674875704852092794::1726151776::1726152406::1::::<><>::
+::res://enemy/boss3/05_demon_death/::1726152407
+demon_death_1.png::CompressedTexture2D::7126277326107110535::1726151776::1726152406::1::::<><>::
+demon_death_2.png::CompressedTexture2D::838076371738210098::1726151776::1726152407::1::::<><>::
+demon_death_3.png::CompressedTexture2D::7998515761987313963::1726151776::1726152407::1::::<><>::
+demon_death_4.png::CompressedTexture2D::7330354299717512450::1726151776::1726152407::1::::<><>::
+demon_death_5.png::CompressedTexture2D::7342695650441401031::1726151776::1726152407::1::::<><>::
+demon_death_6.png::CompressedTexture2D::1080403801177735379::1726151776::1726152407::1::::<><>::
+demon_death_7.png::CompressedTexture2D::5799325053085364486::1726151776::1726152407::1::::<><>::
+demon_death_8.png::CompressedTexture2D::7399293382362519079::1726151776::1726152407::1::::<><>::
+demon_death_9.png::CompressedTexture2D::5306328200979218652::1726151776::1726152407::1::::<><>::
+demon_death_10.png::CompressedTexture2D::6342926137882653407::1726151776::1726152407::1::::<><>::
+demon_death_11.png::CompressedTexture2D::602848076497546846::1726151776::1726152407::1::::<><>::
+demon_death_12.png::CompressedTexture2D::5286149383656059265::1726151776::1726152407::1::::<><>::
+demon_death_13.png::CompressedTexture2D::134225072380069168::1726151776::1726152407::1::::<><>::
+demon_death_14.png::CompressedTexture2D::7996397980669565393::1726151776::1726152407::1::::<><>::
+demon_death_15.png::CompressedTexture2D::357106766477393840::1726151776::1726152407::1::::<><>::
+demon_death_16.png::CompressedTexture2D::907118561859056188::1726151776::1726152407::1::::<><>::
+demon_death_17.png::CompressedTexture2D::7690497192287418240::1726151776::1726152407::1::::<><>::
+demon_death_18.png::CompressedTexture2D::5310846155534309796::1726151776::1726152407::1::::<><>::
+demon_death_19.png::CompressedTexture2D::1517135228437214047::1726151776::1726152407::1::::<><>::
+demon_death_20.png::CompressedTexture2D::7599043921364579657::1726151776::1726152407::1::::<><>::
+demon_death_21.png::CompressedTexture2D::207033826458005398::1726151776::1726152407::1::::<><>::
+demon_death_22.png::CompressedTexture2D::8632331765160546624::1726151776::1726152407::1::::<><>::
+::res://enemy/boss3/fire_ball_side_medium/::1726151776
+::res://enemy/boss3/fire_ball_side_medium/imgs/::1726152407
+img_0.png::CompressedTexture2D::4960354192210867412::1726151776::1726152407::1::::<><>::
+img_1.png::CompressedTexture2D::9056054235138435285::1726151776::1726152407::1::::<><>::
+img_2.png::CompressedTexture2D::8280350306267706752::1726151776::1726152407::1::::<><>::
+img_3.png::CompressedTexture2D::8514766654863806908::1726151776::1726152407::1::::<><>::
+img_4.png::CompressedTexture2D::8228245327507234517::1726151776::1726152407::1::::<><>::
+img_5.png::CompressedTexture2D::8636938539579985482::1726151776::1726152406::1::::<><>::
+img_6.png::CompressedTexture2D::5505495494353011862::1726151776::1726152406::1::::<><>::
+img_7.png::CompressedTexture2D::507949802447001105::1726151776::1726152406::1::::<><>::
+img_8.png::CompressedTexture2D::3078970811423446929::1726151776::1726152406::1::::<><>::
+img_9.png::CompressedTexture2D::2591006669201217001::1726151776::1726152406::1::::<><>::
+img_10.png::CompressedTexture2D::3475167070797088646::1726151776::1726152406::1::::<><>::
+img_11.png::CompressedTexture2D::657115283033063428::1726151776::1726152406::1::::<><>::
+img_12.png::CompressedTexture2D::5354852018860661290::1726151776::1726152406::1::::<><>::
+img_13.png::CompressedTexture2D::1142200863392464735::1726151776::1726152406::1::::<><>::
+img_14.png::CompressedTexture2D::2243199505525075213::1726151776::1726152406::1::::<><>::
+img_15.png::CompressedTexture2D::2027036046500297271::1726151776::1726152406::1::::<><>::
+img_16.png::CompressedTexture2D::8582941312510197436::1726151776::1726152406::1::::<><>::
+img_17.png::CompressedTexture2D::772491931966936816::1726151776::1726152406::1::::<><>::
+img_18.png::CompressedTexture2D::8661917212331236527::1726151776::1726152406::1::::<><>::
+img_19.png::CompressedTexture2D::5770070307844651784::1726151776::1726152406::1::::<><>::
+img_20.png::CompressedTexture2D::5050174886922922498::1726151776::1726152406::1::::<><>::
+img_21.png::CompressedTexture2D::6788516613857686428::1726151776::1726152406::1::::<><>::
+img_22.png::CompressedTexture2D::1453371387099509140::1726151776::1726152406::1::::<><>::
+img_23.png::CompressedTexture2D::910731123373741320::1726151776::1726152406::1::::<><>::
+img_24.png::CompressedTexture2D::6410066619720400912::1726151776::1726152406::1::::<><>::
+img_25.png::CompressedTexture2D::2850384323295585906::1726151776::1726152406::1::::<><>::
+img_26.png::CompressedTexture2D::4267437488070184232::1726151776::1726152406::1::::<><>::
+img_27.png::CompressedTexture2D::7014352852457224753::1726151776::1726152406::1::::<><>::
+img_28.png::CompressedTexture2D::1808160389531037150::1726151776::1726152406::1::::<><>::
+img_29.png::CompressedTexture2D::5218499174215943454::1726151776::1726152406::1::::<><>::
+::res://enemy/boss3/fire_ball_side_small/::1726151776
+::res://enemy/boss3/fire_ball_side_small/imgs/::1726152406
+img_0.png::CompressedTexture2D::8397441263960118796::1726151776::1726152406::1::::<><>::
+img_1.png::CompressedTexture2D::7961140855260309823::1726151776::1726152406::1::::<><>::
+img_2.png::CompressedTexture2D::5085540434344206357::1726151776::1726152406::1::::<><>::
+img_3.png::CompressedTexture2D::7148392035257476122::1726151776::1726152406::1::::<><>::
+img_4.png::CompressedTexture2D::4810767789524567684::1726151776::1726152406::1::::<><>::
+img_5.png::CompressedTexture2D::4823124755756501243::1726151776::1726152406::1::::<><>::
+img_6.png::CompressedTexture2D::726164738223417862::1726151776::1726152406::1::::<><>::
+img_7.png::CompressedTexture2D::9091388268684955225::1726151776::1726152406::1::::<><>::
+img_8.png::CompressedTexture2D::8198573412771267605::1726151776::1726152406::1::::<><>::
+img_9.png::CompressedTexture2D::7746216507367815795::1726151776::1726152406::1::::<><>::
+img_10.png::CompressedTexture2D::1787387348254574099::1726151776::1726152406::1::::<><>::
+img_11.png::CompressedTexture2D::5310069946480899498::1726151776::1726152406::1::::<><>::
+img_12.png::CompressedTexture2D::9054548874637394377::1726151776::1726152406::1::::<><>::
+img_13.png::CompressedTexture2D::7240811591947223742::1726151776::1726152406::1::::<><>::
+img_14.png::CompressedTexture2D::7623674552814445002::1726151776::1726152406::1::::<><>::
+img_15.png::CompressedTexture2D::7145991412882305618::1726151776::1726152406::1::::<><>::
+img_16.png::CompressedTexture2D::5585348927109860175::1726151776::1726152406::1::::<><>::
+img_17.png::CompressedTexture2D::2304076164890986485::1726151776::1726152406::1::::<><>::
+img_18.png::CompressedTexture2D::8053594131933484374::1726151776::1726152406::1::::<><>::
+img_19.png::CompressedTexture2D::5200232840926904117::1726151776::1726152406::1::::<><>::
+img_20.png::CompressedTexture2D::4764318573182513282::1726151776::1726152406::1::::<><>::
+img_21.png::CompressedTexture2D::6298795911973020457::1726151776::1726152406::1::::<><>::
+img_22.png::CompressedTexture2D::4989331073185851966::1726151776::1726152406::1::::<><>::
+img_23.png::CompressedTexture2D::5294220331811782223::1726151776::1726152406::1::::<><>::
+img_24.png::CompressedTexture2D::7388682267034302977::1726151776::1726152406::1::::<><>::
+img_25.png::CompressedTexture2D::5142415322427266567::1726151776::1726152403::1::::<><>::
+img_26.png::CompressedTexture2D::7000067770598355081::1726151776::1726152403::1::::<><>::
+img_27.png::CompressedTexture2D::1009662255252771770::1726151776::1726152403::1::::<><>::
+img_28.png::CompressedTexture2D::7946737733004113785::1726151776::1726152403::1::::<><>::
+img_29.png::CompressedTexture2D::3443711396291364341::1726151776::1726152403::1::::<><>::
+::res://enemy/boss3/teleport_effect/::1726152407
+Fire_1_512-sheet.png::CompressedTexture2D::4145300525677204998::1726151776::1726152407::1::::<><>::
+::res://Fantasy Swamp Forest/::1726151775
+LICENSE.md::TextFile::-1::1726151775::0::1::::<><>::
+README.md::TextFile::-1::1726151775::0::1::::<><>::
+::res://Fantasy Swamp Forest/Free/::1726152403
+Free.png::CompressedTexture2D::2317764568530169248::1726151775::1726152403::1::::<><>::
+Mockup.png::CompressedTexture2D::287067922277610767::1726151775::1726152403::1::::<><>::
+Terrain-and-Props-OLD.png::CompressedTexture2D::5011047349605278252::1726151775::1726152403::1::::<><>::
+Terrain_and_Props.png::CompressedTexture2D::2917830802175565072::1726151775::1726152403::1::::<><>::
+::res://Fantasy Swamp Forest/Free/BG_1/::1726152403
+BG_1.png::CompressedTexture2D::7254766310314325497::1726151775::1726152403::1::::<><>::
+::res://Fantasy Swamp Forest/Free/BG_2/::1726152403
+BG_2.png::CompressedTexture2D::6048342843241706848::1726151775::1726152403::1::::<><>::
+::res://Fantasy Swamp Forest/Free/BG_3/::1726152403
+BG_3.png::CompressedTexture2D::6886982571986959486::1726151775::1726152403::1::::<><>::
+BG_3_alt.png::CompressedTexture2D::2501046494437690701::1726151775::1726152403::1::::<><>::
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/::1726151776
+Readme.txt::TextFile::-1::1726151776::0::1::::<><>::
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Arrow Trap/::1726151775
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Arrow Trap/Aseprite/::1726151775
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Arrow Trap/PNGs/::1726152403
+Arrow Trap - Level 1.png::CompressedTexture2D::5311902405648757527::1726151775::1726152403::1::::<><>::
+Arrow Trap - Level 2.png::CompressedTexture2D::1656720893537959867::1726151775::1726152403::1::::<><>::
+Arrow Trap - Level 3.png::CompressedTexture2D::7789376978289977774::1726151775::1726152403::1::::<><>::
+Arrow.png::CompressedTexture2D::2730838234299099506::1726151775::1726152403::1::::<><>::
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Arrow Trap/Transitions/::1726151775
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Arrow Trap/Transitions/Aseprite/::1726151775
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Arrow Trap/Transitions/PNGs/::1726152403
+Arrow Trap - Level 1 - Transition.png::CompressedTexture2D::7392237637795056943::1726151775::1726152403::1::::<><>::
+Arrow Trap - Level 2 - Transition.png::CompressedTexture2D::7162906568088639040::1726151775::1726152403::1::::<><>::
+Arrow Trap - Level 3 - Transition.png::CompressedTexture2D::7143881323311335380::1726151775::1726152403::1::::<><>::
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Ceiling Trap/::1726151775
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Ceiling Trap/Aseprite/::1726151775
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Ceiling Trap/PNGs/::1726152403
+Ceiling Trap - Level 1.png::CompressedTexture2D::7369075466000935631::1726151775::1726152403::1::::<><>::
+Ceiling Trap - Level 2.png::CompressedTexture2D::617383042134533843::1726151775::1726152403::1::::<><>::
+Ceiling Trap - Level 3.png::CompressedTexture2D::5166306033288599735::1726151775::1726152403::1::::<><>::
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Ceiling Trap/Transitions/::1726151775
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Ceiling Trap/Transitions/Aseprite/::1726151775
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Ceiling Trap/Transitions/PNGs/::1726152403
+Ceiling Trap - Level 1 - Transition.png::CompressedTexture2D::5069996912747136864::1726151775::1726152403::1::::<><>::
+Ceiling Trap - Level 2 - Transition.png::CompressedTexture2D::5669188041036929847::1726151775::1726152403::1::::<><>::
+Ceiling Trap - Level 3 - Transition.png::CompressedTexture2D::1474676316163652256::1726151775::1726152403::1::::<><>::
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Fire Breather Trap/::1726151775
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Fire Breather Trap/Aseprite/::1726151775
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Fire Breather Trap/PNGs/::1726152404
+Fire Breather Trap - Level 1.png::CompressedTexture2D::8414169972247516009::1726151775::1726152403::1::::<><>::
+Fire Breather Trap - Level 2.png::CompressedTexture2D::1576562277217347378::1726151775::1726152403::1::::<><>::
+Fire Thrower Trap - Level 3.png::CompressedTexture2D::8047087927714502593::1726151775::1726152404::1::::<><>::
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Fire Breather Trap/Transition/::1726151775
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Fire Breather Trap/Transition/Aseprite/::1726151775
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Fire Breather Trap/Transition/PNGs/::1726152403
+Fire Breather Trap - Level 1 - Transition.png::CompressedTexture2D::5701549518535656750::1726151775::1726152403::1::::<><>::
+Fire Breather Trap - Level 2 - Transition.png::CompressedTexture2D::1796499622552299004::1726151775::1726152403::1::::<><>::
+Fire Breather Trap - Level 3 - Transition.png::CompressedTexture2D::2129323323282842885::1726151775::1726152403::1::::<><>::
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Fire Trap/::1726151775
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Fire Trap/Aseprite/::1726151775
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Fire Trap/PNGs/::1726152403
+Fire Trap - Level 1.png::CompressedTexture2D::1507504297708082255::1726151775::1726152403::1::::<><>::
+Fire Trap - Level 2.png::CompressedTexture2D::8872639968605473263::1726151775::1726152403::1::::<><>::
+Fire Trap - Level 3.png::CompressedTexture2D::7071949516905106346::1726151775::1726152403::1::::<><>::
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Fire Trap/Transition/::1726151775
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Fire Trap/Transition/Aseprite/::1726151775
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Fire Trap/Transition/PNGs/::1726152403
+Fire Trap - Level 1 - Transition.png::CompressedTexture2D::3294911138232896578::1726151775::1726152403::1::::<><>::
+Fire Trap - Level 2 - Transition.png::CompressedTexture2D::5320104949330107673::1726151775::1726152403::1::::<><>::
+Fire Trap - Level 3 - Transition.png::CompressedTexture2D::8075769303452031932::1726151775::1726152403::1::::<><>::
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Lightning Trap/::1726151775
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Lightning Trap/Aseprite/::1726151775
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Lightning Trap/PNGs/::1726152403
+Lightning Trap - Level 1.png::CompressedTexture2D::1140337559916492146::1726151775::1726152403::1::::<><>::
+Lightning Trap - Level 2.png::CompressedTexture2D::5027126360123765535::1726151775::1726152403::1::::<><>::
+Lightning Trap - Level 3.png::CompressedTexture2D::185591708421623348::1726151775::1726152403::1::::<><>::
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Lightning Trap/Transition/::1726151775
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Lightning Trap/Transition/Aseprite/::1726151775
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Lightning Trap/Transition/PNGs/::1726152403
+Lightning Trap - Level 1 - Transition.png::CompressedTexture2D::8883662150542043602::1726151775::1726152403::1::::<><>::
+Lightning Trap - Level 2 - Transition.png::CompressedTexture2D::2682594952300571910::1726151775::1726152403::1::::<><>::
+Lightning Trap - Level 3 - Transition.png::CompressedTexture2D::2739336892241223131::1726151775::1726152403::1::::<><>::
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Magic trap/::1726151775
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Magic trap/Aseprite/::1726151775
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Magic trap/PNGs/::1726152403
+Magic trap - Level 1.png::CompressedTexture2D::3106464965922626305::1726151775::1726152403::1::::<><>::
+Magic trap - Level 2.png::CompressedTexture2D::2105680399518405844::1726151775::1726152403::1::::<><>::
+Magic trap - Level 3.png::CompressedTexture2D::846427619370077844::1726151775::1726152403::1::::<><>::
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Magic trap/Transition/::1726151775
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Magic trap/Transition/Aseprite/::1726151775
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Magic trap/Transition/PNGs/::1726152403
+Magic trap - Level 1 - Transition.png::CompressedTexture2D::4975644671492345724::1726151775::1726152403::1::::<><>::
+Magic trap - Level 2 - Transition.png::CompressedTexture2D::1501163075186503083::1726151775::1726152403::1::::<><>::
+Magic trap - Level 3 - Transition.png::CompressedTexture2D::5775651709417853968::1726151775::1726152403::1::::<><>::
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Punch Trap/::1726151776
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Punch Trap/Aseprite/::1726151776
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Punch Trap/PNGs/::1726152403
+Punch Trap - Level 1.png::CompressedTexture2D::5732169197833150459::1726151776::1726152403::1::::<><>::
+Punch Trap - Level 2.png::CompressedTexture2D::6803549838955300980::1726151776::1726152403::1::::<><>::
+Punch Trap - Level 3.png::CompressedTexture2D::3065836051899276474::1726151776::1726152403::1::::<><>::
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Punch Trap/Transition/::1726151776
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Punch Trap/Transition/Aseprite/::1726151776
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Punch Trap/Transition/PNGs/::1726152403
+Punch Trap - Level 1 - Transition.png::CompressedTexture2D::4489764596954427284::1726151776::1726152403::1::::<><>::
+Punch Trap - Level 2 - Transition.png::CompressedTexture2D::5579717789547757025::1726151776::1726152403::1::::<><>::
+Punch Trap - Level 3 - Transition.png::CompressedTexture2D::8462655416089028345::1726151776::1726152403::1::::<><>::
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Sandworm Trap/::1726151776
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Sandworm Trap/Aseprite/::1726151776
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Sandworm Trap/PNGs/::1726152403
+Sandworm trap - Level 1.png::CompressedTexture2D::9135008384263920205::1726151776::1726152402::1::::<><>::
+Sandworm trap - Level 2.png::CompressedTexture2D::7689166561496552924::1726151776::1726152403::1::::<><>::
+Sandworm trap - Level 3.png::CompressedTexture2D::6172576020413036057::1726151776::1726152403::1::::<><>::
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Sandworm Trap/Transitions/::1726151776
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Sandworm Trap/Transitions/Aseprite/::1726151776
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Sandworm Trap/Transitions/PNGs/::1726152403
+Sandworm trap - Level 1 - Transition.png::CompressedTexture2D::3019504377666447212::1726151776::1726152402::1::::<><>::
+Sandworm trap - Level 2 - Transition.png::CompressedTexture2D::3269491296745329805::1726151776::1726152403::1::::<><>::
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Saw Trap/::1726151776
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Saw Trap/Aseprite/::1726151776
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Saw Trap/PNGs/::1726152403
+Saw Trap - Level 1.png::CompressedTexture2D::5671745644390898038::1726151776::1726152403::1::::<><>::
+Saw Trap - Level 2.png::CompressedTexture2D::3110030529535089201::1726151776::1726152403::1::::<><>::
+Saw Trap - Level 3.png::CompressedTexture2D::8487249628894151030::1726151776::1726152403::1::::<><>::
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Saw Trap/Transitions/::1726151776
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Saw Trap/Transitions/Aseprite/::1726151776
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Saw Trap/Transitions/PNGs/::1726152403
+Saw Trap - Level 1 - Transition.png::CompressedTexture2D::8008198372811070493::1726151776::1726152403::1::::<><>::
+Saw Trap - Level 2 - Transition.png::CompressedTexture2D::5593479454946228611::1726151776::1726152403::1::::<><>::
+Saw Trap - Level 3 - Transition.png::CompressedTexture2D::3568456885498132447::1726151776::1726152403::1::::<><>::
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Toxic Trap/::1726151776
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Toxic Trap/Aseprite/::1726151776
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Toxic Trap/PNGs/::1726152403
+Toxic Trap - Level 1.png::CompressedTexture2D::888955279770566109::1726151776::1726152403::1::::<><>::
+Toxic Trap - Level 2.png::CompressedTexture2D::8634841923824010725::1726151776::1726152403::1::::<><>::
+Toxic Trap - Level 3.png::CompressedTexture2D::1193769965487337382::1726151776::1726152403::1::::<><>::
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Toxic Trap/Transitions/::1726151776
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Toxic Trap/Transitions/Aseprite/::1726151776
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/Toxic Trap/Transitions/PNGs/::1726152403
+Toxic Trap - Level 1 - Transition.png::CompressedTexture2D::2429075264139197923::1726151776::1726152403::1::::<><>::
+Toxic Trap - Level 2 - Transition.png::CompressedTexture2D::502909838493577928::1726151776::1726152403::1::::<><>::
+Toxic Trap - Level 3 - Transition.png::CompressedTexture2D::372427456368476021::1726151776::1726152403::1::::<><>::
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/_Previews/::1726151776
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/_Previews/Aseprite/::1726151776
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/_Previews/GIFs/::1726151776
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/_Previews/GIFs/Colour background/::1726151776
+::res://Foozle_2DTR0001_Pixel_Trap_Pack/_Previews/GIFs/No Background/::1726151776
+::res://levels/::1726153621
+Area2D.gd::GDScript::-1::1726151776::0::1::::<>Area2D<>::
+CollisionShape2D.gd::GDScript::-1::1726151776::0::1::::<>CharacterBody2D<>::
+danger_zone.gd::GDScript::-1::1726151776::0::1::::<>Area2D<>::
+danger_zone.tscn::PackedScene::7932060781063684608::1726151776::0::1::::<><>::res://levels/danger_zone.gd
+level.tscn::PackedScene::4641523772835419703::1726153621::0::1::::<><>::uid://dnyfn805ioysm::::res://tileset/Tiles.png<>uid://iicrfnlqqnd::::res://tileset/Background_0.png<>uid://b4xmtjhtwfkpd::::res://tileset/Grass_background_1.png<>uid://cn6cdd0heakyn::::res://tileset/Grass_background_2.png<>uid://bc0tqpoqj0mv2::::res://tileset/brush.png<>uid://cqte5q6tqw3oi::::res://Mecha-stoneGolem/BossGolem.tscn<>uid://bfqpybns7d45p::::res://player/player.tscn<>uid://bbhh485jwys2d::::res://Sandworm/sandworm_trap.tscn<>uid://d4jv74ug3y4mw::::res://enemies/skeleton.tscn<>uid://biss0ofnci8k4::::res://enemies/paladin.tscn<>uid://obclbbwfdhfn::::res://enemies/necromancer.tscn
+levwl_3.gd::GDScript::-1::1726151776::0::1::::<>Node2D<>::
+levwl_3.tscn::PackedScene::5209041893724014225::1726152244::0::1::::<><>::uid://dn7v8gd0d2nju::::res://tileset/Dungeon Tile Set.png<>res://levels/levwl_3.gd<>uid://bfqpybns7d45p::::res://player/player.tscn<>uid://dl01w87yhoa8w::::res://levels/moving_platform.tscn<>uid://dlal482a6qt1q::::res://levels/danger_zone.tscn<>uid://cklxpbr3xxk38::::res://enemy/boss3/boss_3.tscn<>uid://b7ejer0gk1p8y::::res://enemy/boss3/medium_fireball.tscn<>uid://b6pu3k33icl4x::::res://enemy/boss3/small_fireball.tscn<>uid://chrpsj2qij53c::::res://enemy/boss3/teleport_effect.tscn
+moving_platform.gd::GDScript::-1::1726151776::0::1::::<>Path2D<>::
+moving_platform.tscn::PackedScene::7984568488031641560::1726151776::0::1::::<><>::res://levels/moving_platform.gd<>uid://dn7v8gd0d2nju::::res://tileset/Dungeon Tile Set.png
+::res://Main_Menu/::1726152245
+Menu.gd::GDScript::-1::1726151776::0::1::::<>Control<>::
+menu.tscn::PackedScene::8050076454668757673::1726152245::0::1::::<><>::res://Main_Menu/Menu.gd<>uid://iicrfnlqqnd::::res://tileset/Background_0.png
+::res://Mecha-stoneGolem/::1726151776
+BossGolem.gd::GDScript::-1::1726151776::0::1::::<>CharacterBody2D<>::
+BossGolem.tscn::PackedScene::5935383373858159908::1726151776::0::1::::<><>::uid://hjo5iph33hy7::::res://Mecha-stoneGolem/PNG sheet/Character_sheet.png<>res://Mecha-stoneGolem/BossGolem.gd<>uid://d2omf0pu1p4o3::::res://Mecha-stoneGolem/weapon PNG/Laser_sheet.png<>res://Mecha-stoneGolem/FiniteStateMachine.gd<>res://Boss_State.gd<>res://Mecha-stoneGolem/Boss_Idle.gd<>res://Mecha-stoneGolem/Boss_Follow.gd<>res://Mecha-stoneGolem/Boss_MeleeAttack.gd<>res://Mecha-stoneGolem/Boss_LaserBeam.gd<>res://Mecha-stoneGolem/Boss_HomingMissile.gd<>uid://chtm5sv2cmp5p::::res://boss_bullet.tscn
+Boss_Dash.gd::GDScript::-1::1726151776::0::1::::<>State<>::
+Boss_Follow.gd::GDScript::-1::1726151776::0::1::::<>State<>::
+Boss_HomingMissile.gd::GDScript::-1::1726151776::0::1::::<>State<>::
+Boss_Idle.gd::GDScript::-1::1726151776::0::1::::<>State<>::
+Boss_LaserBeam.gd::GDScript::-1::1726151776::0::1::::<>State<>::
+Boss_MeleeAttack.gd::GDScript::-1::1726151776::0::1::::<>State<>::
+FiniteStateMachine.gd::GDScript::-1::1726151776::0::1::::<>Node2D<>::
+::res://Mecha-stoneGolem/ASE files/::1726151776
+::res://Mecha-stoneGolem/PNG sheet/::1726152403
+Character_sheet.png::CompressedTexture2D::510805360684084268::1726151776::1726152403::1::::<><>::
+::res://Mecha-stoneGolem/weapon PNG/::1726152403
+arm_projectile.png::CompressedTexture2D::7484016148799944756::1726151776::1726152403::1::::<><>::
+arm_projectile_glowing.png::CompressedTexture2D::8222564406690914988::1726151776::1726152403::1::::<><>::
+Laser_sheet.png::CompressedTexture2D::9084000987945633092::1726151776::1726152403::1::::<><>::
+::res://player/::1726153621
+player.gd::GDScript::-1::1726112283::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::2771348633359994263::1726153621::0::1::::<><>::res://player/player.gd<>uid://cn7fpxsdv30qy::::res://player/Attack1/HeroKnight_Attack1_0.png<>uid://tcjlolepuste::::res://player/Attack1/HeroKnight_Attack1_1.png<>uid://w7e2a5ljlvkr::::res://player/Attack1/HeroKnight_Attack1_2.png<>uid://ce2f01vwwgtq5::::res://player/Attack1/HeroKnight_Attack1_3.png<>uid://b0eg5wx5pc01e::::res://player/Attack1/HeroKnight_Attack1_4.png<>uid://cu665rx76i6i::::res://player/Attack1/HeroKnight_Attack1_5.png<>uid://vvwd1sq7okfl::::res://player/Attack2/HeroKnight_Attack2_0.png<>uid://d2r4xrhjeykrj::::res://player/Attack2/HeroKnight_Attack2_1.png<>uid://dn548myrntmle::::res://player/Attack2/HeroKnight_Attack2_2.png<>uid://cvwb2wnbiivfk::::res://player/Attack2/HeroKnight_Attack2_3.png<>uid://da2ui8jvhcfqd::::res://player/Attack2/HeroKnight_Attack2_4.png<>uid://c4kujh86k5h6y::::res://player/Attack2/HeroKnight_Attack2_5.png<>uid://bhlrn3g6xqwkj::::res://player/Attack3/HeroKnight_Attack3_0.png<>uid://cul2ptephqtb::::res://player/Attack3/HeroKnight_Attack3_1.png<>uid://byklfqup7fkru::::res://player/Attack3/HeroKnight_Attack3_2.png<>uid://b3bvm685h4l1k::::res://player/Attack3/HeroKnight_Attack3_3.png<>uid://bgrm0jdimhnhc::::res://player/Attack3/HeroKnight_Attack3_4.png<>uid://bm1stqvtotlo4::::res://player/Attack3/HeroKnight_Attack3_5.png<>uid://cbuhk5len4guj::::res://player/Attack3/HeroKnight_Attack3_6.png<>uid://b6k6ul0cjesd::::res://player/Attack3/HeroKnight_Attack3_7.png<>uid://7i36wjwrwe6m::::res://player/Block/HeroKnight_Block_0.png<>uid://bufowm57vc552::::res://player/Block/HeroKnight_Block_1.png<>uid://cjnfin4vpotnf::::res://player/Block/HeroKnight_Block_2.png<>uid://5cl6dgtdavn5::::res://player/Block/HeroKnight_Block_3.png<>uid://b835u2savh62v::::res://player/Block/HeroKnight_Block_4.png<>uid://cepcnwkwratn8::::res://player/BlockIdle/HeroKnight_Block Idle_0.png<>uid://cfo1emu43aqnn::::res://player/BlockIdle/HeroKnight_Block Idle_1.png<>uid://d1vne3jng7s7q::::res://player/BlockIdle/HeroKnight_Block Idle_2.png<>uid://boc7k58ssba3w::::res://player/BlockIdle/HeroKnight_Block Idle_3.png<>uid://cph41umj1tect::::res://player/BlockIdle/HeroKnight_Block Idle_4.png<>uid://c4qy0x76ohv6u::::res://player/BlockIdle/HeroKnight_Block Idle_5.png<>uid://c4wi1kj0buwwa::::res://player/BlockIdle/HeroKnight_Block Idle_6.png<>uid://bo6lrm6vxt6hj::::res://player/BlockIdle/HeroKnight_Block Idle_7.png<>uid://r6rug2l60qgd::::res://player/BlockNoEffect/HeroKnight_BlockNoEffect_0.png<>uid://ddwujahbgqns8::::res://player/BlockNoEffect/HeroKnight_BlockNoEffect_1.png<>uid://bmugsbaxckvk::::res://player/BlockNoEffect/HeroKnight_BlockNoEffect_2.png<>uid://dgs7ct5831u75::::res://player/BlockNoEffect/HeroKnight_BlockNoEffect_3.png<>uid://dw1npf28wsrbp::::res://player/BlockNoEffect/HeroKnight_BlockNoEffect_4.png<>uid://c6w7drk1ayceo::::res://player/Death/HeroKnight_Death_0.png<>uid://d3vsnahskege0::::res://player/Death/HeroKnight_Death_1.png<>uid://dbbhorfkkopkj::::res://player/Death/HeroKnight_Death_2.png<>uid://bv8g4oymibu8g::::res://player/Death/HeroKnight_Death_3.png<>uid://2tnm8yt0okga::::res://player/Death/HeroKnight_Death_4.png<>uid://bkhffj5iuhvnj::::res://player/Death/HeroKnight_Death_5.png<>uid://cv1ohksv5olyo::::res://player/Death/HeroKnight_Death_6.png<>uid://b4saci5hygw87::::res://player/Death/HeroKnight_Death_7.png<>uid://dminwu3c6uw6d::::res://player/Death/HeroKnight_Death_8.png<>uid://cx5x4vyy86b87::::res://player/Death/HeroKnight_Death_9.png<>uid://dn7a2g38ke7ni::::res://player/DeathNoBlood/HeroKnight_DeathNoBlood_0.png<>uid://xu1fxl57877b::::res://player/DeathNoBlood/HeroKnight_DeathNoBlood_1.png<>uid://6kmi70s4spon::::res://player/DeathNoBlood/HeroKnight_DeathNoBlood_2.png<>uid://xr76jsa1pyap::::res://player/DeathNoBlood/HeroKnight_DeathNoBlood_3.png<>uid://7aesp61a2y6s::::res://player/DeathNoBlood/HeroKnight_DeathNoBlood_4.png<>uid://dgnnpru37y1ah::::res://player/DeathNoBlood/HeroKnight_DeathNoBlood_5.png<>uid://d0j1sloe0l2rr::::res://player/DeathNoBlood/HeroKnight_DeathNoBlood_6.png<>uid://d0j555x271xhi::::res://player/DeathNoBlood/HeroKnight_DeathNoBlood_7.png<>uid://nin0tg1itm88::::res://player/DeathNoBlood/HeroKnight_DeathNoBlood_8.png<>uid://84rfbw4h4ifq::::res://player/DeathNoBlood/HeroKnight_DeathNoBlood_9.png<>uid://dugirhoe33gsg::::res://player/Fall/HeroKnight_Fall_0.png<>uid://rxu7mb7gges8::::res://player/Fall/HeroKnight_Fall_1.png<>uid://bi06xtvrbhylu::::res://player/Fall/HeroKnight_Fall_2.png<>uid://bocqyuis4nw02::::res://player/Fall/HeroKnight_Fall_3.png<>uid://bmxe6xsf75i24::::res://player/Hurt/HeroKnight_Hurt_0.png<>uid://cqo4sqb5y33s4::::res://player/Hurt/HeroKnight_Hurt_1.png<>uid://c1m0ksixumuvt::::res://player/Hurt/HeroKnight_Hurt_2.png<>uid://dx7kjibmr3aps::::res://player/Idle/HeroKnight_Idle_0.png<>uid://chkttnw04mi6p::::res://player/Idle/HeroKnight_Idle_1.png<>uid://cj3dan20pdsjx::::res://player/Idle/HeroKnight_Idle_2.png<>uid://bye4xdccaw6yv::::res://player/Idle/HeroKnight_Idle_3.png<>uid://b6upl80u85nb3::::res://player/Idle/HeroKnight_Idle_4.png<>uid://dvvg3lmn5bmx4::::res://player/Idle/HeroKnight_Idle_5.png<>uid://dkwuuqm1ikish::::res://player/Idle/HeroKnight_Idle_6.png<>uid://dv2xkdnrj6jd8::::res://player/Idle/HeroKnight_Idle_7.png<>uid://xbp17r361hpu::::res://player/Jump/HeroKnight_Jump_0.png<>uid://bid0dkq1caobm::::res://player/Jump/HeroKnight_Jump_1.png<>uid://v8h05w1vpgud::::res://player/Jump/HeroKnight_Jump_2.png<>uid://v2dgnl42jo26::::res://player/LedgeGrab/HeroKnight_Grab Ledge_0.png<>uid://l2e2gxmem4sf::::res://player/LedgeGrab/HeroKnight_Grab Ledge_1.png<>uid://bkul04jvjvy27::::res://player/LedgeGrab/HeroKnight_Grab Ledge_2.png<>uid://7bwrdem55x5b::::res://player/LedgeGrab/HeroKnight_Grab Ledge_3.png<>uid://c72t4gub6dvar::::res://player/LedgeGrab/HeroKnight_Grab Ledge_4.png<>uid://d0mjdhlhfy1o1::::res://player/Roll/HeroKnight_Roll_0.png<>uid://jk1jl7iwbhbj::::res://player/Roll/HeroKnight_Roll_1.png<>uid://dishl5b7kw3tk::::res://player/Roll/HeroKnight_Roll_2.png<>uid://0da3ixl0lnu4::::res://player/Roll/HeroKnight_Roll_3.png<>uid://dfbkcctry7lqg::::res://player/Roll/HeroKnight_Roll_4.png<>uid://b3xrg4ybyas63::::res://player/Roll/HeroKnight_Roll_5.png<>uid://db1fb68slkcol::::res://player/Roll/HeroKnight_Roll_6.png<>uid://deaym3822fhmr::::res://player/Roll/HeroKnight_Roll_7.png<>uid://uadgpd5poie4::::res://player/Roll/HeroKnight_Roll_8.png<>uid://bba7tklugpwfw::::res://player/Run/HeroKnight_Run_0.png<>uid://cwxg5d65jipjm::::res://player/Run/HeroKnight_Run_1.png<>uid://cjmcmiubstqck::::res://player/Run/HeroKnight_Run_2.png<>uid://dxap37ruetsph::::res://player/Run/HeroKnight_Run_3.png<>uid://d0j8hw510itj7::::res://player/Run/HeroKnight_Run_4.png<>uid://fojvp70rnr75::::res://player/Run/HeroKnight_Run_5.png<>uid://fc3i1gsj2sxs::::res://player/Run/HeroKnight_Run_6.png<>uid://cmgtyho35py08::::res://player/Run/HeroKnight_Run_7.png<>uid://ila53cy4n43p::::res://player/Run/HeroKnight_Run_8.png<>uid://b40h8qi6tyvbm::::res://player/Run/HeroKnight_Run_9.png<>uid://d3553noeltkmq::::res://player/WallSlide/HeroKnight_Slide_0.png<>uid://cwydyww4iexan::::res://player/Run_left/HeroKnight_Run_1.png<>uid://bd7wp0td8rwg7::::res://player/WallSlide/HeroKnight_Slide_1.png<>uid://bfuq46gm6xvwq::::res://player/WallSlide/HeroKnight_Slide_2.png<>uid://b73njeo6edrqi::::res://player/Run_left/HeroKnight_Run_2.png<>uid://o5mc7qri28xi::::res://player/WallSlide/HeroKnight_Slide_3.png<>uid://djvvy7v5wajb4::::res://player/Run_left/HeroKnight_Run_3.png<>uid://srhc5wr8mrea::::res://player/WallSlide/HeroKnight_Slide_4.png<>uid://d1hiqbycfojay::::res://player/Run_left/HeroKnight_Run_4.png<>uid://cc6xnyqnaurl6::::res://player/Run_left/HeroKnight_Run_5.png<>uid://chjbo61owvtf3::::res://player/Run_left/HeroKnight_Run_6.png<>uid://jad3smxq0hv6::::res://player/Run_left/HeroKnight_Run_7.png<>uid://kf2hlwkyj5gw::::res://player/Run_left/HeroKnight_Run_8.png<>uid://dukq6k71xkyt0::::res://player/Run_left/HeroKnight_Run_9.png
+::res://player/Attack1/::1726153004
+HeroKnight_Attack1_0.png::CompressedTexture2D::5751688030691973804::1721743047::1721743047::1::::<><>::
+HeroKnight_Attack1_1.png::CompressedTexture2D::1338283633820931746::1721743047::1721743047::1::::<><>::
+HeroKnight_Attack1_2.png::CompressedTexture2D::1610505779429529473::1721743047::1721743047::1::::<><>::
+HeroKnight_Attack1_3.png::CompressedTexture2D::5109684570186633882::1721743047::1721743047::1::::<><>::
+HeroKnight_Attack1_4.png::CompressedTexture2D::4149818353861316316::1721743047::1721743047::1::::<><>::
+HeroKnight_Attack1_5.png::CompressedTexture2D::183604431795258078::1721743047::1721743047::1::::<><>::
+::res://player/Attack2/::1726153004
+HeroKnight_Attack2_0.png::CompressedTexture2D::1518660174640387021::1721743047::1721743047::1::::<><>::
+HeroKnight_Attack2_1.png::CompressedTexture2D::9091258021301036755::1721743047::1721743047::1::::<><>::
+HeroKnight_Attack2_2.png::CompressedTexture2D::8135468743130649778::1721743047::1721743047::1::::<><>::
+HeroKnight_Attack2_3.png::CompressedTexture2D::6292333503455021480::1721743047::1721743047::1::::<><>::
+HeroKnight_Attack2_4.png::CompressedTexture2D::7216230624782863255::1721743047::1721743047::1::::<><>::
+HeroKnight_Attack2_5.png::CompressedTexture2D::6830192442495258882::1721743047::1721743047::1::::<><>::
+::res://player/Attack3/::1726153004
+HeroKnight_Attack3_0.png::CompressedTexture2D::2901507630014297861::1721743047::1721743047::1::::<><>::
+HeroKnight_Attack3_1.png::CompressedTexture2D::182382163116740655::1721743047::1721743047::1::::<><>::
+HeroKnight_Attack3_2.png::CompressedTexture2D::4092274396430625030::1721743047::1721743047::1::::<><>::
+HeroKnight_Attack3_3.png::CompressedTexture2D::4355070850262992770::1721743047::1721743047::1::::<><>::
+HeroKnight_Attack3_4.png::CompressedTexture2D::2843421893825505884::1721743047::1721743047::1::::<><>::
+HeroKnight_Attack3_5.png::CompressedTexture2D::3283488338606270013::1721743047::1721743047::1::::<><>::
+HeroKnight_Attack3_6.png::CompressedTexture2D::4884762235887458625::1721743047::1721743047::1::::<><>::
+HeroKnight_Attack3_7.png::CompressedTexture2D::134848152151370559::1721743047::1721743047::1::::<><>::
+::res://player/Block/::1726153004
+HeroKnight_Block_0.png::CompressedTexture2D::2264314624298137594::1721743047::1721743047::1::::<><>::
+HeroKnight_Block_1.png::CompressedTexture2D::3801409448695130991::1721743047::1721743047::1::::<><>::
+HeroKnight_Block_2.png::CompressedTexture2D::5431696470823983691::1721743047::1721743047::1::::<><>::
+HeroKnight_Block_3.png::CompressedTexture2D::2110517478886757692::1721743047::1721743047::1::::<><>::
+HeroKnight_Block_4.png::CompressedTexture2D::4762313772488243631::1721743047::1721743047::1::::<><>::
+::res://player/BlockIdle/::1726153004
+HeroKnight_Block Idle_0.png::CompressedTexture2D::5084708229539591671::1721743047::1721743047::1::::<><>::
+HeroKnight_Block Idle_1.png::CompressedTexture2D::5154273321652102247::1721743047::1721743047::1::::<><>::
+HeroKnight_Block Idle_2.png::CompressedTexture2D::9028321867741986008::1721743047::1721743047::1::::<><>::
+HeroKnight_Block Idle_3.png::CompressedTexture2D::3375155679362231798::1721743047::1721743047::1::::<><>::
+HeroKnight_Block Idle_4.png::CompressedTexture2D::5841932959115931967::1721743047::1721743047::1::::<><>::
+HeroKnight_Block Idle_5.png::CompressedTexture2D::6842850988526417150::1721743047::1721743047::1::::<><>::
+HeroKnight_Block Idle_6.png::CompressedTexture2D::6854266850336890708::1721743047::1721743047::1::::<><>::
+HeroKnight_Block Idle_7.png::CompressedTexture2D::3433759129573022939::1721743047::1721743047::1::::<><>::
+::res://player/BlockNoEffect/::1726153004
+HeroKnight_BlockNoEffect_0.png::CompressedTexture2D::1258274314369568871::1721743047::1721743047::1::::<><>::
+HeroKnight_BlockNoEffect_1.png::CompressedTexture2D::7416475315450917625::1721743047::1721743047::1::::<><>::
+HeroKnight_BlockNoEffect_2.png::CompressedTexture2D::96187378301441980::1721743047::1721743047::1::::<><>::
+HeroKnight_BlockNoEffect_3.png::CompressedTexture2D::7619501473662527838::1721743047::1721743047::1::::<><>::
+HeroKnight_BlockNoEffect_4.png::CompressedTexture2D::8757906846392072773::1721743047::1721743047::1::::<><>::
+::res://player/Death/::1726153004
+HeroKnight_Death_0.png::CompressedTexture2D::6996061041432026014::1721743047::1721743047::1::::<><>::
+HeroKnight_Death_1.png::CompressedTexture2D::9169017738615021433::1721743047::1721743047::1::::<><>::
+HeroKnight_Death_2.png::CompressedTexture2D::7231966193624689193::1721743047::1721743047::1::::<><>::
+HeroKnight_Death_3.png::CompressedTexture2D::3928927728913781824::1721743047::1721743047::1::::<><>::
+HeroKnight_Death_4.png::CompressedTexture2D::1935134477229937108::1721743047::1721743047::1::::<><>::
+HeroKnight_Death_5.png::CompressedTexture2D::3103072797729993871::1721743047::1721743047::1::::<><>::
+HeroKnight_Death_6.png::CompressedTexture2D::6301343997881279834::1721743047::1721743047::1::::<><>::
+HeroKnight_Death_7.png::CompressedTexture2D::4459059987238242026::1721743047::1721743047::1::::<><>::
+HeroKnight_Death_8.png::CompressedTexture2D::8018872898994678089::1721743047::1721743047::1::::<><>::
+HeroKnight_Death_9.png::CompressedTexture2D::6450565523741039886::1721743047::1721743047::1::::<><>::
+::res://player/DeathNoBlood/::1726153004
+HeroKnight_DeathNoBlood_0.png::CompressedTexture2D::8137825682846620706::1721743047::1721743047::1::::<><>::
+HeroKnight_DeathNoBlood_1.png::CompressedTexture2D::1657219755974455369::1721743047::1721743047::1::::<><>::
+HeroKnight_DeathNoBlood_2.png::CompressedTexture2D::2197242540808670085::1721743047::1721743047::1::::<><>::
+HeroKnight_DeathNoBlood_3.png::CompressedTexture2D::1651436629425332487::1721743047::1721743047::1::::<><>::
+HeroKnight_DeathNoBlood_4.png::CompressedTexture2D::2246318845599990376::1721743047::1721743047::1::::<><>::
+HeroKnight_DeathNoBlood_5.png::CompressedTexture2D::7608049056633780783::1721743047::1721743047::1::::<><>::
+HeroKnight_DeathNoBlood_6.png::CompressedTexture2D::8934173927518594599::1721743047::1721743047::1::::<><>::
+HeroKnight_DeathNoBlood_7.png::CompressedTexture2D::8934439237918365378::1721743047::1721743047::1::::<><>::
+HeroKnight_DeathNoBlood_8.png::CompressedTexture2D::929804963485738379::1721743047::1721743047::1::::<><>::
+HeroKnight_DeathNoBlood_9.png::CompressedTexture2D::2377140000606534738::1721743047::1721743047::1::::<><>::
+::res://player/Fall/::1726153004
+HeroKnight_Fall_0.png::CompressedTexture2D::8575941674313804450::1721743047::1721743047::1::::<><>::
+HeroKnight_Fall_1.png::CompressedTexture2D::1241963148737410149::1721743047::1721743047::1::::<><>::
+HeroKnight_Fall_2.png::CompressedTexture2D::3001465207843014802::1721743047::1721743047::1::::<><>::
+HeroKnight_Fall_3.png::CompressedTexture2D::3374208644754221757::1721743047::1721743047::1::::<><>::
+::res://player/Hurt/::1726153004
+HeroKnight_Hurt_0.png::CompressedTexture2D::3276466959389644131::1721743047::1721743047::1::::<><>::
+HeroKnight_Hurt_1.png::CompressedTexture2D::5926557934546747729::1721743047::1721743047::1::::<><>::
+HeroKnight_Hurt_2.png::CompressedTexture2D::6624060576632946861::1721743047::1721743047::1::::<><>::
+::res://player/Idle/::1726153004
+HeroKnight_Idle_0.png::CompressedTexture2D::8840289207257418944::1721743047::1721743047::1::::<><>::
+HeroKnight_Idle_1.png::CompressedTexture2D::5285995321304152733::1721743047::1721743047::1::::<><>::
+HeroKnight_Idle_2.png::CompressedTexture2D::5462526413889807481::1721743047::1721743047::1::::<><>::
+HeroKnight_Idle_3.png::CompressedTexture2D::4081012468823588913::1721743047::1721743047::1::::<><>::
+HeroKnight_Idle_4.png::CompressedTexture2D::4604494563022418226::1721743047::1721743047::1::::<><>::
+HeroKnight_Idle_5.png::CompressedTexture2D::8676994601424483555::1721743047::1721743047::1::::<><>::
+HeroKnight_Idle_6.png::CompressedTexture2D::7907817713886039195::1721743047::1721743047::1::::<><>::
+HeroKnight_Idle_7.png::CompressedTexture2D::8690380494048440851::1721743047::1721743047::1::::<><>::
+::res://player/Jump/::1726153004
+HeroKnight_Jump_0.png::CompressedTexture2D::1617366675285357358::1721743047::1721743047::1::::<><>::
+HeroKnight_Jump_1.png::CompressedTexture2D::2955648399394797766::1721743047::1721743047::1::::<><>::
+HeroKnight_Jump_2.png::CompressedTexture2D::1542561456975823051::1721743047::1721743047::1::::<><>::
+::res://player/LedgeGrab/::1726153004
+HeroKnight_Grab Ledge_0.png::CompressedTexture2D::1529897482650502469::1721743047::1721743047::1::::<><>::
+HeroKnight_Grab Ledge_1.png::CompressedTexture2D::828106915006146877::1721743047::1721743047::1::::<><>::
+HeroKnight_Grab Ledge_2.png::CompressedTexture2D::3130310744970092846::1721743047::1721743047::1::::<><>::
+HeroKnight_Grab Ledge_3.png::CompressedTexture2D::2249473670844131497::1721743047::1721743047::1::::<><>::
+HeroKnight_Grab Ledge_4.png::CompressedTexture2D::7075828320171850381::1721743047::1721743047::1::::<><>::
+::res://player/Roll/::1726153004
+HeroKnight_Roll_0.png::CompressedTexture2D::8939307870377446030::1721743047::1721743047::1::::<><>::
+HeroKnight_Roll_1.png::CompressedTexture2D::653938711823484463::1721743047::1721743047::1::::<><>::
+HeroKnight_Roll_2.png::CompressedTexture2D::7758377841152460688::1721743047::1721743047::1::::<><>::
+HeroKnight_Roll_3.png::CompressedTexture2D::1760964682693274881::1721743047::1721743047::1::::<><>::
+HeroKnight_Roll_4.png::CompressedTexture2D::7512881523742728754::1721743047::1721743047::1::::<><>::
+HeroKnight_Roll_5.png::CompressedTexture2D::4400233457871831458::1721743047::1721743047::1::::<><>::
+HeroKnight_Roll_6.png::CompressedTexture2D::7283431767115960303::1721743047::1721743047::1::::<><>::
+HeroKnight_Roll_7.png::CompressedTexture2D::7441497585880078909::1721743047::1721743047::1::::<><>::
+HeroKnight_Roll_8.png::CompressedTexture2D::1403970532370709285::1721743047::1721743047::1::::<><>::
+::res://player/Run/::1726153004
+HeroKnight_Run_0.png::CompressedTexture2D::2458586944327545008::1721743047::1721743047::1::::<><>::
+HeroKnight_Run_1.png::CompressedTexture2D::6364894698374444234::1721743047::1721743047::1::::<><>::
+HeroKnight_Run_2.png::CompressedTexture2D::5429456807842746854::1721743047::1721743047::1::::<><>::
+HeroKnight_Run_3.png::CompressedTexture2D::8774567919798583653::1721743047::1721743047::1::::<><>::
+HeroKnight_Run_4.png::CompressedTexture2D::8934579906208180142::1721743047::1721743047::1::::<><>::
+HeroKnight_Run_5.png::CompressedTexture2D::380430299797028282::1721743047::1721743047::1::::<><>::
+HeroKnight_Run_6.png::CompressedTexture2D::356788711553859344::1721743047::1721743047::1::::<><>::
+HeroKnight_Run_7.png::CompressedTexture2D::5628690630086842667::1721743047::1721743047::1::::<><>::
+HeroKnight_Run_8.png::CompressedTexture2D::584273953089225715::1721743047::1721743047::1::::<><>::
+HeroKnight_Run_9.png::CompressedTexture2D::4473991397362655186::1721743047::1721743047::1::::<><>::
+::res://player/Run_left/::1726153004
+HeroKnight_Run_0.png::CompressedTexture2D::9199155229295985750::1721743871::1721743871::1::::<><>::
+HeroKnight_Run_1.png::CompressedTexture2D::6366767194380268201::1721743871::1721743871::1::::<><>::
+HeroKnight_Run_2.png::CompressedTexture2D::4691071883409563172::1721743871::1721743871::1::::<><>::
+HeroKnight_Run_3.png::CompressedTexture2D::7835633207139233091::1721743871::1721743871::1::::<><>::
+HeroKnight_Run_4.png::CompressedTexture2D::8999137028287942972::1721743871::1721743871::1::::<><>::
+HeroKnight_Run_5.png::CompressedTexture2D::4978635757061253017::1721743871::1721743871::1::::<><>::
+HeroKnight_Run_6.png::CompressedTexture2D::5282830059801513946::1721743871::1721743871::1::::<><>::
+HeroKnight_Run_7.png::CompressedTexture2D::631932710975271085::1721743871::1721743871::1::::<><>::
+HeroKnight_Run_8.png::CompressedTexture2D::713862796742015202::1721743871::1721743871::1::::<><>::
+HeroKnight_Run_9.png::CompressedTexture2D::8584710108755584767::1721743871::1721743871::1::::<><>::
+::res://player/WallSlide/::1726153004
+HeroKnight_Slide_0.png::CompressedTexture2D::9188353222206348056::1721743047::1721743047::1::::<><>::
+HeroKnight_Slide_1.png::CompressedTexture2D::2664411206102683388::1721743047::1721743047::1::::<><>::
+HeroKnight_Slide_2.png::CompressedTexture2D::2779677354952225400::1721743047::1721743047::1::::<><>::
+HeroKnight_Slide_3.png::CompressedTexture2D::1045309025303522322::1721743047::1721743047::1::::<><>::
+HeroKnight_Slide_4.png::CompressedTexture2D::1298923808343968348::1721743047::1721743047::1::::<><>::
+::res://Sandworm/::1726151776
+sandworm_trap.gd::GDScript::-1::1726151776::0::1::::<>CharacterBody2D<>::
+sandworm_trap.tscn::PackedScene::2471538758636129569::1726151776::0::1::::<><>::res://Sandworm/sandworm_trap.gd<>uid://d3fciu8q5a4jh::::res://Foozle_2DTR0001_Pixel_Trap_Pack/Sandworm Trap/PNGs/Sandworm trap - Level 1.png<>res://Sandworm/Sand_FSM.gd<>res://Sandworm/Sand_Idle.gd<>res://Sandworm/Sand_Attack.gd
+Sand_Attack.gd::GDScript::-1::1726151776::0::1::::<>Sand_State<>::
+Sand_FSM.gd::GDScript::-1::1726151776::0::1::::<>Node2D<>::
+Sand_Idle.gd::GDScript::-1::1726151776::0::1::::<>Sand_State<>::
+Sand_State.gd::GDScript::-1::1726151776::0::1::::Sand_State<>Node2D<>::
+::res://tileset/::1726152404
+Background_0.png::CompressedTexture2D::17005230789402253::1726151776::1726152404::1::::<><>::
+brush.png::CompressedTexture2D::2579590820603206381::1726151776::1726152404::1::::<><>::
+Dungeon Tile Set.png::CompressedTexture2D::8139111415466079586::1726151776::1726152404::1::::<><>::
+Grass_background_1.png::CompressedTexture2D::4470140855953468881::1726151776::1726152404::1::::<><>::
+Grass_background_2.png::CompressedTexture2D::5749419032937290309::1726151776::1726152404::1::::<><>::
+Tiles.png::CompressedTexture2D::8121590658020751936::1726151776::1726152404::1::::<><>::

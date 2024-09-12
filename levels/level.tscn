@@ -8,7 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://cqte5q6tqw3oi" path="res://Mecha-stoneGolem/BossGolem.tscn" id="7_r3s6x"]
 [ext_resource type="PackedScene" uid="uid://bfqpybns7d45p" path="res://player/player.tscn" id="8_aqlky"]
 [ext_resource type="PackedScene" uid="uid://bbhh485jwys2d" path="res://Sandworm/sandworm_trap.tscn" id="8_sghw6"]
-[ext_resource type="PackedScene" uid="uid://dfmqwxwucma04" path="res://enemies/skeleton.tscn" id="9_y4x4j"]
+[ext_resource type="PackedScene" uid="uid://d4jv74ug3y4mw" path="res://enemies/skeleton.tscn" id="9_y4x4j"]
 [ext_resource type="PackedScene" uid="uid://biss0ofnci8k4" path="res://enemies/paladin.tscn" id="10_i4xjo"]
 [ext_resource type="PackedScene" uid="uid://obclbbwfdhfn" path="res://enemies/necromancer.tscn" id="11_o4sul"]
 
