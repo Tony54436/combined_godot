@@ -33,16 +33,13 @@ var time_since_last_attack = 0.0
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	player = get_parent().get_node("player")
+	player = get_parent().get_node("Player")
 	attack_range_collision_shape = $StaffHit
 	start_position = global_position
 	health_bar = $HealthBar
 	health_bar.max_value = max_health
 	health_bar.value = health
 
-	$playerDetection.connect("body_entered", Callable(self, "_on_player_detection_body_entered"))
-	$playerDetection.connect("body_exited", Callable(self, "_on_player_detection_body_exited"))
-	$StaffHit.connect("body_entered", Callable(self, "_on_staff_hit_body_entered"))
 
 	$AnimationPlayer.play("walk")
 

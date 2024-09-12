@@ -39,13 +39,7 @@ func _ready():
 	health_bar.max_value = max_health
 	health_bar.value = health
 
-	# Connect signals for attack detection
-	$attackDetector.connect("body_entered", Callable(self, "_on_attack_range_body_entered"))
-	$attackDetector.connect("body_exited", Callable(self, "_on_attack_range_body_exited"))
 
-	$playerDetection.connect("body_entered", Callable(self, "_on_player_detection_body_entered"))
-	$playerDetection.connect("body_exited", Callable(self, "_on_player_detection_body_exited"))
-	$HammerHit.connect("body_entered", Callable(self, "_on_hammer_hit_body_entered"))
 
 	$AnimationPlayer.play("walk")
 
@@ -66,11 +60,14 @@ func _integrate_forces(physics_state):
 		set_rotation_degrees(0)
 
 func _process(delta):
+	# Ensure attack cooldown accumulates over time
+	time_since_last_attack += delta
+
 	if $AnimationPlayer.current_animation == "attack1":
 		return
-	
+
 	on_ground = is_on_floor()
-	
+
 	match state:
 		State.WALK:
 			if is_chasing:
@@ -78,13 +75,11 @@ func _process(delta):
 			else:
 				patrol(delta)
 		State.ATTACK:
-			attack_player(delta)
+			attack_player(delta)  # Try attacking in ATTACK state
 		State.HURT:
 			hurt_animation()
 		State.DIE:
 			die_animation()
-
-	time_since_last_attack += delta
 
 func move_towards_player(_delta):
 	if player and state != State.DIE:
@@ -200,12 +195,13 @@ func _on_hammer_hit_body_entered(body):
 		print("Player hit")
 		body.take_damage(ATTACK_DAMAGE)
 
-func _on_attack_range_body_entered(body):
+func _on_attack_detector_body_entered(body):
 	if body.is_in_group("player") and state != State.DIE:
 		print("Player within attack range")
 		state = State.ATTACK
+		attack_player(0)  # Start attacking immediately when in range
 
-func _on_attack_range_body_exited(body):
+func _on_attack_detector_body_exited(body):
 	if body.is_in_group("player") and state != State.DIE:
 		print("Player exited attack range")
 		state = State.WALK  # Go back to walking or chasing when the player leaves attack range

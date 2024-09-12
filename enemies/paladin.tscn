@@ -955,18 +955,6 @@ tracks/1/keys = {
 "update": 1,
 "values": [0]
 }
-tracks/2/type = "value"
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/path = NodePath("HammerHit/CollisionShape2D:disabled")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [false]
-}
 
 [sub_resource type="Animation" id="Animation_aiy5c"]
 resource_name = "attack1"
@@ -1109,7 +1097,7 @@ size = Vector2(26, 60)
 radius = 100.0
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_tpfqt"]
-size = Vector2(62, 20)
+size = Vector2(49, 20)
 
 [node name="Paladin" type="RigidBody2D" groups=["enemies"]]
 script = ExtResource("1_nbk7x")
@@ -1137,30 +1125,31 @@ offset_bottom = 30.0
 scale = Vector2(0.5, 0.5)
 
 [node name="HammerHit" type="Area2D" parent="."]
-collision_layer = 7
-collision_mask = 7
+collision_layer = 2
+collision_mask = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="HammerHit"]
 position = Vector2(31, -30)
 shape = SubResource("RectangleShape2D_qjhb6")
+disabled = true
 
 [node name="playerDetection" type="Area2D" parent="."]
-collision_layer = 7
-collision_mask = 7
+collision_layer = 2
+collision_mask = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="playerDetection"]
 position = Vector2(-2, -19)
 shape = SubResource("CircleShape2D_8i467")
 
 [node name="attackDetector" type="Area2D" parent="."]
-collision_layer = 7
-collision_mask = 7
+collision_layer = 2
+collision_mask = 2
 monitoring = false
 monitorable = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="attackDetector"]
 modulate = Color(1, 0.513726, 0, 1)
-position = Vector2(31, -27)
+position = Vector2(24.5, -27)
 shape = SubResource("RectangleShape2D_tpfqt")
 
 [node name="RayCast2D" type="RayCast2D" parent="."]
@@ -1172,3 +1161,5 @@ collide_with_areas = true
 [connection signal="body_entered" from="HammerHit" to="." method="_on_hammer_hit_body_entered"]
 [connection signal="body_entered" from="playerDetection" to="." method="_on_player_detection_body_entered"]
 [connection signal="body_exited" from="playerDetection" to="." method="_on_player_detection_body_exited"]
+[connection signal="body_entered" from="attackDetector" to="." method="_on_attack_detector_body_entered"]
+[connection signal="body_exited" from="attackDetector" to="." method="_on_attack_detector_body_exited"]

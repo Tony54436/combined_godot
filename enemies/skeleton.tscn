@@ -1,9 +1,11 @@
-[gd_scene load_steps=52 format=3 uid="uid://dfmqwxwucma04"]
+[gd_scene load_steps=54 format=3 uid="uid://dfmqwxwucma04"]
 
+[ext_resource type="Script" path="res://Enemies.gd" id="1_878k4"]
 [ext_resource type="Texture2D" uid="uid://dwcrop5snvka4" path="res://enemies/Skeleton_White/Skeleton_With_VFX/Skeleton_01_White_Attack1.png" id="2_a27w0"]
 [ext_resource type="Texture2D" uid="uid://chp25fvhqsppl" path="res://enemies/Skeleton_White/Skeleton_Without_VFX/Skeleton_01_White_Die.png" id="2_jsuh2"]
 [ext_resource type="Texture2D" uid="uid://c5rcpgspeyxex" path="res://enemies/Skeleton_White/Skeleton_Without_VFX/Skeleton_01_White_Hurt.png" id="3_l3f0e"]
 [ext_resource type="Texture2D" uid="uid://dqrpmyuna84gk" path="res://enemies/Skeleton_White/Skeleton_With_VFX/Skeleton_01_White_Walk.png" id="5_ylqkw"]
+[ext_resource type="Script" path="res://enemies/healthBar.gd" id="6_icqaj"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ld1x4"]
 atlas = ExtResource("2_a27w0")
@@ -449,6 +451,7 @@ _data = {
 size = Vector2(47, 20)
 
 [node name="Skeleton" type="RigidBody2D"]
+script = ExtResource("1_878k4")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, -33)
@@ -470,6 +473,7 @@ offset_left = -43.0
 offset_right = 129.0
 offset_bottom = 30.0
 scale = Vector2(0.5, 0.5)
+script = ExtResource("6_icqaj")
 
 [node name="SwordHit" type="Area2D" parent="."]
 
