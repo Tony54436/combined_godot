@@ -1,14 +1,11 @@
-[gd_scene load_steps=20 format=3 uid="uid://cghkfny7a6amb"]
+[gd_scene load_steps=16 format=3 uid="uid://cghkfny7a6amb"]
 
 [ext_resource type="Texture2D" uid="uid://dn7v8gd0d2nju" path="res://tileset/Dungeon Tile Set.png" id="1_cr21x"]
 [ext_resource type="Script" path="res://levels/levwl_3.gd" id="1_mpjbk"]
 [ext_resource type="PackedScene" uid="uid://bfqpybns7d45p" path="res://player/player.tscn" id="2_h42dt"]
 [ext_resource type="PackedScene" uid="uid://dl01w87yhoa8w" path="res://levels/moving_platform.tscn" id="3_oc5cm"]
 [ext_resource type="PackedScene" uid="uid://dlal482a6qt1q" path="res://levels/danger_zone.tscn" id="3_q5yeu"]
-[ext_resource type="PackedScene" uid="uid://d4jv74ug3y4mw" path="res://enemies/skeleton.tscn" id="5_tgsdc"]
-[ext_resource type="Script" path="res://levels/BossArea.gd" id="6_88tmr"]
 [ext_resource type="PackedScene" uid="uid://cun1s1mxw72ff" path="res://enemies/UndeadBoss/Undead_boss.tscn" id="6_lqrwp"]
-[ext_resource type="PackedScene" uid="uid://obclbbwfdhfn" path="res://enemies/necromancer.tscn" id="6_nx1p8"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ugod4"]
 texture = ExtResource("1_cr21x")
@@ -490,9 +487,6 @@ _data = {
 }
 point_count = 2
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_0gp3i"]
-size = Vector2(500, 500)
-
 [node name="Levwl3" type="Node2D" node_paths=PackedStringArray("level_start_pov")]
 script = ExtResource("1_mpjbk")
 level_start_pov = NodePath("spawn")
@@ -538,7 +532,7 @@ position = Vector2(664, -344)
 shape = SubResource("RectangleShape2D_s0gue")
 
 [node name="player" parent="." instance=ExtResource("2_h42dt")]
-position = Vector2(12, -19)
+position = Vector2(2102, -1233)
 
 [node name="MovingPlatform1" parent="." instance=ExtResource("3_oc5cm")]
 position = Vector2(1201, -762)
@@ -553,31 +547,22 @@ loop = false
 
 [node name="spawn" type="Node2D" parent="."]
 
-[node name="BossSpawn" type="Node2D" parent="."]
+[node name="TeleportLocation1" type="Node2D" parent="."]
+position = Vector2(1678.61, -1159.16)
+
+[node name="TeleportLocation2" type="Node2D" parent="."]
+position = Vector2(2031.46, -1158.45)
+
+[node name="TeleportLocation3" type="Node2D" parent="."]
+position = Vector2(1629.38, -1573.17)
+
+[node name="TeleportLocation4" type="Node2D" parent="."]
+position = Vector2(2083.22, -1579.18)
+
+[node name="TeleportLocation5" type="Node2D" parent="."]
 position = Vector2(1855.63, -1414.32)
 
-[node name="BossArea" type="Area2D" parent="."]
-position = Vector2(1856, -1415)
-script = ExtResource("6_88tmr")
-boss_node = ExtResource("6_lqrwp")
-boss_spawn_node = NodePath("../BossSpawn")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="BossArea"]
-shape = SubResource("RectangleShape2D_0gp3i")
-
-[node name="Skeleton" parent="." instance=ExtResource("5_tgsdc")]
-position = Vector2(768.641, -11.0387)
-
-[node name="Skeleton2" parent="." instance=ExtResource("5_tgsdc")]
-position = Vector2(807.673, -1329.72)
-
-[node name="Necromancer" parent="." instance=ExtResource("6_nx1p8")]
-position = Vector2(1567.08, -694.262)
-
-[node name="Necromancer2" parent="." instance=ExtResource("6_nx1p8")]
-position = Vector2(-96.6522, -428.971)
-
-[node name="Necromancer3" parent="." instance=ExtResource("6_nx1p8")]
-position = Vector2(287.086, -1557.31)
-
-[connection signal="body_entered" from="BossArea" to="BossArea" method="_on_body_entered"]
+[node name="UndeadBoss" parent="." instance=ExtResource("6_lqrwp")]
+position = Vector2(1863, -1188)
+collision_layer = 16
+collision_mask = 16
